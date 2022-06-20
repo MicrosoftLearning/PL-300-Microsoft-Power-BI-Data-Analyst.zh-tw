@@ -1,35 +1,45 @@
-# INF99X: Sample Course
+---
+ms.openlocfilehash: 585b145f177e4e0792054e11f83911c0fad49430
+ms.sourcegitcommit: 9f66e4932aaf188d3be327646561dc7fe8e5c7a5
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "145196606"
+---
+# <a name="pl-300-microsoft-power-bi-data-analyst"></a>PL-300：Microsoft Power BI 資料分析師
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+此存放庫包含適用於 Microsoft 課程 [PL-300：Microsoft Power BI 資料分析師](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)的實作教室練習。 這些實驗室旨在配合學習教材，讓學習者能夠使用其中描述的技術來練習。
 
-## What are we doing?
+- **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的 [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/) (適用於 MCT 的 GitHub 使用者指南)
+- **需要手動建立實驗室指示嗎？** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中備有指示
+- **您是否需要重新了解一下哪些實驗室是與哪些課程模組互相搭配的？** - 請參閱 [GitHub 頁面](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) \(英文\)
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+## <a name="what-are-we-doing"></a>我們要做什麼？
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+- 為了支援此課程，我們需要經常更新課程內容，使其與此課程所使用的 Power BI 服務一起保持在最新狀態。  我們在 GitHub 上發佈實驗室指示和實驗室檔案，讓課程作者和 MCT 能夠彼此公開貢獻內容，使內容隨著 Power BI 平台中的變更保持在最新狀態。
 
-## How should I use these files relative to the released MOC files?
+- 我們希望透過此方式為實驗室帶來前所未見的合作精神；若您在現場授課時發現 Power BI 有所變更，歡迎您直接在實驗室來源中加以改進。  幫助您的 MCT 同業。
 
-- The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>我該如何使用與相對於已釋放的 MOC 檔案之這些檔案？
 
-- These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
+- 講師手冊和 PowerPoints 仍然會成為您教導課程內容的主要來源。
 
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
+- GitHub 上的這些檔案是為了與學生手冊搭配使用所設計，但這些檔案在 GitHub 上會作為中央存放庫，讓 MCT 和課程製作者可以共用最新的實驗室檔案來源。
 
-## What about changes to the student handbook?
+- 建議訓練師每次授課時檢查 GitHub 所做任何變更，以支援最新的 Azure 服務，並在他們授課時獲得最新檔案。
 
-- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
+## <a name="what-about-changes-to-the-student-handbook"></a>那對學生手冊的改動呢？
 
-## How do I contribute?
+- 我們將每季審查一次學生手冊，並視需要透過常規的 MOC 發佈管道加以更新。
 
-- Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
+## <a name="how-do-i-contribute"></a>我要怎麼參與？
 
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- 任何 MCT 都可以對 GitHub 存放庫的程式碼或內容提交提取要求，Microsoft 和課程製作者會視需要分級和歸納內容和實驗室程式碼。
 
-## Notes
+- 可以提交 bug、變更、改進和想法。  比我們更快找到新的 Power BI 功能？  提交新的示範！
 
-### Classroom Materials
+## <a name="notes"></a>備註
 
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+### <a name="classroom-materials"></a>教室教材
+
+強烈建議 MCT 和合作夥伴存取這些教材，再個別提供給學生。  在課程進行時，若將學生直接導向 GitHub 來存取實驗室步驟，學生將需要在過程中存取其他 UI，這會使學生感到混淆。 向學生解釋他們收到單獨實驗室指示的原因，可突顯出雲端式介面和平台不斷變化的本質。 Microsoft Learning 對 GitHub 檔案的存取支援和 GitHub 網站的瀏覽支援，僅提供給教授本課程的 MCT 使用。
