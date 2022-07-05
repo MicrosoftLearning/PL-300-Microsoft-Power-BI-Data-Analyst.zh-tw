@@ -2,12 +2,12 @@
 lab:
   title: 在 Power BI Desktop 中設計報表，第 1 部分
   module: Module 7 - Create Reports
-ms.openlocfilehash: 952409822e622f744edcaef603bea5058670c3e8
-ms.sourcegitcommit: 40a8c8608a0adde23300c2b6833db02193f36dfe
+ms.openlocfilehash: 426892501790aaecbe21ed2e7f9161c4490c9e3b
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146072463"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650213"
 ---
 # <a name="design-a-report-in-power-bi-desktop-part-1"></a>**在 Power BI Desktop 中設計報表，第 1 部分**
 
@@ -23,7 +23,7 @@ ms.locfileid: "146072463"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 

@@ -2,12 +2,12 @@
 lab:
   title: 在 Power BI Desktop 中載入資料
   module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: 8e8373127cbc8023c0c299e3b2c75b4a82986308
-ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
+ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146071861"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650222"
 ---
 # <a name="load-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中載入資料**
 
@@ -23,7 +23,7 @@ ms.locfileid: "146071861"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -52,7 +52,7 @@ ms.locfileid: "146071861"
 
 ### <a name="task-1-get-started"></a>**工作 1：開始作業**
 
-在此工作中，您將會設定實驗室的環境。
+在此工作中，您將設定實驗室的環境。
 
 *重要：若您是從上一個實驗室繼續進行 (且已成功完成該實驗室)，請不要完成此工作；相反地，請從下一個工作繼續。*
 

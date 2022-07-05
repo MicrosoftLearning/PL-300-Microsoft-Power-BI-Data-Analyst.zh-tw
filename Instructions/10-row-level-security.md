@@ -2,28 +2,27 @@
 lab:
   title: 強制執行資料列層級安全性
   module: Module 12 - Row-Level Security
-ms.openlocfilehash: 6ccc19e9835dca06ec613e386c82fb0270a28ed5
-ms.sourcegitcommit: 51f448b208842f1333cb683b7775618edb41c126
+ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "145196614"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650105"
 ---
 # <a name="enforce-row-level-security"></a>**強制執行資料列層級安全性**
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您將在 **Salesperson** 資料表與 **Sales** 資料表之間建立多對多關聯性。 您也會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
+在此實驗室中，您將會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
 
 在此實驗室中，您將了解如何：
 
-- 設定多對多關聯
 
 - 實施資料列層級安全性
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -51,7 +50,7 @@ ms.locfileid: "145196614"
 
 ### <a name="task-1-get-started"></a>**工作 1：開始作業**
 
-在此工作中，您將會設定實驗室的環境。
+在此工作中，您將設定實驗室的環境。
 
 *重要：若您是從上一個實驗室繼續進行 (且已成功完成該實驗室)，請不要完成此工作；相反地，請從下一個工作繼續。*
 
