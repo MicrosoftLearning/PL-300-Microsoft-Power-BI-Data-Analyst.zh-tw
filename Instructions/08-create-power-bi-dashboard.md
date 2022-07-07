@@ -2,12 +2,12 @@
 lab:
   title: 建立 Power BI 儀表板
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 2ddb086b004fca3fa322e10570f9163342514808
-ms.sourcegitcommit: f09183b2093a7f8de629f89b54d70bcad85598b6
+ms.openlocfilehash: 0f8abb8670c71f5063dc28032daa321bf4b742f9
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "146109908"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015353"
 ---
 # <a name="create-a-power-bi-dashboard"></a>**建立 Power BI 儀表板**
 
@@ -23,7 +23,7 @@ ms.locfileid: "146109908"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 

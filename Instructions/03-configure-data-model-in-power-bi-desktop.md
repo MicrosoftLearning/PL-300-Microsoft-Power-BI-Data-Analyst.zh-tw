@@ -2,12 +2,12 @@
 lab:
   title: 在 Power BI Desktop 中設計資料模型
   module: Module 4 - Design a Data Model in Power BI
-ms.openlocfilehash: e6ffd23cf2b7861dad63a522734941b8f914bf88
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 1617d6a1a50e37a5dc7d9094eaa86057b2ddeee2
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274820"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015362"
 ---
 # <a name="model-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中設計資料模型**
 
@@ -26,7 +26,7 @@ ms.locfileid: "146274820"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -66,7 +66,7 @@ ms.locfileid: "146274820"
 
     ![圖片 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-1. 若要開啟 Power BI Desktop 入門檔案，請按一下 [檔案] 功能區索引標籤，以開啟 Backstage 檢視。
+1. 若要開啟 Power BI Desktop 入門檔案，請按一下 [檔案] 功能區索引標籤以開啟 Backstage 檢視。
 
 1. 選取 [開啟報表]。
 

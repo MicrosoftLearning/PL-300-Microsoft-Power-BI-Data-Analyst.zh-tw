@@ -2,12 +2,12 @@
 lab:
   title: 在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 3bbdf3dfb4b302a9b3c28005976ff34764c1c542
-ms.sourcegitcommit: d88b7941fe3805f0bc2979ea864c5483ec289c75
+ms.openlocfilehash: 743fdd6a85236a40008fcdb3b466c61c617a55fb
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "146071645"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015335"
 ---
 # <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)**
 
@@ -25,7 +25,7 @@ ms.locfileid: "146071645"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -37,9 +37,9 @@ ms.locfileid: "146071645"
 
 6. 在 Power BI Desktop 中建立 DAX 計算 (第 2 部分)
 
-7. 在 Power BI Desktop 中設計報表 (第 1 部分)
+7. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表 (第 2 部分)
+8. 在 Power BI Desktop 中設計報表，第 2 部分
 
 9. 建立 Power BI 儀表板
 
@@ -53,9 +53,9 @@ ms.locfileid: "146071645"
 
 ### <a name="task-1-get-started"></a>**工作 1：開始作業**
 
-在此工作中，您會設定實驗室的環境。
+在此工作中，您將設定實驗室的環境。
 
-*重要：若您是從上一個實驗室接續執行 (且已成功完成該實驗室)，請勿完成此工作，請跳到下一個工作繼續操作。*
+*重要：若您是從上一個實驗室繼續進行 (且已成功完成該實驗室)，請不要完成此工作；相反地，請從下一個工作繼續。*
 
 1. 若要開啟 Power BI Desktop，請在工作列上按一下 [Microsoft Power BI Desktop] 捷徑。
 
@@ -85,7 +85,7 @@ ms.locfileid: "146071645"
 
 1. 關閉任何可能開啟的資訊視窗。
 
-1. 若要建立檔案的複本，請按一下 [檔案] 功能區索引標籤，開啟 Backstage 檢視畫面。
+1. 若要建立檔案的複本，請按一下 [檔案] 功能區索引標籤，以開啟 Backstage 檢視。
 
 1. 選取 [另存新檔]。
 

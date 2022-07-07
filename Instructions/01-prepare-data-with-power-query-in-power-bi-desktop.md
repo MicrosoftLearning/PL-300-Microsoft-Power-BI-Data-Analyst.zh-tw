@@ -2,12 +2,12 @@
 lab:
   title: 在 Power BI Desktop 中準備資料
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: c44eb33136e3d429a44f6e091897388f4eed4135
-ms.sourcegitcommit: 6853b027da7f5e739951c3eef54f4cd458854c66
+ms.openlocfilehash: 56cc5b93dfb545367ae8f5fe3996a9318203f151
+ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "146274811"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "147015344"
 ---
 # <a name="prepare-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中準備資料**
 
@@ -29,7 +29,7 @@ ms.locfileid: "146274811"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. **在 Power BI Desktop 中準備資料**
 
