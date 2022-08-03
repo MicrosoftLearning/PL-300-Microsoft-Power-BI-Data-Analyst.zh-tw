@@ -104,7 +104,7 @@ ms.locfileid: "146650222"
 
 1. 在 [另存新檔] 視窗中，瀏覽至 **D:\PL300\MySolution** 資料夾。
 
-1. 按一下 [檔案] 。
+1. 按一下 [儲存]。
 
     ![圖片 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
@@ -188,7 +188,7 @@ ms.locfileid: "146650222"
 
 15. 若要建立單一名稱資料行，請先選取 [FirstName] 資料行標頭。
 
-16. 按下 **Ctrl** 鍵的同時，選取 [LastName] 資料行。
+16. 按下 **Ctrl** 鍵的同時，選取 LastName 資料行。
 
     ![圖片 116](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
@@ -501,11 +501,11 @@ ms.locfileid: "146650222"
 
 13. 將下列三個資料行資料類型修改為 [固定的小數位數]。
 
-    - 單價
+    - Unit Price
 
     - Sales
 
-    - 成本
+    - Cost
 
     ![圖片 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
@@ -669,7 +669,7 @@ ms.locfileid: "146650222"
 
     *您可設定資料來源的隱私權等級，以判斷資料是否可以在來源之間共用。如有需要，將每個資料來源設定為 [組織] 可使其共用資料。請注意，私人資料來源永遠不會與其他資料來源共用。這不表示私人資料無法共用，而是 Power Query 引擎無法在這些來源間共用資料。*
 
-7. 按一下 [檔案] 。
+7. 按一下 [儲存]。
 
     ![圖片 5692](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image75.png)
 

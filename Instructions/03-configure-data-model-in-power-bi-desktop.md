@@ -277,7 +277,7 @@ ms.locfileid: "147015362"
 
     - Country
 
-    - 區域
+    - Region
 
     ![圖片 350](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image31.png)
 

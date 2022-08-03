@@ -171,7 +171,7 @@ ms.locfileid: "147015353"
 
 1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務開啟 **銷售分析** 報表。
 
-2. 在 概觀 頁面中，將 年 交叉分析篩選器 設定為 **FY2020**。
+2. 在[概觀]頁面中，將 年 [交叉分析篩選器] 設定為 **FY2020**。
 
     ![圖片 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
 

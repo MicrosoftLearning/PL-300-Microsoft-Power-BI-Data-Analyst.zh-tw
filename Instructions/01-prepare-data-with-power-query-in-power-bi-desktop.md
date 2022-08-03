@@ -75,11 +75,11 @@ ms.locfileid: "147015344"
 
 1. 在 [另存新檔] 視窗中，瀏覽至 **D:\PL300\MySolution** 資料夾。
 
-1. 在 [檔案名稱] 方塊中，輸入 **銷售分析**。
+1. 在 [檔案名稱] 方塊中，輸入 **Sales Analysis**。
 
     ![圖片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. 按一下 [檔案] 。
+1. 按一下 [儲存]。
 
     ![圖 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -201,7 +201,7 @@ ms.locfileid: "147015344"
 
     資料行品質功能可讓您輕鬆地判斷資料行中有效、錯誤或空白值的百分比。
 
-7. 針對 [職位] 資料行 (第六個資料行)，請注意 94% 的資料列是空的 (Null)。
+7. 針對 Position 資料行(第六個資料行)，請注意 94% 的資料列是空的 (Null)。
 
     ![圖片 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
 

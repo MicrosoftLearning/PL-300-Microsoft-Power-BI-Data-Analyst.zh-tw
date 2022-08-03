@@ -20,7 +20,7 @@ ms.locfileid: "145196606"
 
 - 我們希望透過此方式為實驗室帶來前所未見的合作精神；若您在現場授課時發現 Power BI 有所變更，歡迎您直接在實驗室來源中加以改進。  幫助您的 MCT 同業。
 
-## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>我該如何使用與相對於已釋放的 MOC 檔案之這些檔案？
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>相對於發佈的 MOC 檔案，我應該如何使用這些檔案？
 
 - 講師手冊和 PowerPoints 仍然會成為您教導課程內容的主要來源。
 
