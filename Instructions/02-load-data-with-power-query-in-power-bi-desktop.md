@@ -1,19 +1,14 @@
 ---
 lab:
   title: 在 Power BI Desktop 中載入資料
-  module: Module 3 - Clean, Transform, and Load Data in Power BI
-ms.openlocfilehash: aced37b7bfdd2ccf94a9d3e7bdb8f8ff7013c125
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650222"
+  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
 ---
+
 # <a name="load-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中載入資料**
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您將會對在上個實驗室中所建立的每個查詢套用轉換。 接著，您將會把每項查詢載入為資料模型的資料表。
+In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
 
 在此實驗室中，您將了解如何：
 
@@ -23,7 +18,7 @@ ms.locfileid: "146650222"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -130,7 +125,7 @@ ms.locfileid: "146650222"
 
     *您現在要篩選查詢資料列，以只擷取職務為銷售人員的員工。*
 
-4. 若要尋找特定的資料行，請在 [常用] 功能區索引標籤上，按一下 [管理資料行] 向下箭號，並按一下 [選擇資料行] 向下箭號，然後選取 [移至資料行]。
+4. 若要尋找特定的資料行，請在 [常用] 功能區索引標籤上，從 [管理資料行] 群組中，按一下 [選擇資料行] 向下箭號，然後選取 [移至資料行]。
 
     ![圖片 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -150,13 +145,13 @@ ms.locfileid: "146650222"
 
     ![圖片 96](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image16.png)
 
-9. 在 [查詢設定] 窗格的 [套用的步驟] 清單中，請注意新增的 **已篩選資料列** 步驟。
+9. 在 [查詢設定] 窗格的 [套用的步驟] 清單中，請注意新增的**已篩選資料列**步驟。
 
     ![圖片 98](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
     *您所建立每個轉換都會造成額外的步驟邏輯。您可編輯或刪除步驟。也可選取一個步驟，來預覽該查詢轉換階段的查詢結果。*
 
-10. 若要移除資料行，請在 [常用] 功能區索引標籤上，按一下 [管理資料行] 群組，然後按一下 [選擇資料行] 圖示。
+10. 若要移除資料行，請在 [常用] 功能區索引標籤上，從 [管理資料行] 群組中，按一下**選擇資料行**圖示。
 
     ![圖片 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -216,7 +211,7 @@ ms.locfileid: "146650222"
 
 23. 使用前面的步驟，將 **EmailAddress** 資料行重新命名為 **UPN**。
 
-    *UPN 是使用者主體名稱的縮寫。*
+    *UPN 是使用者主體名稱 (User Principal Name) 的縮寫。在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中設定資料列層級安全性時，將會使用此資料行中的值。*
 
 24. 在左下的狀態列中，確認該查詢具有五個資料行和 18 個資料列。
 
@@ -349,6 +344,7 @@ ms.locfileid: "146650222"
     ![圖 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
+‎ 
 
 6. 以滑鼠右鍵按一下 **Business Type** 資料行標頭，然後選取 [取代值]。
 
@@ -505,7 +501,7 @@ ms.locfileid: "146650222"
 
     - Sales
 
-    - Cost
+    - 成本
 
     ![圖片 5668](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image51.png)
 
@@ -581,7 +577,7 @@ ms.locfileid: "146650222"
 
     ![圖片 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
-17. 若要重新命名新的資料行，請按兩下 **合併的** 資料行標頭。
+17. 若要重新命名新的資料行，請按兩下**合併的**資料行標頭。
 
 18. 將資料行重新命名為 **TargetMonth**。
 
@@ -647,7 +643,7 @@ ms.locfileid: "146650222"
 
     ![圖片 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. 若要合併 **ColorFormats** 查詢，請在 [常用] 功能區索引標籤上，按一下 [合併] 向下箭頭，然後按一下 [合併查詢]。
+2. 若要合併 **ColorFormats** 查詢，請在 [常用] 功能區索引標籤上，從 [合併] 群組中，按一下 [合併查詢]。
 
     ![圖片 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -705,7 +701,7 @@ ms.locfileid: "146650222"
 
     ![圖片 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    停用載入表示其不會以資料表的形式載入資料模型。 這是因為此查詢已與啟用載入資料模型的 **Product** 查詢合併。
+    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
 
 4. 按一下 [確定]。
 
@@ -747,4 +743,4 @@ ms.locfileid: "146650222"
 
 5. 若您想要開始下一個實驗室，請將 Power BI Desktop 保持開啟狀態。
 
-    *您將於《在 Power BI Desktop 中設計資料模型》實驗室中，設定資料模型的資料表和關聯性。*
+    *您將在「Power BI Desktop 中的模型資料 (第 1 部分)」實驗室中，設定資料模型資料表與關聯性。*

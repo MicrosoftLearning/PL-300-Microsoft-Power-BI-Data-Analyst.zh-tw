@@ -2,18 +2,14 @@
 lab:
   title: 建立 Power BI 儀表板
   module: Module 8 - Create Dashboards
-ms.openlocfilehash: 0f8abb8670c71f5063dc28032daa321bf4b742f9
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015353"
 ---
+
+
 # <a name="create-a-power-bi-dashboard"></a>**建立 Power BI 儀表板**
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您將建立 **銷售監視** 儀表板。
+在此實驗室中，您將建立**銷售監視**儀表板。
 
 在此實驗室中，您將了解如何：
 
@@ -23,7 +19,7 @@ ms.locfileid: "147015353"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -47,7 +43,7 @@ ms.locfileid: "147015353"
 
 ## <a name="exercise-1-create-a-dashboard"></a>**練習 1：建立儀表板**
 
-在此練習中，您將建立 **銷售監視** 儀表板。 完成的儀表板看起來會像下面這樣：
+In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
 
 ![已完成儀表板的影像，其中包含三個圖格。](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -61,7 +57,7 @@ ms.locfileid: "147015353"
 
     ![圖 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.microsoft.com**。
+2. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.com**。
 
     *提示：您也可以使用 Microsoft Edge [我的最愛] 列上的 [Power BI 服務] 我的最愛項目。*
 
@@ -115,7 +111,7 @@ ms.locfileid: "147015353"
 
     ![圖片 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** 資料夾。
+8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 資料夾。
 
 9. 選取 **Sales Analysis** 檔案。
 
@@ -159,17 +155,17 @@ ms.locfileid: "147015353"
 
     ![圖 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** 資料夾。
+4. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** 資料夾。
 
 5. 選取 **Sales Analysis.pbix** 檔案，然後按一下 [開啟]。
 
-6. 若系統提示您取代資料集，請按一下 [取代它]。
+6. 若系統提示您取代資料集，請按一下 [取代]。
 
 ### <a name="task-4-create-a-dashboard"></a>**工作 4：建立儀表板**
 
-在此工作中，您將建立 **銷售監視** 儀表板。 您將從報表釘選一個視覺效果、根據影像資料 URI 新增一個圖格，並使用問與答建立一個圖格。
+In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
 
-1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務開啟 **銷售分析** 報表。
+1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務開啟**銷售分析**報表。
 
 2. 在[概觀]頁面中，將 年 [交叉分析篩選器] 設定為 **FY2020**。
 
@@ -181,11 +177,11 @@ ms.locfileid: "147015353"
 
 4. 若要建立儀表板並釘選視覺效果，請將滑鼠游標暫留在 [每月銷售額和獲利率] (直條圖/折線圖) 視覺效果上。
 
-5. 按一下右下角的圖釘。
+5. 按一下右上角的圖釘。
 
     ![圖片 43](Linked_image_Files/09-create-power-bi-dashboard_image18.png)
 
-6. 在 [釘選到儀表板] 視窗的 [儀表板名稱] 方塊中輸入 **銷售監視**。
+6. 在 [釘選到儀表板] 視窗的 [儀表板名稱] 方塊中輸入**銷售監視**。
 
     ![圖 3](Linked_image_Files/09-create-power-bi-dashboard_image19.png)
 
@@ -193,7 +189,7 @@ ms.locfileid: "147015353"
 
     ![圖片 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
-8. 開啟 [導覽] 窗格、選取 [我的工作區]，然後開啟 [銷售監視] 儀表板。
+8. 開啟 [導覽] 窗格，然後開啟 [銷售監視] 儀表板。
 
     ![圖片 44](Linked_image_Files/09-create-power-bi-dashboard_image21.png)
 
@@ -311,7 +307,7 @@ ms.locfileid: "147015353"
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**練習 2：重新整理資料集**
 
-在此練習中，您會先將 2020 年 6 月的銷售訂單資料載入 **AdventureWorksDW2020** 資料庫。 接著，您將會開啟 Power BI Desktop 檔案、執行資料重新整理，然後將檔案上傳到工作區。
+In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
 
 ### <a name="task-1-update-the-lab-database"></a>**工作 1：更新實驗室資料庫**
 
@@ -337,7 +333,7 @@ ms.locfileid: "147015353"
 
 2. 當重新整理完成時，請儲存 Power BI Desktop 檔案。
 
-3. 若要將檔案發佈到您的工作區，請在 [首頁] 功能區索引標籤的 [共用] 群組內，按一下 [發佈]，然後按一下 [選取] 來發佈。
+3. 若要將檔案發佈到工作區，請在 [首頁] 功能區索引標籤的 [共用] 群組內，按一下 [發佈]。
 
     ![圖片 59](Linked_image_Files/09-create-power-bi-dashboard_image48.png)
 
@@ -351,22 +347,38 @@ ms.locfileid: "147015353"
 
 ## <a name="exercise-3-review-the-dashboard"></a>**練習 3：檢閱儀表板**
 
-在此練習中，您將檢閱儀表板以注意更新的銷售額。
+在此練習中，您將檢閱儀表板以注意已更新的銷售額，以及注意警示已觸發。
 
 ### <a name="task-1-review-the-dashboard"></a>**工作 1：檢閱儀表板**
 
-在此工作中，您將檢閱儀表板以注意更新的銷售額。
+在此工作中，您將檢閱儀表板以注意已更新的銷售額，以及注意警示已觸發。
 
 1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務檢閱 [銷售監視] 儀表板。
 
-2. 在 [銷售額、獲利率] 圖格的子標題中，請注意資料已於 **現在** 重新整理。
+2. 在 [銷售額、獲利率] 圖格的子標題中，請注意資料已於**現在**重新整理。
 
-3. 另外也請注意，現在有一個 **2020 年 6 月** 的直條。
+3. 另外也請注意，現在有一個 **2020 年 6 月**的直條。
 
     *如果您沒有看到 2020 年 6 月的資料，則可能需要按 **F5** 以重新載入網頁瀏覽器。*
 
     ![圖片 33](Linked_image_Files/09-create-power-bi-dashboard_image50.png)
 
-    
+    *應該也已經觸發 [年初迄今銷售額] 圖格上的警示。一小段時間之後，警示應該會通知您銷售額現在已超過所設定的閾值。*
 
-4. 若要關閉窗格，請按一下 [關閉]。
+4. 請注意，[年初迄今的銷售額] 圖格已更新為 **$37M**。
+
+5. 確認 [年初迄今的銷售額] 圖格有顯示警示通知圖示。
+
+    *若未看到通知，您可能需要按下 **F5** 以重新載入瀏覽器。若仍未看到通知，請再多等幾分鐘。*
+
+    ![圖 35](Linked_image_Files/09-create-power-bi-dashboard_image51.png)
+
+    *警示通知會出現在儀表板圖格上、可透過電子郵件傳遞，並將通知推播至包括 Apple Watch 在內的行動應用程式。*
+
+6. 在網頁的右上角，按一下**通知**圖示。
+
+    ![圖片 58](Linked_image_Files/09-create-power-bi-dashboard_image52.png)
+
+7. 在 [所有通知] 窗格中，檢閱警示通知的詳細資料。
+
+8. 若要關閉窗格，請按一下 [關閉]。

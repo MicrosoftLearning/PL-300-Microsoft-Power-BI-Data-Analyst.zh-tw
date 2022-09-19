@@ -1,14 +1,10 @@
 ---
 lab:
   title: 在 Power BI Desktop 中執行資料分析
-  module: Module 9 - Identify Patterns and Trends
-ms.openlocfilehash: 42ec8ac1a9fd160fe2181ae8d966d85d04b9b82d
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015326"
+  module: Module 10 - Perform Advanced Analytics
 ---
+
+
 # <a name="perform-data-analysis-in-power-bi-desktop"></a>**在 Power BI Desktop 中執行資料分析**
 
 **完成實驗室的估計時間為 45 分鐘**
@@ -25,7 +21,7 @@ ms.locfileid: "147015326"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -49,7 +45,7 @@ ms.locfileid: "147015326"
 
 ## <a name="exercise-1-create-the-report"></a>**練習 1：建立報表**
 
-在本練習中，您將建立 **銷售探索** 報表。
+在本練習中，您將建立**銷售探索**報表。
 
 ### <a name="task-1-get-started--sign-in"></a>**工作 1：開始使用 - 登入**
 
@@ -61,7 +57,7 @@ ms.locfileid: "147015326"
 
     ![圖片 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-1. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.microsoft.com**。
+1. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.com**。
 
     *提示：您也可以使用 Microsoft Edge [我的最愛] 列上的 [Power BI 服務] 我的最愛項目。*
 
@@ -103,15 +99,15 @@ ms.locfileid: "147015326"
 
     ![圖片 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** 資料夾。
+4. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\09-create-power-bi-dashboard\Solution** 資料夾。
 
 5. 選取 **Sales Analysis.pbix** 檔案，然後按一下 [開啟]。
 
-6. 若系統提示您取代資料集，請按一下 [取代它]。
+6. 若系統提示您取代資料集，請按一下 [取代]。
 
 ### <a name="task-3-create-the-report"></a>**工作 3：建立報表**
 
-在此工作中，您將建立 **銷售探索** 報表。
+在此工作中，您將建立**銷售探索**報表。
 
 1. 若要開啟 Power BI Desktop，請在工作列上按一下 [Microsoft Power BI Desktop] 捷徑。
 
@@ -137,7 +133,7 @@ ms.locfileid: "147015326"
 
 7. 在 [另存新檔] 視窗中，瀏覽至 **D:\PL300\MySolution** 資料夾。
 
-8. 在 [檔案名稱] 方塊中，輸入 **Sales Exploration**，然後按一下 [儲存]。
+8. 在 [檔案名稱] 方塊中，輸入**銷售探索**。
 
     ![圖片 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
@@ -153,7 +149,7 @@ ms.locfileid: "147015326"
 
 12. 儲存 Power BI Desktop 檔案。
 
-    *您現在將會建立兩個報表頁面，並在每個頁面上使用不同的視覺效果來分析及探索資料。*
+    *您現在會建立四個報表頁面，在每個頁面上，您將使用不同的視覺效果來分析及探索資料。*
 
 ## <a name="exercise-2-create-a-scatter-chart"></a>**練習 2：建立散佈圖**
 
@@ -163,7 +159,7 @@ ms.locfileid: "147015326"
 
 在本工作中，您將建立能夠以動畫方式顯示的散佈圖。
 
-1. 將 **第 1 頁** 重新命名為 **散佈圖**。
+1. 將**第 1 頁**重新命名為**散佈圖**。
 
     ![圖片 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -175,15 +171,13 @@ ms.locfileid: "147015326"
 
 3. 將下列欄位新增至視覺效果區域：
 
-    實驗室使用速記標記法來參考欄位。 其看起來將會像下面這樣：**Reseller** **\|** **Business Type**。 在本範例中，**轉銷商** 是資料表名稱，而 **商務類型** 是欄位名稱。
+    The labs use a shorthand notation to reference a field. It will look like this: <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> <bpt id="p2">**</bpt><ph id="ph1">\|</ph><ept id="p2">**</ept> <bpt id="p3">**</bpt>Business Type<ept id="p3">**</ept>. In this example, <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> is the table name and <bpt id="p2">**</bpt>Business Type<ept id="p2">**</ept> is the field name.
 
-    
+    - 圖例：**Reseller \| Business Type**
 
     - X 軸：**Sales \| Sales** 
 
     - Y 軸：**Sales \| Profit Margin**
-
-    - 圖例：**Reseller \| Business Type**
 
     - 大小：**Sales \| Quantity**
 
@@ -225,7 +219,7 @@ ms.locfileid: "147015326"
 
 在本工作中，您將建立預測來判斷可能的未來銷售營收。
 
-1. 新增頁面，然後將此頁面重新命名為 **預測**。
+1. 新增頁面，然後將此頁面重新命名為**預測**。
 
     ![圖片 66](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image20.png)
 
@@ -239,9 +233,9 @@ ms.locfileid: "147015326"
 
 3. 將下列欄位新增至視覺效果區域：
 
-    - X 軸：**Date \| Date**
+    - 軸：**日期 \| 日期**
 
-    - Y 軸：**Sales \| Sales** 
+    - 值：**銷售 \| 銷售** 
 
     ![圖片 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
@@ -259,31 +253,27 @@ ms.locfileid: "147015326"
 
     ![圖片 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
-7. 若要新增預測，請在 [視覺效果] 窗格底下，選取 **分析** 窗格。
+7. 若要新增預測，請在 [視覺效果] 窗格底下，選取**分析**窗格。
 
     ![圖 20](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image26.png)
 
 8. 展開 [預測] 區段。
 
-
+    ![圖片 50](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image27.png)
 
     *如果 [預測] 區段無法使用，其可能是因為視覺效果的設定不正確。只有在符合下列兩個條件時，才能使用預測：軸具有類型為日期的單一欄位，且只有一個值欄位。*
 
-9. 將 [預測] 選項切換為 [開啟]。
+9. 按一下 [新增]。
 
     ![圖片 51](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image28.png)
 
 10. 設定下列預測屬性：
 
-    - 單位：月
-
     - 預測長度：1 個月
 
-    - 季節性：365
-    
     - 信賴區間：80%
 
-
+    - 季節性：365
 
 11. 按一下 [套用]。
 
@@ -308,7 +298,7 @@ ms.locfileid: "147015326"
 
 2. 儲存 Power BI Desktop 檔案。
 
-3. 若要將檔案發佈到 [我的工作區]，請在 [首頁] 功能區索引標籤的 [共用] 群組內，按一下 [發佈]，然後按一下 [選取] 來發佈。
+3. 若要將檔案發佈到工作區，請在 [首頁] 功能區索引標籤的 [共用] 群組內，按一下 [發佈]。
 
     ![圖 23](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image46.png)
 

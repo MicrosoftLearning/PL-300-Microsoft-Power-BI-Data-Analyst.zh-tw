@@ -1,28 +1,25 @@
 ---
 lab:
   title: 強制執行資料列層級安全性
-  module: Module 12 - Row-Level Security
-ms.openlocfilehash: f47cc7c54428589aaa9d6b37afd9ee4d11c5884e
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650105"
+  module: Module 13 - Row-Level Security
 ---
+
+
 # <a name="enforce-row-level-security"></a>**強制執行資料列層級安全性**
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您將會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
+In this lab you will create a many-to-many relationship between the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
 在此實驗室中，您將了解如何：
 
+- 設定多對多關聯性
 
 - 強制執行資料列層級安全性
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -72,7 +69,7 @@ ms.locfileid: "146650105"
 
     ![圖 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\10-row-level-security\Starter** 資料夾。
+1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\12-row-level-security\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
@@ -184,7 +181,7 @@ ms.locfileid: "146650105"
 
     ![圖 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-3-finish-up"></a>**工作 3：完成作業**
+### <a name="task-2-finish-up"></a>**工作 2：完成**
 
 在此工作中，您將完成實驗室。
 

@@ -2,13 +2,9 @@
 lab:
   title: 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
   module: Module 5 - Create Model Calculations using DAX in Power BI
-ms.openlocfilehash: 064f5bb2c313448f7d15b01bd0e69a84aa85811f
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650195"
 ---
+
+
 # <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**在 Power BI Desktop 中建立 DAX 計算，第 2 部分**
 
 **實驗室的完成時間估計為 45 分鐘**
@@ -23,7 +19,7 @@ ms.locfileid: "146650195"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -63,7 +59,7 @@ ms.locfileid: "146650195"
 
     ![圖片 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-1. 若要開啟 Power BI Desktop 入門檔案，請按一下 [檔案] 功能區索引標籤，以開啟 Backstage 檢視。
+1. 若要開啟 Power BI Desktop 入門檔案，請按一下 [檔案] 功能區索引標籤以開啟 Backstage 檢視。
 
 1. 選取 [開啟報表]。
 
@@ -73,7 +69,7 @@ ms.locfileid: "146650195"
 
     ![圖 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 資料夾。
+1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
@@ -125,11 +121,13 @@ ms.locfileid: "146650195"
 
     *您應該記得，[Regions] 階層具有 [Group]、[Country] 和 [Region] 層級。*
 
-7. 若要將視覺效果格式化，請在 [視覺效果] 窗格中選取 [格式] 窗格。
+7. 若要將視覺效果格式化，請在 [視覺效果] 窗格底下選取 [格式] 窗格。
 
     ![圖片 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
-8. 在 [搜尋] 方塊中，輸入 **分層式**。
+8. 在 [搜尋] 方塊中，輸入**分層式**。
+
+    ![圖片 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. 將 [分層式配置] 屬性設定為 [關閉]。
 
@@ -149,7 +147,7 @@ ms.locfileid: "146650195"
 
 1. 根據下列運算式，將量值新增至 [Sales] 資料表：
 
-    *為了方便起見，此實驗室中的所有 DAX 定義都可從 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 檔案加以複製。*
+    *為了方便起見，此實驗室中的所有 DAX 定義都可從 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 檔案複製。*
 
 
     **DAX**
@@ -425,7 +423,7 @@ ms.locfileid: "146650195"
 
 6. 在公式的 **RETURN** 子句中，請注意變數會被參考兩次。
 
-7. 確認 **2018 年 7 月** 的 YoY 成長為 **392.83%**。
+7. 確認 **2018 年 7 月**的 YoY 成長為 **392.83%**。
 
     ![圖片 62](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image23.png)
 
