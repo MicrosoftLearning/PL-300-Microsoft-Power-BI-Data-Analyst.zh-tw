@@ -2,18 +2,13 @@
 lab:
   title: 在 Power BI Desktop 中準備資料
   module: Module 2 - Get Data in Power BI
-ms.openlocfilehash: 56cc5b93dfb545367ae8f5fe3996a9318203f151
-ms.sourcegitcommit: 9ea1e7e21b9b3c718030c94b1693d153a2010ec7
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "147015344"
 ---
+
 # <a name="prepare-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中準備資料**
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您會開始為 Adventure Works 公司開發 Power BI Desktop 解決方案。 這牽涉到連線到來源資料、預覽資料，以及使用資料預覽技術來了解來源資料的特性與品質。
+In this lab you commence the development of a Power BI Desktop solution for the Adventure Works company. It involves connecting to source data, previewing the data, and using data preview techniques to understand the characteristics and quality of the source data.
 
 在此實驗室中，您將了解如何：
 
@@ -29,7 +24,7 @@ ms.locfileid: "147015344"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
+This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
 1. **在 Power BI Desktop 中準備資料**
 
@@ -53,7 +48,7 @@ ms.locfileid: "147015344"
 
 ## <a name="exercise-1-prepare-data"></a>**練習 1：準備資料**
 
-在此練習中，您將會建立八個 Power BI Desktop 查詢。 六個查詢將會從 SQL Server 取得來源資料，而兩個會從 CSV 檔案取得。
+In this exercise you will create eight Power BI Desktop queries. Six queries will source data from SQL Server, and two from CSV files.
 
 ### <a name="task-1-save-the-power-bi-desktop-file"></a>**工作 1：儲存 Power BI Desktop 檔案**
 
@@ -75,7 +70,7 @@ ms.locfileid: "147015344"
 
 1. 在 [另存新檔] 視窗中，瀏覽至 **D:\PL300\MySolution** 資料夾。
 
-1. 在 [檔案名稱] 方塊中，輸入 **Sales Analysis**。
+1. 在 [檔案名稱] 方塊中，輸入**銷售分析**。
 
     ![圖片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
@@ -107,7 +102,7 @@ ms.locfileid: "147015344"
 
     ![圖片 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-    雖然啟用這兩個選項可能可以在開發資料模型時提供幫助，但您先前為了支援實驗室體驗已經將其停用。 當您於《在 Power BI Desktop 中載入資料》實驗室中建立關聯性時，您將會了解個別加以新增的原因。
+    While having these two options enabled can be helpful when developing a data model, you disabled them earlier to support the lab experience. When you create relationships in the <bpt id="p1">**</bpt>Load Data in Power BI Desktop<ept id="p1">**</ept> lab, you’ll learn why you are adding each one.
 
 1. 按一下 [確定]。
 
@@ -127,17 +122,15 @@ ms.locfileid: "147015344"
 
     ![圖 21](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image12.png)
 
-    在此實驗室中，您將使用 **localhost** 來連線到 SQL Server 資料庫。 不過，當您在建立自己的解決方案時，這不是建議的做法。 這是因為閘道資料來源無法解析 **localhost**。
+    在此實驗室中，您會開始為 Adventure Works 公司開發 Power BI Desktop 解決方案。
 
 3. 按一下 [確定]。
 
     ![圖 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
-4. 如果系統提示您輸入認證，請在 [SQL Server 資料庫] 視窗中，選取 [使用我目前的認證]。 然後，選取 [連線]。
-
 4. 在 [導覽器] 視窗中，展開左側的 **AdventureWorksDW2020** 資料庫。
 
-    **AdventureWorksDW2020** 資料庫是以 **AdventureWorksDW2017** 範例資料庫為基礎。 其已經過修改，可支援課程實驗室的學習目標。
+    這牽涉到連線到來源資料、預覽資料，以及使用資料預覽技術來了解來源資料的特性與品質。
 
     ![圖片 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
@@ -165,13 +158,13 @@ ms.locfileid: "147015344"
 
 8. 若要將轉換套用至所選取資料表的資料，請按一下 [轉換資料]。
 
-    您將不會在此實驗室中轉換資料。 此實驗室的目標著重於在 [Power Query 編輯器] 視窗中探索及分析資料。
+    You won’t be transforming the data in this lab. The objectives of this lab focus on exploring and profiling the data in the <bpt id="p1">**</bpt>Power Query Editor<ept id="p1">**</ept> window.
 
     ![圖片 30](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image19.png)
 
 ### <a name="task-4-preview-sql-server-queries"></a>**工作 4：預覽 SQL Server 查詢**
 
-在此工作中，您將預覽 SQL Server 查詢的資料。 首先，您將了解資料的相關資訊。 您也將使用資料行品質、資料行散發與資料行分析工具來了解資料，以及評估資料品質。
+In this task you will preview the data of the SQL Server queries. First, you will learn relevant information about the data. You will also use column quality, column distribution, and column profile tools to understand the data and to assess data quality.
 
 1. 在 [Power Query 編輯器] 視窗中的左側，注意 [查詢] 窗格。
 
@@ -183,7 +176,7 @@ ms.locfileid: "147015344"
 
     ![圖片 33](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image21.png)
 
-    SQL Server 資料庫中的 [DimEmployee] 資料表會為每個員工儲存一個資料列。 此資料表之資料列的子集代表銷售人員，這將與您要開發的模型相關。
+    The <bpt id="p1">**</bpt>DimEmployee<ept id="p1">**</ept> table in the SQL Server database stores one row for each employee. A subset of the rows from this table represents the salespeople, which will be relevant to the model you’ll develop.
 
 3. 在左下角的狀態列中，請注意資料表統計資料：資料表有 33 個資料行與 296 個資料列。
 
@@ -191,9 +184,9 @@ ms.locfileid: "147015344"
 
 4. 在資料預覽窗格中，水平捲動以檢閱所有資料行。
 
-5. 請注意，最後五個資料行包含 **資料表** 或 **值** 連結。
+5. 請注意，最後五個資料行包含**資料表**或**值**連結。
 
-    這五個資料行代表與資料庫中其他資料表的關聯性。 其可用來將資料表聯結在一起。 您將會於《在 Power BI Desktop 中載入資料》實驗室中聯結資料表。
+    These five columns represent relationships to other tables in the database. They can be used to join tables together. You’ll join tables in the <bpt id="p1">**</bpt>Load Data in Power BI Desktop<ept id="p1">**</ept> lab.
 
 6. 若要評估資料行品質，請在 [檢視] 功能區索引標籤上，從 [資料預覽] 群組內，選取 [資料行品質]。
 
@@ -215,13 +208,13 @@ ms.locfileid: "147015344"
 
     ![圖片 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    當相異與唯一計數相同時，表示資料行包含唯一值。 建立模型時，某些模型資料表必須包含唯一資料行。 這些唯一資料行可用來建立一對多關聯性，而您將會於《在 Power BI Desktop 中設計資料模型》實驗室中這麼做。
+    When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some model tables have unique columns. These unique columns can be used to create one-to-many relationships, which you will do in the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 1<ept id="p1">**</ept> lab.
 
 11. 在 [查詢] 窗格中，選取 **DimEmployeeSalesTerritory** 查詢。
 
     ![圖片 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    **DimEmployeeSalesTerritory** 資料表會針對每個員工與他們所管理的銷售領域區域，各儲存一個資料列。 資料表支援將多個區域與單一員工相關聯。 有些員工會管理一個、兩個或更多區域。 當您建立此資料的模型時，您將會需要定義多對多關聯性。
+    The <bpt id="p1">**</bpt>DimEmployeeSalesTerritory<ept id="p1">**</ept> table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you’ll need to define a many-to-many relationship, which you’ll do in the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 2<ept id="p1">**</ept> lab.
 
 12. 在 [查詢] 窗格中，選取 **DimProduct** 查詢。
 
@@ -233,13 +226,13 @@ ms.locfileid: "147015344"
 
 14. 請注意 **DimProductSubcategory** 資料行。
 
-    當您於 **在 Power BI Desktop 中載入資料** 實驗室內將轉換新增至此查詢時，將會使用 **DimProductSubcategory** 資料行來聯結資料表。
+    當您於**在 Power BI Desktop 中載入資料**實驗室內將轉換新增至此查詢時，將會使用 **DimProductSubcategory** 資料行來聯結資料表。
 
 15. 在 [查詢] 窗格中，選取 **DimReseller** 查詢。
 
     ![圖片 49](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image29.png)
 
-    **DimReseller** 資料表會針對每個轉銷商，各包含一個資料列。 轉銷商會銷售、散發或加值 Adventure Works 產品。
+    The <bpt id="p1">**</bpt>DimReseller<ept id="p1">**</ept> table contains one row per reseller. Resellers sell, distribute, or value add to the Adventure Works products.
 
 16. 若要檢視資料行值，請在 [檢視] 功能區索引標籤上，從 [資料預覽] 群組內部，檢查 [資料行設定檔]。
 
@@ -257,13 +250,13 @@ ms.locfileid: "147015344"
 
 21. 將游標停在 [Ware House] 列上方，並注意有五個具有此值的資料列。
 
-    您將套用轉換，於 **在 Power BI Desktop 中載入資料** 實驗室內，將這五個資料列重新標記。
+    您將套用轉換，於**在 Power BI Desktop 中載入資料**實驗室內，將這五個資料列重新標記。
 
 22. 在 [查詢] 窗格中，選取 **DimSalesTerritory** 查詢。
 
     ![圖片 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    **DimSalesTerritory** 資料表針對每個銷售區域 (包括 **Corporate HQ** (公司總部)) 皆包含一個資料列。 區域會指派給國家/地區，而國家/地區會指派給群組。 於《在 Power BI Desktop 中設計資料模型》實驗室中，您將會建立階層以支援區域、國家/地區或群組層級的分析。
+    The <bpt id="p1">**</bpt>DimSalesTerritory<ept id="p1">**</ept> table contains one row per sales region, including <bpt id="p2">**</bpt>Corporate HQ<ept id="p2">**</ept> (headquarters). Regions are assigned to a country, and countries are assigned to groups. In the <bpt id="p1">**</bpt>Model Data in Power BI Desktop, Part 1<ept id="p1">**</ept> lab, you’ll create a hierarchy to support analysis at region, country, or group level.
 
 23. 在 [查詢] 窗格中，選取 **FactResellerSales** 查詢。
 
@@ -275,8 +268,7 @@ ms.locfileid: "147015344"
 
     ![圖片 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
-    遺漏 **TotalProductCost** 資料行值是資料品質問題。 若要於《在 Power BI Desktop 中載入資料》實驗室內解決此問題，您將會使用產品標準成本 (其儲存在相關的 [DimProduct] 資料表中) 來套用轉換以填入遺失值。
-
+    此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**工作 5：從 CSV 檔案取得資料**
 
@@ -295,13 +287,15 @@ ms.locfileid: "147015344"
 5. 按一下 [確定]。
 
     ![圖片 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
- 
+
+  
+‎ 
 
 6. 在 [查詢] 窗格中，注意 **ResellerSalesTargets** 查詢的加入。
 
     ![圖片 72](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image37.png)
 
-    **ResellerSalesTargets** CSV 檔案包含每位銷售人員每年一個資料列。 每個資料列都會記錄 12 個每月銷售目標 (以千為單位表示)。 請注意，Adventure Works 公司的營業年度會在 7 月 1 日開始。
+    您可以依照任何順序完成實驗室。
 
 7. 請注意，沒有任何資料行包含空白值。
 
@@ -311,9 +305,9 @@ ms.locfileid: "147015344"
 
     ![圖片 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-    圖示代表資料行資料類型。 **123** 是整數，而 **ABC** 是文字。
+    然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
-    您將會套用許多轉換，以達成僅由三個資料行所組成的不同圖形化結果：**在 Power BI Desktop 中載入資料** 實驗室內的 **Date**、**EmployeeKey** 與 **TargetAmount**。
+    您將會套用許多轉換，以達成僅由三個資料行所組成的不同圖形化結果：**在 Power BI Desktop 中載入資料**實驗室內的 **Date**、**EmployeeKey** 與 **TargetAmount**。
 
 ### <a name="task-6-get-additional-data-from-a-csv-file"></a>**工作 6：從 CSV 檔案取得其他資料**
 
@@ -323,7 +317,7 @@ ms.locfileid: "147015344"
 
     ![圖片 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
-    **ColorFormats** CSV 檔案會針對每個產品色彩包含一個資料列。 每個資料列都會記錄十六進位代碼，以設定背景與字型色彩格式。 您會將此資料與 **在 Power BI Desktop 中載入資料** 實驗室內的 **DimProduct** 查詢資料整合。
+    The <bpt id="p1">**</bpt>ColorFormats<ept id="p1">**</ept> CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. You’ll integrate this data with the <bpt id="p1">**</bpt>DimProduct<ept id="p1">**</ept> query data in the <bpt id="p2">**</bpt>Load Data in Power BI Desktop<ept id="p2">**</ept> lab.
 
 ### <a name="task-7-finish-up"></a>**工作 7：完成**
 
@@ -347,7 +341,7 @@ ms.locfileid: "147015344"
 
     ![圖片 86](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image42.png)
 
-    套用查詢會將其資料載入到資料模型。 您還沒準備好這麼做，因為有許多必須先套用的轉換。
+    Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
 4. 若您想要開始下一個實驗室，請讓 Power BI Desktop 保持開啟狀態。
 
