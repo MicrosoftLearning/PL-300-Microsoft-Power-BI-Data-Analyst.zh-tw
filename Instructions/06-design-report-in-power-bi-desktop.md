@@ -9,7 +9,7 @@ lab:
 
 **完成實驗室的估計時間為 45 分鐘**
 
-In this lab you will create a three-page report. You will then publish it to Power BI, whereupon you will open and interact with the report.
+在此實驗室中，您將會建立一份三頁報表。 接著，您會將其發佈到 Power BI，然後開啟報表並與之互動。
 
 在此實驗室中，您將了解如何：
 
@@ -19,7 +19,7 @@ In this lab you will create a three-page report. You will then publish it to Pow
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -88,7 +88,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
     ![圖片 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. Scroll down the page to Integration settings. Click the arrow to expand the Map and filled map visuals option.
+1. 向下捲動頁面至 [整合設定]。 按一下箭號以展開 [地圖及區域分布圖視覺效果] 選項。
 
     ![圖片 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
@@ -165,7 +165,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ### <a name="task-4-design-page-1"></a>**工作 4：設計第 1 頁**
 
-In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
+在此工作中，您將設計第一個報表頁面。 當您完成設計時，此頁面會如下所示：
 
 ![第 1 頁的影像，其中包含一個標誌、兩個交叉分析篩選器和三個視覺效果。](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
@@ -328,7 +328,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-5-design-page-2"></a>**工作 5：設計第 2 頁**
 
-在此實驗室中，您將會建立一份三頁報表。
+在此工作中，您將設計第二個報表頁面。 當您完成設計時，此頁面會如下所示：
 
 ![第 2 頁的影像，其中包含一個交叉分析篩選器和一個矩陣。](Linked_image_Files/07-design-report-in-power-bi-desktop_image37.png)
 
@@ -403,7 +403,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ### <a name="task-6-design-page-3"></a>**工作 6：設計第 3 頁**
 
-接著，您會將其發佈到 Power BI，然後開啟報表並與之互動。
+在此工作中，您將設計第三個，也是最後一個報表頁面。 當您完成設計時，此頁面會如下所示：
 
 ![第 3 頁的影像，其中包含一個交叉分析篩選器和三個視覺效果。](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
@@ -413,7 +413,7 @@ In this task you will design the first report page. When you’ve completed the 
     
     ![篩選窗格中 [Salesperson] 欄位的影像。](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-1. Select <bpt id="p1">**</bpt>Michael Blythe<ept id="p1">**</ept>. Data on the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> report page will now be filtered to display data for Michael Blythe only.
+1. 選取 [Michael Blythe]。 [我的績效] 報表頁面上的資料現在會經過篩選，只顯示 Michael Blythe 的資料。
 
 1. 根據 [Date \| Year] 欄位來新增下拉式交叉分析篩選器，然後調整其大小，並將其放置於頁面左上角。
 

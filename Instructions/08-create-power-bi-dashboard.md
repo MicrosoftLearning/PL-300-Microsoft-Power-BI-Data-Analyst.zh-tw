@@ -19,7 +19,7 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -43,7 +43,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-a-dashboard"></a>**練習 1：建立儀表板**
 
-In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. The completed dashboard will look like the following:
+在此練習中，您將建立**銷售監視**儀表板。 完成的儀表板看起來會像下面這樣：
 
 ![已完成儀表板的影像，其中包含三個圖格。](Linked_image_Files/09-create-power-bi-dashboard_image1.png)
 
@@ -163,7 +163,7 @@ In this exercise you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept i
 
 ### <a name="task-4-create-a-dashboard"></a>**工作 4：建立儀表板**
 
-In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p1">**</ept> dashboard. You will pin a visual from the report, and add a tile based on an image data URI, and use Q&amp;A to create a tile.
+在此工作中，您將建立**銷售監視**儀表板。 您將從報表釘選一個視覺效果、根據影像資料 URI 新增一個圖格，並使用問與答建立一個圖格。
 
 1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務開啟**銷售分析**報表。
 
@@ -307,7 +307,7 @@ In this task you will create the <bpt id="p1">**</bpt>Sales Monitoring<ept id="p
 
 ## <a name="exercise-2-refresh-the-dataset"></a>**練習 2：重新整理資料集**
 
-In this exercise you will first load sales order data for June 2020 into the <bpt id="p1">**</bpt>AdventureWorksDW2020<ept id="p1">**</ept> database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your workspace.
+在此練習中，您會先將 2020 年 6 月的銷售訂單資料載入 **AdventureWorksDW2020** 資料庫。 接著，您將會開啟 Power BI Desktop 檔案、執行資料重新整理，然後將檔案上傳到工作區。
 
 ### <a name="task-1-update-the-lab-database"></a>**工作 1：更新實驗室資料庫**
 

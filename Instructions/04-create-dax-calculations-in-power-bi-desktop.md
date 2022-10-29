@@ -21,7 +21,7 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -45,7 +45,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-1-create-calculated-tables"></a>**練習 1：建立導出資料表**
 
-In this exercise you will create two calculated tables. The first will be the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table, to allow a direct relationship between it and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. The second will be the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table.
+在此練習中，您要建立兩份導出資料表。 第一個是 Salesperson 資料表，以允許其與 Sales 資料表之間的直接關聯性。 第二個是 Date 資料表。
 
 ### <a name="task-1-get-started"></a>**工作 1：開始作業**
 
@@ -202,7 +202,7 @@ In this exercise you will create two calculated tables. The first will be the <b
 
 ### <a name="task-4-create-calculated-columns"></a>**工作 4：** **建立計算結果欄**
 
-In this task you will add additional columns to enable filtering and grouping by different time periods. You will also create a calculated column to control the sort order of other columns.
+在此工作中，您會新增額外的資料行，以便依據不同期間加以篩選和分組。 您也會建立一個計算結果欄，以控制其他資料行的排序順序。
 
 *為了方便起見，此實驗室中的所有 DAX 定義都可從程式碼片段檔案複製，位置為 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**。*
 
@@ -302,7 +302,7 @@ In this task you will add additional columns to enable filtering and grouping by
 
 ### <a name="task-5-complete-the-date-table"></a>**工作 5：** **完成日期資料表**
 
-In this task you will complete the design of the <bpt id="p1">**</bpt>Date<ept id="p1">**</ept> table by hiding a column and creating a hierarchy. You will then create relationships to the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Targets<ept id="p2">**</ept> tables.
+在此工作中，您需隱藏資料行並建立階層，以完成 [日期] 資料表的設計。 接著，您會建立 [銷售] 和 [目標] 資料表的關聯性。
 
 1. 切換至 [模型] 檢視。
 
@@ -363,7 +363,7 @@ In this task you will complete the design of the <bpt id="p1">**</bpt>Date<ept i
 
 ### <a name="task-1-create-simple-measures"></a>**工作 1：建立簡單量值**
 
-In this task you will create simple measures. Simple measures aggregate values in a single column or count rows of a table.
+在此工作中，您會建立簡單的量值。 簡單量值會彙總資料表中單一資料行或計數資料列中的值。
 
 1. 在 [報表] 檢視畫面的**第 2 頁**中，從 [欄位] 窗格將 [銷售額 \| 單價] 欄位拖放到矩陣視覺效果中。
 

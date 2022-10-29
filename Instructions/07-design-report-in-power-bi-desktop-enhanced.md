@@ -23,7 +23,7 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -175,7 +175,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ## <a name="exercise-2-configure-drill-through"></a>**練習 2：設定鑽研**
 
-In this exercise you will create a new page and configure it as a drill through page. When you’ve completed the design, the page will look like the following:
+在此練習中，您將建立新的頁面並將其設定為鑽研頁面。 當您完成設計時，此頁面會如下所示：
 
 ![新頁面的影像，其中包含一個卡片視覺效果和資料表視覺效果。](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image17.png)
 
@@ -247,7 +247,7 @@ In this exercise you will create a new page and configure it as a drill through 
 
 ## <a name="exercise-3-add-conditional-formatting"></a>**練習 3：新增條件式格式設定**
 
-In this exercise you will enhance the drill through page with conditional formatting. When you’ve completed the design, the page will look like the following:
+在此練習中，您將使用條件式格式設定來強化鑽研頁面。 當您完成設計時，此頁面會如下所示：
 
 ![已更新頁面的影像，顯示色彩格式化的值和圖示。](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image28.png)
 
@@ -321,7 +321,7 @@ In this exercise you will enhance the drill through page with conditional format
 
 ## <a name="exercise-4-add-bookmarks-and-buttons"></a>**練習 4：新增書籤和按鈕**
 
-In this exercise you will enhance the <bpt id="p1">**</bpt>My Performance<ept id="p1">**</ept> page with buttons, allowing the report user to select the visual type to display. When you’ve completed the design, the page will look like the following:
+在此練習中，您將使用按鈕來強化 [我的績效] 頁面，讓報表使用者選取要顯示的視覺效果類型。 當您完成設計時，此頁面會如下所示：
 
 ![已更新之第 3 頁的影像，其顯示兩個按鈕，且現在只有兩個視覺效果。](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image38.png)
 

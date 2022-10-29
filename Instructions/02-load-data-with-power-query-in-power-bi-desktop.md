@@ -8,7 +8,7 @@ lab:
 
 **完成實驗室的估計時間為 45 分鐘**
 
-In this lab you will commence apply transformations to each of the queries created in the previous lab. You will then apply the queries to load each as a table to the data model.
+在此實驗室中，您將會對在上個實驗室中所建立的每個查詢套用轉換。 接著，您將會把每項查詢載入為資料模型的資料表。
 
 在此實驗室中，您將了解如何：
 
@@ -18,7 +18,7 @@ In this lab you will commence apply transformations to each of the queries creat
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -701,7 +701,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
     ![圖片 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
-    Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> query, which is enabled to load to the data model.
+    停用載入表示其不會以資料表的形式載入資料模型。 這是因為此查詢已與啟用載入資料模型的 **Product** 查詢合併。
 
 4. 按一下 [確定]。
 
