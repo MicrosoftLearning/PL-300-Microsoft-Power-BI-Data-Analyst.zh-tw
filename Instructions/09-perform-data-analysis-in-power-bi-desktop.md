@@ -21,7 +21,7 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -171,7 +171,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 3. 將下列欄位新增至視覺效果區域：
 
-    The labs use a shorthand notation to reference a field. It will look like this: <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> <bpt id="p2">**</bpt><ph id="ph1">\|</ph><ept id="p2">**</ept> <bpt id="p3">**</bpt>Business Type<ept id="p3">**</ept>. In this example, <bpt id="p1">**</bpt>Reseller<ept id="p1">**</ept> is the table name and <bpt id="p2">**</bpt>Business Type<ept id="p2">**</ept> is the field name.
+    實驗室使用速記標記法來參考欄位。 其看起來將會像下面這樣：**Reseller** **\|** **Business Type**。 在本範例中，**轉銷商**是資料表名稱，而**商務類型**是欄位名稱。
 
     - 圖例：**Reseller \| Business Type**
 

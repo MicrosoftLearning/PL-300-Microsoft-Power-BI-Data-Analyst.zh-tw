@@ -9,7 +9,7 @@ lab:
 
 **完成實驗室的估計時間為 45 分鐘**
 
-In this lab you will create a many-to-many relationship between the <bpt id="p1">**</bpt>Salesperson<ept id="p1">**</ept> table and the <bpt id="p2">**</bpt>Sales<ept id="p2">**</ept> table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
+在此實驗室中，您將在 **Salesperson** 資料表與 **Sales** 資料表之間建立多對多關聯性。 您也會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
 
 在此實驗室中，您將了解如何：
 
@@ -19,7 +19,7 @@ In this lab you will create a many-to-many relationship between the <bpt id="p1"
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 

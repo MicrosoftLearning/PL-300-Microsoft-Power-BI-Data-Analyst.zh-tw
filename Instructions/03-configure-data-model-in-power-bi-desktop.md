@@ -9,7 +9,7 @@ lab:
 
 **完成實驗室的估計時間為 45 分鐘**
 
-In this lab you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.
+在此實驗室中，您將開始開發資料模型。 這會牽涉到在資料表之間建立關聯性，然後設定資料表與資料行屬性，以改善資料模型的易懂性與可用性。 您也會建立階層並建立快速量值。
 
 在此實驗室中，您將了解如何：
 
@@ -22,7 +22,7 @@ In this lab you will commence developing the data model. It will involve creatin
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
 
 1. 在 Power BI Desktop 中準備資料
 
@@ -208,7 +208,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
     *在此實驗室中，**SalespersonRegion** 與 **Targets** 資料表仍會維持中斷連線。銷售人員與區域之間有多對多關聯性，而且您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中處理這個進階案例。*
 
-25. In the diagram, arrange the tables so that the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> table is positioned in the center of the diagram, and the related tables are arranged about it. Position the disconnected tables to the side.
+25. 在圖表中，請排列資料表，讓 [Sales] 資料表位於圖表中央，並將相關的資料表排列到其周圍。 將未連接的資料表置於一旁。
 
     ![圖片 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
 
@@ -348,7 +348,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 ### <a name="task-5-bulk-update-properties"></a>**工作 5：大量更新屬性**
 
-In this task you will update multiple columns using single bulk updates. You will use this approach to hide columns, and format column values.
+在此工作中，您將會使用單一大量更新來更新多個資料行。 您將使用這種方法來隱藏資料行，並設定資料行值的格式。
 
 1. 在 [欄位] 窗格中，選取 [Product \| ProductKey] 資料行。
 
