@@ -99,7 +99,7 @@ lab:
 
 1. 在 [另存新檔] 視窗中，瀏覽至 **D:\PL300\MySolution** 資料夾。
 
-1. 按一下 [儲存]。
+1. 按一下 [檔案] 。
 
     ![圖片 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
@@ -665,7 +665,7 @@ lab:
 
     *您可設定資料來源的隱私權等級，以判斷資料是否可以在來源之間共用。如有需要，將每個資料來源設定為 [組織] 可使其共用資料。請注意，私人資料來源永遠不會與其他資料來源共用。這不表示私人資料無法共用，而是 Power Query 引擎無法在這些來源間共用資料。*
 
-7. 按一下 [儲存]。
+7. 按一下 [檔案] 。
 
     ![圖片 5692](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image75.png)
 
