@@ -74,7 +74,7 @@ lab:
 
     ![圖片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. 按一下 [檔案] 。
+1. 按一下 [儲存]。
 
     ![圖 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
