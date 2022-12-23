@@ -111,7 +111,7 @@ lab:
 
     ![圖片 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-create-power-bi-dashboard\Starter** 資料夾。
+8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\09-create-power-bi-dashboard\Starter** 資料夾。
 
 9. 選取 **Sales Analysis** 檔案。
 
