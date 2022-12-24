@@ -1,13 +1,13 @@
 ---
 lab:
   title: 在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)
-  module: Module 5 - Create Model Calculations using DAX in Power BI
+  module: 5 - Create Model Calculations using DAX in Power BI
 ---
 
 
-# <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>**在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)**
+# <a name="create-dax-calculations-in-power-bi-desktop-part-1"></a>在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-**實驗室的完成時間估計為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您將使用 Data Analysis Expression (DAX) 建立導出資料表、計算結果欄和簡單量值。
 
@@ -21,27 +21,27 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. **在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)**
+4. **在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)**
 
-6. 在 Power BI Desktop 中建立 DAX 計算 (第 2 部分)
+5. 在 Power BI Desktop 中建立 DAX 計算 (第 2 部分)
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-create-calculated-tables"></a>**練習 1：建立導出資料表**
 
@@ -71,7 +71,7 @@ lab:
 
     ![圖 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** 資料夾。
+1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
@@ -109,7 +109,7 @@ lab:
 
     ![圖 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-    *為了方便起見，此實驗室中的所有 DAX 定義都可從程式碼片段檔案複製，位置為 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**。*
+    *為了方便起見，此實驗室中的所有 DAX 定義都可從程式碼片段檔案複製，位置為 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**。*
 
     *建立導出資料表的方式是先輸入資料表名稱，後面接著等號 (=)，然後是傳回資料表的 DAX 公式。請注意，資料表名稱不可與資料模型中的名稱重複。*
 
@@ -137,7 +137,7 @@ lab:
 
     ![圖 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
-8. 當系統提示您確認刪除時，請按一下 [刪除]。
+8. 畫面顯示要您確認刪除的提示時，按一下 [確定]。
 
     ![圖 3](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image13.png)
 
@@ -204,7 +204,7 @@ lab:
 
 在此工作中，您會新增額外的資料行，以便依據不同期間加以篩選和分組。 您也會建立一個計算結果欄，以控制其他資料行的排序順序。
 
-*為了方便起見，此實驗室中的所有 DAX 定義都可從程式碼片段檔案複製，位置為 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**。*
+*為了方便起見，此實驗室中的所有 DAX 定義都可從程式碼片段檔案複製，位置為 **D:\PL300\Labs\04-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**。*
 
 1. 在 [資料表工具] 內容功能區中，從 [計算] 群組內按一下 [新增資料行]。
 
@@ -371,7 +371,7 @@ lab:
 
     ![圖 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
-    *回顧一下，在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中，您將 [單價] 資料行設定為依 [平均] 來建立摘要。您在矩陣視覺效果中看到的結果是每月平均單價 (單價總和值除以單價計數)。*
+    *您應該記得，您曾於 **在 Power BI Desktop 中設計資料模型**實驗室中設定 [單價] 資料行，以便依 [平均] 彙總資料。您在矩陣視覺效果中看到的結果為每月平均單價 (單價值的總和除以單價的計數)。*
 
 2. 在視覺效果欄位窗格 (位於 [視覺效果] 窗格底下) 的 [值] 井/區域中，您會看到畫面上已列出 [單價]。
 
@@ -469,9 +469,96 @@ lab:
 
     ![圖 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
+### <a name="task-2-create-additional-measures"></a>**工作 2：建立其他量值**
+
+在此工作中，您會建立其他使用更複雜公式的量值。
+
+1. 在 [報表] 檢視中，選取 [第 1 頁]。
+
+    ![圖 40](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image44.png)
+
+2. 檢閱資料表視覺效果，並留意 [目標] 資料行的總計。
+
+    ![圖 41](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image45.png)
+
+    
+
+3. 選取資料表視覺效果，然後在 [視覺效果] 窗格中，移除 [目標] 欄位。
+
+    ![圖 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
+
+4. 將 [目標 \| 目標] 資料行重新命名為 [目標 \| TargetAmount]。
+
+    *提示：有數種方式可以在 [報表] 檢視中重新命名資料行：在 [欄位] 窗格中，您可以用滑鼠右鍵按一下資料行，然後選取 [重新命名]，或者您也可以按兩下資料行，或按 **F2**。*
+
+    *您即將建立名為「目標」的量值。在相同的資料表中，資料行和量值的名稱不得重複。*
+
+5. 在 [目標] 資料表上建立下列量值：
 
 
-### <a name="task-2-finish-up"></a>**工作 2：完成**
+    **DAX**
+
+
+    ```
+    Target =
+
+    IF(
+
+    HASONEVALUE('Salesperson (Performance)'[Salesperson]),
+
+    SUM(Targets[TargetAmount])
+
+    )
+    ```
+
+
+    *HASONEVALUE() 函式會測試是否在 [銷售人員] 資料行中篩選出單一值。若為 true，則運算式會傳回目標數量的總和 (僅針對該銷售人員)。若為 false，則會傳回空值。*
+
+6. 將 [目標] 量值格式化為零個小數位數。
+
+    *提示：您可以使用 [量值工具] 內容功能區。*
+
+7. 隱藏 **TargetAmount** 資料行。
+
+    *提示：您可以在 [欄位] 窗格中，以滑鼠右鍵按一下資料行，然後選取 [隱藏]。*
+
+8. 將 [目標] 量值新增至資料表視覺效果。
+
+9. 請注意，[目標] 資料行的總計此時是空白的。
+
+    ![圖 43](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image47.png)
+
+10. 使用程式碼片段檔案定義，為 [目標] 資料表建立下列兩個量值：
+
+    - 變異數
+
+    - 變異數邊界
+
+11. 將 [變異數] 量值格式化為零個小數位數。
+
+12. 將 [變異數邊界] 量值格式化為具有兩個小數位數的百分比。
+
+13. 將 [變異數] 和 [變異數邊界] 量值新增至資料表視覺效果。
+
+14. 調整資料表視覺效果的大小，以便看到所有資料行與資料列。
+
+    ![圖 44](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image48.png)
+
+    *雖然所有銷售人員似乎都未達到目標，但請記住，資料表視覺效果尚未依特定期間加以篩選。您要產生數份銷售績效報表，這些報表需依**在 Power BI Desktop 中設計報表 (第 1 部分)** 實驗室中使用者所選取的期間加以篩選。*
+
+15. 在 [欄位] 窗格的右上角，將窗格摺疊然後展開。
+
+    ![圖 45](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image49.png)
+
+    *摺疊並重新開啟窗格會重設內容。*
+
+16. 請注意，[目標] 資料表此時會出現在清單頂端。
+
+    ![圖 46](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image50.png)
+
+    *僅包含可見量值的資料表，會自動列在清單頂端。*
+
+### <a name="task-3-finish-up"></a>**工作 3：完成作業**
 
 在此工作中，您將完成實驗室。
 
