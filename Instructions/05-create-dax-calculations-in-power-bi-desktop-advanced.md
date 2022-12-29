@@ -1,13 +1,13 @@
 ---
 lab:
   title: 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
-  module: Module 5 - Create Model Calculations using DAX in Power BI
+  module: 5 - Create Model Calculations using DAX in Power BI
 ---
 
 
-# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>**在 Power BI Desktop 中建立 DAX 計算，第 2 部分**
+# <a name="create-dax-calculations-in-power-bi-desktop-part-2"></a>在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-**實驗室的完成時間估計為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您將使用與篩選內容操作有關的 DAX 運算式來建立量值。
 
@@ -19,27 +19,27 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. **在 Power BI Desktop 中建立 DAX 計算，第 2 部分**
+5. **在 Power BI Desktop 中建立 DAX 計算，第 2 部分**
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-work-with-filter-context"></a>**練習 1：使用篩選內容**
 
@@ -69,7 +69,7 @@ lab:
 
     ![圖 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 資料夾。
+1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
@@ -121,13 +121,11 @@ lab:
 
     *您應該記得，[Regions] 階層具有 [Group]、[Country] 和 [Region] 層級。*
 
-7. 若要將視覺效果格式化，請在 [視覺效果] 窗格底下選取 [格式] 窗格。
+7. 若要將視覺效果格式化，請在 [視覺效果] 窗格中選取 [格式] 窗格。
 
     ![圖片 14](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image12.png)
 
 8. 在 [搜尋] 方塊中，輸入**分層式**。
-
-    ![圖片 15](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image13.png)
 
 9. 將 [分層式配置] 屬性設定為 [關閉]。
 
@@ -147,7 +145,7 @@ lab:
 
 1. 根據下列運算式，將量值新增至 [Sales] 資料表：
 
-    *為了方便起見，此實驗室中的所有 DAX 定義都可從 **D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 檔案複製。*
+    *為了方便起見，此實驗室中的所有 DAX 定義都可從 **D:\PL300\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 檔案加以複製。*
 
 
     **DAX**

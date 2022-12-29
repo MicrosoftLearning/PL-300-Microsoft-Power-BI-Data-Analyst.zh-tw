@@ -1,12 +1,12 @@
 ---
 lab:
   title: 在 Power BI Desktop 中準備資料
-  module: Module 2 - Get Data in Power BI
+  module: 2 - Get Data in Power BI
 ---
 
-# <a name="prepare-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中準備資料**
+# <a name="prepare-data-in-power-bi-desktop"></a>在 Power BI Desktop 中準備資料
 
-**完成實驗室的估計時間為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您會開始為 Adventure Works 公司開發 Power BI Desktop 解決方案。 這牽涉到連線到來源資料、預覽資料，以及使用資料預覽技術來了解來源資料的特性與品質。
 
@@ -22,29 +22,29 @@ lab:
 
 - 使用資料預覽技術進一步了解資料
 
-### <a name="lab-story"></a>**實驗室案例**
+## <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. **在 Power BI Desktop 中準備資料**
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-prepare-data"></a>**練習 1：準備資料**
 
@@ -74,7 +74,7 @@ lab:
 
     ![圖片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-1. 按一下 [儲存]。
+1. 按一下 [檔案] 。
 
     ![圖 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -127,6 +127,8 @@ lab:
 3. 按一下 [確定]。
 
     ![圖 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
+
+4. 如果系統提示您輸入認證，請在 [SQL Server 資料庫] 視窗中，選取 [使用我目前的認證]。 然後，選取 [連線]。
 
 4. 在 [導覽器] 視窗中，展開左側的 **AdventureWorksDW2020** 資料庫。
 
@@ -208,13 +210,13 @@ lab:
 
     ![圖片 43](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image26.png)
 
-    當相異與唯一計數相同時，表示資料行包含唯一值。 建立模型時，某些模型資料表必須包含唯一資料行。 這些唯一資料行可用來建立一對多關聯性，而且您將會在「Power BI Desktop 中的模型資料 (第 1 部分)」實驗室中這麼做。
+    當相異與唯一計數相同時，表示資料行包含唯一值。 建立模型時，某些模型資料表必須包含唯一資料行。 這些唯一資料行可用來建立一對多關聯性，而您將會於《在 Power BI Desktop 中設計資料模型》實驗室中這麼做。
 
 11. 在 [查詢] 窗格中，選取 **DimEmployeeSalesTerritory** 查詢。
 
     ![圖片 44](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image27.png)
 
-    **DimEmployeeSalesTerritory** 資料表會針對每個員工與他們所管理的銷售領域區域，各儲存一個資料列。 資料表支援將多個區域與單一員工相關聯。 有些員工會管理一個、兩個或更多區域。 當您建立此資料的模型時，必須定義將於**在 Power BI Desktop 中建立模型資料 (第 2 部分)** 實驗室內執行的多對多關聯性。
+    **DimEmployeeSalesTerritory** 資料表會針對每個員工與他們所管理的銷售領域區域，各儲存一個資料列。 資料表支援將多個區域與單一員工相關聯。 有些員工會管理一個、兩個或更多區域。 當您建立此資料的模型時，您將會需要定義多對多關聯性。
 
 12. 在 [查詢] 窗格中，選取 **DimProduct** 查詢。
 
@@ -256,7 +258,7 @@ lab:
 
     ![圖片 52](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image32.png)
 
-    **DimSalesTerritory** 資料表針對每個銷售區域 (包括 **Corporate HQ** (公司總部)) 皆包含一個資料列。 區域會指派給國家/地區，而國家/地區會指派給群組。 於**在 Power BI Desktop 中建立模型資料 (第 1 部分)** 實驗室內，您將建立階層，以支援區域、國家/地區或群組層級的分析。
+    **DimSalesTerritory** 資料表針對每個銷售區域 (包括 **Corporate HQ** (公司總部)) 皆包含一個資料列。 區域會指派給國家/地區，而國家/地區會指派給群組。 於《在 Power BI Desktop 中設計資料模型》實驗室中，您將會建立階層以支援區域、國家/地區或群組層級的分析。
 
 23. 在 [查詢] 窗格中，選取 **FactResellerSales** 查詢。
 
@@ -269,6 +271,7 @@ lab:
     ![圖片 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
     遺漏 **TotalProductCost** 資料行值是資料品質問題。 若要於《在 Power BI Desktop 中載入資料》實驗室內解決此問題，您將會使用產品標準成本 (其儲存在相關的 [DimProduct] 資料表中) 來套用轉換以填入遺失值。
+
 
 ### <a name="task-5-get-data-from-a-csv-file"></a>**工作 5：從 CSV 檔案取得資料**
 
@@ -287,9 +290,7 @@ lab:
 5. 按一下 [確定]。
 
     ![圖片 71](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image36.png)
-
-  
-‎ 
+ 
 
 6. 在 [查詢] 窗格中，注意 **ResellerSalesTargets** 查詢的加入。
 
