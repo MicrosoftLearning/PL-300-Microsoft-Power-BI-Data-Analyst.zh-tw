@@ -1,7 +1,7 @@
 ---
 lab:
   title: 強制執行資料列層級安全性
-  module: Module 13 - Row-Level Security
+  module: 12 - Row-Level Security
 ---
 
 
@@ -9,37 +9,35 @@ lab:
 
 **完成實驗室的估計時間為 45 分鐘**
 
-在此實驗室中，您將在 **Salesperson** 資料表與 **Sales** 資料表之間建立多對多關聯性。 您也會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
+在此實驗室中，您將會強制執行資料列層級安全性，以確保銷售人員只能分析其獲指派區域的銷售資料。
 
 在此實驗室中，您將了解如何：
-
-- 設定多對多關聯性
 
 - 強制執行資料列層級安全性
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. **強制執行資料列層級安全性**
+10. **強制執行資料列層級安全性**
 
 ## <a name="exercise-1-enforce-row-level-security"></a>**練習 1：強制執行資料列層級安全性**
 
@@ -69,7 +67,7 @@ lab:
 
     ![圖 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\12-row-level-security\Starter** 資料夾。
+1. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\10-row-level-security\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
@@ -181,7 +179,7 @@ lab:
 
     ![圖 18](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image35.png)
 
-### <a name="task-2-finish-up"></a>**工作 2：完成**
+### <a name="task-3-finish-up"></a>**工作 3：完成作業**
 
 在此工作中，您將完成實驗室。
 
