@@ -1,13 +1,13 @@
 ---
 lab:
-  title: 在 Power BI Desktop 中設計資料模型
-  module: Module 4 - Design a Data Model in Power BI
+  title: 在 Power BI 中設計資料模型
+  module: 4 - Design a Data Model in Power BI
 ---
 
 
-# <a name="model-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中設計資料模型**
+# <a name="design-a-data-model-in-power-bi"></a>在 Power BI 中設計資料模型
 
-**完成實驗室的估計時間為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您將開始開發資料模型。 這會牽涉到在資料表之間建立關聯性，然後設定資料表與資料行屬性，以改善資料模型的易懂性與可用性。 您也會建立階層並建立快速量值。
 
@@ -22,27 +22,27 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. **在 Power BI Desktop 中設計資料模型**
+3. **在 Power BI 中設計資料模型**
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-create-model-relationships"></a>**練習 1：建立模型關聯性**
 
@@ -158,15 +158,15 @@ lab:
 
 14. 在 [基數] 下拉式清單中，請注意已選取 [一對多 (1:*)]。
 
-    *系統會自動偵測基數，因為 Power BI 了解來自 **Product** 資料表的 **ProductKey** 資料行包含唯一值。一對多關聯性是最常見的基數，而且您在此實驗室中建立的所有關聯性都是這種類型。您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中處理多對多基數。*
+    *系統會自動偵測基數，因為 Power BI 了解來自 [Product] 資料表的 [ProductKey] 資料行包含唯一值。一對多關聯性是最常見的基數，而且您在此實驗室中建立的所有關聯性都是這種類型。*
 
 15. 在 [交叉篩選方向] 下拉式清單中，請注意已選取 [單一]。
 
-    *單一篩選方向表示篩選會從「一端」傳播到「多端」。在此案例中，這表示已套用到 **Product** 資料表的篩選將會傳播到 **Sales** 資料表，但不會以相反方向傳播。您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中處理雙向關聯性。*
+    *單一篩選方向表示篩選會從「一端」傳播到「多端」。在此案例中，這表示套用至 [Product] 資料表的篩選將會傳播至 [Sales] 資料表，但不會朝相反方向傳播。*
 
 16. 請注意，已選取 [將此關聯性設為作用中]。
 
-    *作用中的關聯性將會傳播篩選。您可以將關聯性標示為非作用中，這樣就不會傳播篩選。當資料表之間有多個關聯性路徑時，可能會有非作用中的關聯性存在。在此案例中，模型計算可以使用特殊函數來加以啟用。您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中處理非作用中關聯性。*
+    *作用中的關聯性會傳播篩選。您可以將關聯性標示為非作用中，這樣就不會傳播篩選。當資料表之間有多個關聯性路徑時，可能會有非作用中的關聯性存在。在此案例中，模型計算可以使用特殊函式來啟用這些關聯性。*
 
 17. 按一下 [確定]。
 
@@ -206,11 +206,10 @@ lab:
 
     - [Salesperson \| EmployeeKey] 至 [Sales \| EmployeeKey]
 
-    *在此實驗室中，**SalespersonRegion** 與 **Targets** 資料表仍會維持中斷連線。銷售人員與區域之間有多對多關聯性，而且您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中處理這個進階案例。*
-
 25. 在圖表中，請排列資料表，讓 [Sales] 資料表位於圖表中央，並將相關的資料表排列到其周圍。 將未連接的資料表置於一旁。
 
     ![圖片 340](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image23.png)
+
 
 26. 儲存 Power BI Desktop 檔案。
 
@@ -310,13 +309,7 @@ lab:
 
     ![圖片 353](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image34.png)
 
-3. 分類下列三個資料行：
-
-    - **Country-Region**為**國家/地區**
-
-    - **State-Province** 為**縣市**
-
-    - **City** 為**城市**
+3. 將 [Country-Region]、[State-Province] 和 [City] 資料行 (非階層層級) 的 [資料類別] 分別設定為 [國家/地區]、[州或省] 和 [城市]。 
 
 ### <a name="task-4-configure-the-sales-table"></a>**工作 4：設定 [Sales] 資料表**
 
@@ -332,13 +325,13 @@ lab:
 
 3. 選取 [Quantity] 資料行。
 
-4. 在 [屬性] 窗格中，從 [格式] 區段中，將 [千位分隔符號] 屬性滑動到 [開啟]。
+4. 在 [屬性] 窗格中，從 [格式] 區段中，將 [千位分隔符號] 屬性滑動到 [是]。
 
     ![圖片 357](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image36.png)
 
 5. 選取 [Unit Price] 資料行。
 
-6. 在 [屬性] 窗格中，從 [格式] 區段中，將 [小數位數] 屬性滑動到 [2]。
+6. 在 [屬性] 窗格中，從 [格式] 區段中，將 [小數位數] 屬性設定為 [2]。
 
 7. 在 [進階] 群組中 (您可能需要向下捲動捲動以找到它)，在 [摘要方式] 下拉式清單中，選取 [平均]。
 
@@ -380,13 +373,13 @@ lab:
 
     - Targets \| EmployeeID
 
-3. 在 [屬性] 窗格中，將 [已隱藏] 屬性滑動到 [開啟]。
+3. 在 [屬性] 窗格中，將 [已隱藏] 屬性滑動到 [是]。
 
     ![圖片 355](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image38.png)
 
     *資料行已隱藏，因為其是由關聯性使用，或是用於資料列層級安全性設定或計算邏輯。*
 
-    *您將會在 **Power BI Desktop 中的模型資料 (第 2 部分)** 實驗室中使用 **UPN** 資料行來定義資料列層級安全性。您將會於「在 Power BI Desktop 中建立 DAX 計算 (第 1 部分)」實驗室中於計算中使用 **SalesOrderNumber**。*
+    *您將會於《在 Power BI Desktop 中建立 DAX 計算，第 1 部分》實驗室的計算中使用 [SalesOrderNumber]。*
 
 4. 複選以下三個資料行：
 
@@ -455,8 +448,193 @@ lab:
     ![圖片 363](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image45.png)
 
 
+## <a name="exercise-4-create-quick-measures"></a>**練習 4：建立快速量值**
 
-### <a name="task-2-finish-up"></a>**工作 2：完成**
+在本練習中，您將建立兩個快速量值。
+
+### <a name="task-1-create-quick-measures"></a>**工作 1：建立快速量值**
+
+在此工作中，您將建立兩個快速量值以計算收益和獲利率。
+
+1. 在 [欄位] 窗格中，以滑鼠右鍵按一下 [Sales] 資料表，然後選取 [新增快速量值]。
+
+    ![圖片 366](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image46.png)
+
+2. 在 [快速量值] 視窗的 [計算] 下拉式清單中，從 [數學運算] 群組內選取 [減法]。
+
+    ![圖片 367](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image47.png)
+
+3. 在 [快速量值] 視窗的 [欄位] 窗格中，展開 [Sales] 資料表。
+
+4. 將 [Sales] 欄位拖曳至 [基底值] 方塊中。
+
+5. 將 [Cost] 欄位拖曳至 [要相減的值] 方塊。
+
+    ![圖片 368](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image48.png)
+
+6. 按一下 [確定]。
+
+    ![圖片 369](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image49.png)
+
+    *快速量值會為您建立計算公式。建立方式非常簡單而快速，可進行簡易和一般的計算。於《在 Power BI Desktop 中建立 DAX 計算，第 1 部分》實驗室中，您將不會使用此工具來建立量值。*
+
+7. 在 [欄位] 窗格的 [Sales] 資料表內，請注意新的量值。
+
+    ![圖片 370](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image50.png)
+
+    *量值會以計算機圖示裝飾。*
+
+8. 若要重新命名量值，請在其上按一下滑鼠右鍵，然後選取 [重新命名]。
+
+    ![圖片 371](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image51.png)
+
+    *提示：若要重新命名欄位，您也可以在其上方按兩下，或選取該欄位，然後按 **F2**。*
+
+9. 將量值重新命名為 **Profit**，然後按 **Enter**。
+
+10. 在 [Sales] 資料表中，根據下列需求，新增另一個快速量值：
+
+    - 使用 [除法] 數學運算
+
+    - 將 [分子] 設定為 [Sales \| Profit] 欄位
+
+    - 將 [分母] 設定為 [Sales \| Sales] 欄位
+
+    - 將量值重新命名為 **Profit Margin**
+
+    ![圖片 372](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image52.png)
+
+    ![圖片 373](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image53.png)
+
+11. 請確定已選取 [獲利率] 量值，然後在 [量值工具] 內容功能區上，將格式設定為 [百分比]，並使用兩位小數。
+
+    ![圖片 374](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image54.png)
+
+12. 若要測試這兩個量值，請先在報表頁面上選取資料表視覺效果。
+
+13. 在 [欄位] 窗格中，檢查兩個量值。
+
+    ![圖片 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
+
+14. 按一下並拖曳右邊的輔助線，以擴大資料表視覺效果。
+
+    ![圖片 376](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image56.png)
+
+15. 確認量值能產生格式正確的合理結果。
+
+    ![圖片 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
+
+### <a name="task-2-create-a-many-to-many-relationship"></a>**工作 2：建立多對多關聯性**
+
+在此工作中，您將在 **Salesperson** 資料表與 **Sales** 資料表之間建立多對多關聯性。
+
+1. 在 Power BI Desktop 的 [報表] 檢視中，檢查 [欄位] 窗格內的下列兩個欄位以建立資料表視覺效果：
+
+    - Salesperson \| Salesperson
+
+    - Sales \| Sales
+
+    *實驗室使用速記標記法來參考欄位。其看起來將會像下面這樣：**Salesperson \| Salesperson**在此範例中，[Salesperson] 是資料表名稱，而 [Salesperson] 是欄位名稱。*
+
+    ![圖片 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
+
+    *資料表會顯示每位銷售人員的銷售額。不過，銷售人員與銷售額之間還有另一個關聯性。某些銷售人員屬於一個、兩個或可能更多個銷售區域。此外，銷售區域也可以獲指派多位銷售人員。*
+
+    *從效能管理的觀點來看，銷售人員的銷售額 (根據其獲指派的領域) 必須經過分析，並與銷售目標進行比較。您將在下一個練習中建立支援此分析的關聯性。*
+
+2. 請注意，Michael Blythe 的銷售額將近 900 萬美元。
+
+3. 切換至 [模型] 檢視。
+
+    ![圖片 10](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image10.png)
+
+4. 將 [SalespersonRegion] 資料表拖曳到 [Region] 與 [Salesperson] 資料表之間的位置。
+
+5. 使用拖放技術建立下列兩個模型關聯性：
+
+    - [Salesperson \| EmployeeKey] 至 [SalespersonRegion \| EmployeeKey]
+
+    - [Region \| SalesTerritoryKey] 至 [SalespersonRegion \| SalesTerritoryKey]
+
+    *[SalespersonRegion] 資料表可以視為橋接資料表。*
+
+6. 切換至 [報表] 檢視，然後請注意，視覺效果尚未更新；Michael Blythe 的銷售結果尚未變更。
+
+7. 切換回 [模型] 檢視，然後遵循 **Salesperson** 資料表中的關聯性篩選方向 (箭頭)。
+
+    *考慮到 [Salesperson] 資料表會篩選 [Sales] 資料表。其也會篩選 [SalespersonRegion] 資料表，但不會繼續傳播至 [Region] 資料表 (箭頭指向錯誤的方向)。*
+
+    ![圖片 380](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image11.png)
+
+8. 若要編輯 **Region** 和 **SalespersonRegion** 資料表之間的關聯性，請按兩下關聯性。
+
+9. 在 [編輯關聯性] 視窗的 [交叉篩選方向] 下拉式清單中，選取 [兩者]。
+
+10. 選取 [雙向套用安全性篩選] 核取方塊。
+
+    ![圖片 381](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image12.png)
+
+11. 按一下 [確定]。
+
+    ![圖片 335](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image13.png)
+
+12. 請注意，關聯性具有雙箭頭。
+
+    ![圖片 382](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image14.png)
+
+13. 切換至 [報表] 檢視，然後注意銷售值仍尚未變更。
+
+    *此問題現在與 **Salesperson** 和 **Sales** 資料表之間有兩種可能的篩選傳播路徑有關。這種不明確性是以「最少的資料表數」評量為基礎在內部解決的。請記住，您不應該建立具有這種不明確性的模型；我們將會在此實驗室的稍後部分解決此問題，您也可以透過由完成《在 Power BI Desktop 中建立 DAX 計算，第 1 部分》實驗室來解決此問題。*
+
+14. 切換至 [模型] 檢視。
+
+15. 若要透過橋接資料表強制篩選傳播，請編輯 (按兩下) [Salesperson] 和 [Sales] 資料表之間的關聯性。
+
+16. 在 [編輯關聯性] 視窗中，取消選取 [將此關聯性設為作用中] 核取方塊。
+
+    ![圖片 383](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image15.png)
+
+17. 按一下 [確定]。
+
+    ![圖片 5696](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image16.png)
+
+    *篩選傳播現在將會遵循唯一的作用中路徑。*
+
+18. 請注意，在圖表中，非作用中的關聯性是以虛線表示。
+
+    ![圖片 5697](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image17.png)
+
+19. 切換至 [報表] 檢視，然後注意 Michael Blythe 的銷售額現在是將近 2200 萬美元。
+
+    ![圖片 5698](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image18.png)
+
+20. 另請注意，每個銷售人員的銷售額若相加，將會超過資料表總計。
+
+    *這在多對多關聯性中很常見，因為區域銷售額結果經過雙重、三重等計算。請考慮列出的第二位銷售人員 Brian Welcker。他的銷售額等於總銷售額。這是正確的結果，因為他是銷售總監，其銷售額是以所有區域的銷售額來衡量。*
+
+    *雖然多對多關聯性現在可以運作，但現在無法分析銷售人員的銷售額 (因為關聯性為非作用中)。當您於《在 Power BI Desktop 中建立 DAX 計算，第 1 部分》實驗室中引進允許分析在指派給銷售人員的銷售區域中完成之銷售的計算資料表 (以進行績效分析) 時，便能夠重新啟用此關聯性。*
+
+21. 切換至 [模型] 檢視，然後在圖表中選取 **Salesperson** 資料表。
+
+22. 在 [內容] 窗格的 [名稱] 方塊中，將文字取代為 **Salesperson (Performance)**。
+
+    *重新命名的資料表現在會反映其用途：其是用來根據其獲指派銷售區域的銷售額來報告和分析銷售人員的績效。*
+
+### <a name="task-3-relate-the-targets-table"></a>**工作 3：建立與 Targets 資料表的關聯性**
+
+在此工作中，您將建立與 [Targets] 資料表的關聯性
+
+1. 建立從 [Salesperson (Performance) \| EmployeeID] 資料行到 [Targets \| EmployeeID] 資料行的關聯性。
+
+2. 在 [報表] 檢視中，將 [Targets \| Target] 欄位新增至資料表視覺效果。
+
+3. 調整資料表視覺效果的大小，讓所有資料行都可見。
+
+    ![圖片 5699](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image19.png)
+
+    *現在可以將銷售額和目標視覺化，但是基於兩個原因，請務必小心。首先，在時間週其上沒有篩選，因此目標也包括未來的目標值。其次，目標不是累加的，因此不應該顯示總計。您可以將視覺效果格式化來停用目標，或是使用計算邏輯來移除目標。您將採用第二個方法，透過於《在 Power BI Desktop 中建立 DAX 計算，第 2 部分》實驗室中建立目標量值，以在篩選多個銷售人員時傳回空白。*
+
+### <a name="task-4-finish-up"></a>**工作 4：完成**
 
 在此工作中，您將完成實驗室。
 
@@ -465,5 +643,3 @@ lab:
 2. 如果系統提示您套用查詢，請按一下 [稍後套用]。
 
 3. 若您想要開始下一個實驗室，請讓 Power BI Desktop 保持開啟狀態。
-
-    *您將會在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中，透過設定多對多關聯性與資料列層級安全性來增強資料模型。*

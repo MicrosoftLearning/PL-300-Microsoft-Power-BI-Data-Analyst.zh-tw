@@ -1,13 +1,13 @@
 ---
 lab:
   title: 在 Power BI Desktop 中設計報表，第 2 部分
-  module: Module 7 - Create Reports
+  module: 7 - Create Reports
 ---
 
 
-# <a name="design-a-report-in-power-bi-desktop-part-2"></a>**在 Power BI Desktop 中設計報表，第 2 部分**
+# <a name="design-a-report-in-power-bi-desktop-part-2"></a>在 Power BI Desktop 中設計報表，第 2 部分
 
-**完成實驗室的估計時間為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在本實驗室中，您將使用進階設計功能來增強 [Sales Analysis]。
 
@@ -23,27 +23,27 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-8. **在 Power BI Desktop 中設計報表，第 2 部分**
+7. **在 Power BI Desktop 中設計報表，第 2 部分**
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-configure-sync-slicers"></a>**練習 1：設定同步交叉分析篩選器**
 
@@ -59,29 +59,23 @@ lab:
 
     ![圖 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-1. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.com**。
+2. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.microsoft.com**。
 
     *提示：您也可以使用 Microsoft Edge [我的最愛] 列上的 [Power BI 服務] 我的最愛項目。*
 
-1. 按一下 [登入] (位於右上角)。
+3. 按一下 [登入] (位於右上角)。
 
     ![圖片 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
 
-1. 輸入提供給您的帳戶詳細資料。
+4. 完成登入程序。
 
-1. 若系統提示您更新密碼，請重新輸入提供的密碼，然後輸入並確認新密碼。
+5. 若 Microsoft Edge 提示您保持登入，請按一下 [是]。
 
-    *重要：請務必記錄您的新密碼。*
-
-1. 完成登入程序。
-
-1. 若 Microsoft Edge 提示您保持登入，請按一下 [是]。
-
-1. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務的 [瀏覽] 窗格，展開 [我的工作區]。
+6. 在 Microsoft Edge 瀏覽器視窗中，從 Power BI 服務的 [瀏覽] 窗格，展開 [我的工作區]。
 
     ![圖 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-1. 讓 Microsoft Edge 瀏覽器視窗保持開啟。
+7. 讓 Microsoft Edge 瀏覽器視窗保持開啟。
 
 ### <a name="task-2-get-started--open-report"></a>工作 2：開始使用 - 開啟報表
 
@@ -113,7 +107,7 @@ lab:
 
     ![圖片 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** 資料夾。
+8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** 資料夾。
 
 9. 選取 **Sales Analysis** 檔案。
 
@@ -219,9 +213,11 @@ lab:
 
 8. 設定視覺效果的格式選項，然後將 [類別標籤] 屬性切換為 [關閉]。
 
-    ![圖片 103](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image25.png)
+    ![圖片 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36b.png)
 
-9. 將 [背景色彩] 屬性設定為淺灰色。
+9. 將 [效果] > [背景] 的色彩屬性設定為淺灰色。
+    
+    ![圖片 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image36c.png)
 
 10. 在頁面中新增 [資料表] 視覺效果，然後調整其大小和位置，使其位於卡片視覺效果的下方並填滿頁面的剩餘空間。
 
@@ -241,7 +237,7 @@ lab:
 
     - Sales \| Profit Margin
 
-12. 設定視覺效果的格式選項，然後在 [方格] 區段中，將 [文字大小] 屬性設為 [20pt]。
+12. 設定視覺效果的格式選項，然後在 [值] 區段中，將 [文字大小] 屬性設為 [20pt]。
 
     *鑽研頁面的設計幾乎已完成。您將在下一個練習中透過條件式格式設定來強化頁面。*
 
@@ -303,11 +299,11 @@ lab:
 
 9. 設定 [色彩] 欄位的背景色彩條件式格式設定。
 
-10. 在 [背景色彩 - 色彩] 視窗的 [格式化依據] 下拉式清單中，選取 [欄位值]。
+10. 在 [背景色彩 – 色彩] 視窗的 [設定樣式格式] 下拉式清單中，選取 [欄位值]。
 
-    ![圖 113](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image35.png)
+    
 
-11. 在 [依據欄位] 下拉式清單中，選取 [產品] \| [格式化] \| [背景色彩格式]。
+11. 在 [我們應該以哪個欄位為基礎?] 下拉式清單中，選取 [Product \| 格式設定 \| 背景色彩格式]。
 
     ![圖片 114](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image36.png)
 
@@ -397,15 +393,15 @@ lab:
 
 2. 將此按鈕放置在 [年度] 交叉分析篩選器的正下方。
 
-3. 選取該按鈕，然後在 [格式化按鈕] 窗格中，將 [按鈕文字] 屬性切換為 [開啟]。
+3. 選取按鈕，然後在 [格式按鈕] 窗格中，按一下 [一般]，然後將 [標題] 屬性設定為 [開啟]。
 
-    ![圖片 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49.png)
+    ![圖片 126](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image49b.png)
 
-4. 展開 [按鈕文字] 區段，然後在 [按鈕文字] 方塊中，輸入 [橫條圖]。
+4. 展開 [標題] 區段，然後在 [文字] 方塊中輸入**橫條圖**。
 
 5. 展開 [背景] 區段，然後使用互補色設定背景色彩。
 
-6. 將 [動作] 屬性切換為 [開啟](位於清單底部附近)。
+6. 按一下 [按鈕]，然後將 [動作] 屬性設定為 [開啟]。
 
     ![圖片 127](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image50.png)
 
@@ -467,7 +463,7 @@ lab:
 
 在此工作中，您將探索 Power BI 服務中的報表。
 
-1. 在 Microsoft Edge 瀏覽器視窗中，按一下 Power BI 服務 [瀏覽] 窗格中的 [銷售分析] 報表。
+1. 在 Microsoft Edge 瀏覽器視窗中，選取 Power BI 服務 [瀏覽] 窗格中的 [我的工作區]，然後按一下 [Sales Analysis] 報表。
 
 2. 若要測試鑽研報告，請在 [概觀] 頁面的 [依類別的數量] 視覺效果中，以滑鼠右鍵按一下 [服裝] 列，然後選取 [鑽研 \| 產品詳細資料]。
 

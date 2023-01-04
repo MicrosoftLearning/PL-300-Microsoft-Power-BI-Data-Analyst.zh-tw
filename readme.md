@@ -4,7 +4,7 @@
 
 - **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的[適用於 MCT 的 GitHub 使用者指南](https://microsoftlearning.github.io/MCT-User-Guide/) (英文)
 - **需要手動建立實驗室指示嗎？** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中備有指示
-- **您是否需要重新了解一下哪些實驗室是與哪些課程模組互相搭配的？** - 請參閱 [GitHub 頁面](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/) \(英文\)
+- **需要複習一下實驗室與課程簡報之間的配對嗎？** - 請參閱 [GitHub 頁面](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) \(英文\)
 
 ## <a name="what-are-we-doing"></a>我們要做什麼？
 
