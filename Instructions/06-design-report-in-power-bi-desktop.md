@@ -1,13 +1,13 @@
 ---
 lab:
   title: 在 Power BI Desktop 中設計報表，第 1 部分
-  module: Module 7 - Create Reports
+  module: 7 - Create Reports
 ---
 
 
-# <a name="design-a-report-in-power-bi-desktop-part-1"></a>**在 Power BI Desktop 中設計報表，第 1 部分**
+# <a name="design-a-report-in-power-bi-desktop-part-1"></a>在 Power BI Desktop 中設計報表，第 1 部分
 
-**完成實驗室的估計時間為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您將會建立一份三頁報表。 接著，您會將其發佈到 Power BI，然後開啟報表並與之互動。
 
@@ -19,27 +19,27 @@ lab:
 
 ### <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. 在 Power BI Desktop 中載入資料
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-7. **在 Power BI Desktop 中設計報表，第 1 部分**
+6. **在 Power BI Desktop 中設計報表，第 1 部分**
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
+
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-create-a-report"></a>**練習 1：建立報表**
 
@@ -55,19 +55,13 @@ lab:
 
     ![圖片 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-1. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.com**。
+1. 在 Microsoft Edge 瀏覽器視窗中，瀏覽至 **https://powerbi.microsoft.com**。
 
     *提示：您也可以使用 Microsoft Edge [我的最愛] 列上的 [Power BI 服務] 我的最愛項目。*
 
 1. 按一下 [登入] (位於右上角)。
 
     ![圖片 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
-
-1. 輸入提供給您的帳戶詳細資料 (請查看＜資源＞)。
-
-1. 若系統提示您更新密碼，請重新輸入提供的密碼，然後輸入並確認新密碼。
-
-    *重要：請務必記錄您的新密碼。*
 
 1. 完成登入程序。
 
@@ -77,35 +71,36 @@ lab:
 
 ### <a name="task-2-get-started--enable-map-and-filled-map-visuals"></a>**工作 2：開始使用 – 啟用地圖及區域分布圖視覺效果**
 
-在此工作中，您將透過更新 Power BI 系統管理入口網站中的 [整合設定]，在實驗室的環境中啟用地圖及區域分布圖視覺效果。 
+在此工作中，您將更新 Power BI Desktop 的 [全域設定] 以及 Power BI 系統管理入口網站的 [整合設定]，以在實驗室環境中啟用地圖和區域分布圖視覺效果。
 
+1. 在 Power BI Desktop 中，依序前往 [選項] > [選項及設定] > [全域]，然後選取 [使用地圖及區域分布圖視覺效果] 方塊。
 
-1. 若要開啟 Power BI 系統管理入口網站，請按一下瀏覽器右上方的 [設定] 圖示。
+![Picture103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
+
+2. 若要開啟 Power BI 系統管理入口網站，請按一下 Edge 瀏覽器右上方的設定圖示。
 
     ![圖片 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
-1. 選取 [系統管理入口網站]。
+3. 選取 [系統管理入口網站]。
 
     ![圖片 102](Linked_image_Files/07-design-report-in-power-bi-desktop_image102.png)
 
-1. 向下捲動頁面至 [整合設定]。 按一下箭號以展開 [地圖及區域分布圖視覺效果] 選項。
+4. 向下捲動頁面至 [整合設定]。 按一下箭號以展開 [地圖及區域分布圖視覺效果] 選項。
 
     ![圖片 103](Linked_image_Files/07-design-report-in-power-bi-desktop_image103.png)
 
-1. 將 [地圖及區域分布圖視覺效果] 選項設定為 [已啟用]。
+5. 將 [地圖及區域分布圖視覺效果] 選項設定為 [已啟用]。
 
-1. 按一下 [套用] 以套用變更。 
+6. 按一下 [套用] 以套用變更。 
 
     ![圖片 104](Linked_image_Files/07-design-report-in-power-bi-desktop_image104.png)
 
-1. 系統會在瀏覽器右上方顯示一則訊息，指出將在接下來 15 分鐘內套用租用戶設定變更。 
+7. 系統會在瀏覽器右上方顯示一則訊息，指出將在接下來 15 分鐘內套用租用戶設定變更。
 
 
     ![圖片 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
-
-
-1. 讓 Microsoft Edge 瀏覽器視窗保持開啟。
+8. 讓 Microsoft Edge 瀏覽器視窗保持開啟。
 
 ### <a name="task-3-get-started--open-report"></a>**工作 3：開始使用 – 開啟報表**
 
@@ -137,7 +132,7 @@ lab:
 
     ![圖片 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
 
-8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\07-design-report-in-power-bi-desktop\Starter** 資料夾。
+8. 在 [開啟] 視窗中，瀏覽至 **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** 資料夾。
 
 9. 選取 **Sales Analysis** 檔案。
 
@@ -226,21 +221,6 @@ lab:
 
     ![圖 21](Linked_image_Files/07-design-report-in-power-bi-desktop_image22.png)
 
-17. 若要將交叉分析篩選器格式化，請在 [視覺效果] 窗格底下開啟 [格式] 窗格。
-
-    ![圖片 50](Linked_image_Files/07-design-report-in-power-bi-desktop_image23.png)
-
-18. 展開 [選取控制項] 群組。
-
-    ![圖 23](Linked_image_Files/07-design-report-in-power-bi-desktop_image24.png)
-
-19. 將 [顯示 [全選] 選項] 設定為 [開啟]。
-
-    ![圖 24](Linked_image_Files/07-design-report-in-power-bi-desktop_image25.png)
-
-20. 在 [區域] 交叉分析篩選器中，您會看到第一個項目現在為 [全選]。
-
-    *選取時，此項目會選取所有項目或取消選取所有項目。其可讓報表使用者設定必要的交叉分析篩選器項目。*
 
 21. 按一下報表頁面的空白區域，以取消選取交叉分析篩選器。
 
@@ -258,13 +238,13 @@ lab:
 
     - Sales \| Sales
 
-25. 在 [視覺效果欄位] 窗格中 (不是 [欄位] 窗格，[視覺效果欄位] 窗格位於 [視覺效果] 窗格底下)，請注意，這些欄位會指派給 [共用軸] 和 [直條圖值] 井/區域。
+25. 在 [視覺效果欄位] 窗格中 (不是 [欄位] 窗格。[視覺效果欄位] 窗格位於 [視覺效果] 窗格底下)，請注意，這些欄位會指派給 [X 軸] 和 [直條 Y 軸] 區域。
 
-    ![圖 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28.png)
+    ![圖 27](Linked_image_Files/07-design-report-in-power-bi-desktop_image28_N.png)
 
     *將欄位拖曳到視覺效果中，即可將其新增至預設區域。為求精確，您可以將欄位直接拖曳到區域中，如同您接下來要做的動作。*
 
-26. 從 [欄位] 窗格中，將 [銷售] \| [毛利率] 欄位拖曳至 [折線圖值] 井/區域。
+26. 從 [欄位] 窗格中，將 [Sales \| Profit Margin] 欄位拖曳至 [折線 Y 軸] 區域。
 
     ![圖片 28](Linked_image_Files/07-design-report-in-power-bi-desktop_image29.png)
 
@@ -272,7 +252,7 @@ lab:
 
     *該年的最後一個月 (2020 年 6 月) 沒有任何銷售額 (尚未)。根據預設，視覺效果已排除銷售額空白的月份。您現在會將視覺效果設定為顯示所有月份。*
 
-28. 在 [視覺效果欄位] 窗格的 [共用軸] 井/區域中，針對 [月份] 欄位，按一下向下箭號，然後選取 [顯示沒有資料的項目]。
+28. 在 [視覺效果欄位] 窗格的 [X 軸] 區域中，針對 [Month] 欄位，按一下向下箭號，然後選取 [顯示沒有資料的項目]。
 
     ![圖片 52](Linked_image_Files/07-design-report-in-power-bi-desktop_image30.png)
 
@@ -316,7 +296,7 @@ lab:
 
     ![圖 3](Linked_image_Files/07-design-report-in-power-bi-desktop_image35.png)
 
-39. 展開 [資料色彩] 群組，然後將 [預設色彩] 屬性設為適當的色彩 (以強化直條圖/折線圖)。
+39. 展開 [列] 然後展開 [色彩] 群組，然後將 [預設色彩] 屬性設為適當的色彩 (來與直條/折線圖對比)。
 
 40. 將 [資料標籤] 屬性設定為 [開啟]。
 
@@ -343,11 +323,10 @@ lab:
     ![圖片 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
   
-‎ 
 
 3. 根據 [Region \| Region] 欄位新增交叉分析篩選器。
 
-4. 使用 [格式] 窗格啟用 [全部選取] 選項 (在 [選取控制項] 群組中)。
+4. 使用 [格式] 窗格啟用 [全部選取] 選項 (在 [選取範圍] 群組中)。
 
 5. 調整交叉分析篩選器的大小和位置，使其位於報表頁面的左邊，大約佔頁面高度的一半。
 
@@ -441,7 +420,7 @@ lab:
 
 1. 格式化視覺效果：
 
-    - 在 [資料標籤] 群組中，將 [文字大小] 屬性提高至 [28pt]
+    - 在 [圖說文字值] 群組中，將 [文字大小] 屬性提高至 [28pt]
 
     - 在 [背景] 群組中，將 [色彩] 設定為淺灰色
 
@@ -455,9 +434,9 @@ lab:
 
 1. 將下列欄位新增至視覺效果區域：
 
-    - 軸：**Date \| Month**
+    - Y 軸：**Date \| Month**
 
-    - 值：[Sales \| Sales] 和 [Targets \| Target]
+    - X 軸：**Sales \| Sales** 和 **Targets \| Target**
 
     ![圖片 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
@@ -523,7 +502,9 @@ lab:
 
 3. 若要開啟報表，請按一下 [Sales Analysis] 報表。
 
-4. 在左側的 [頁面] 窗格中，選取 [概觀] 頁面。 
+4. 在左側的 [頁面] 窗格中，選取 [概觀] 頁面。
+ 
+    **注意**：若您看到地圖視覺效果已停用的錯誤，請重新整理瀏覽器。**
 
 5. 在 [區域] 交叉分析篩選器中，按下 **Ctrl** 鍵，然後選取多個區域。
 

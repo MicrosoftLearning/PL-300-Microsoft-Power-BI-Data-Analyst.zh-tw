@@ -1,12 +1,12 @@
 ---
 lab:
   title: 在 Power BI Desktop 中載入資料
-  module: 'Module 3 - Clean, Transform, and Load Data in Power BI'
+  module: '3 - Clean, Transform, and Load Data in Power BI'
 ---
 
-# <a name="load-data-in-power-bi-desktop"></a>**在 Power BI Desktop 中載入資料**
+# <a name="load-data-in-power-bi-desktop"></a>在 Power BI Desktop 中載入資料
 
-**完成實驗室的估計時間為 45 分鐘**
+**實驗室的完成時間估計為 45 分鐘。**
 
 在此實驗室中，您將會對在上個實驗室中所建立的每個查詢套用轉換。 接著，您將會把每項查詢載入為資料模型的資料表。
 
@@ -16,30 +16,29 @@ lab:
 
 - 運用查詢以將其載入至資料模型
 
-### <a name="lab-story"></a>**實驗室案例**
+## <a name="lab-story"></a>**實驗室案例**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序完成前 10 個實驗室：
+此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
 
 1. 在 Power BI Desktop 中準備資料
 
 2. **在 Power BI Desktop 中載入資料**
 
-3. 在 Power BI Desktop 中設計資料模型
+3. 在 Power BI 中設計資料模型
 
+4. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
 
-5. 在 Power BI Desktop 中建立 DAX 計算，第 1 部分
+5. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
 
-6. 在 Power BI Desktop 中建立 DAX 計算，第 2 部分
+6. 在 Power BI Desktop 中設計報表，第 1 部分
 
-7. 在 Power BI Desktop 中設計報表，第 1 部分
+7. 在 Power BI Desktop 中設計報表，第 2 部分
 
-8. 在 Power BI Desktop 中設計報表，第 2 部分
+8. 使用 AI 視覺效果分析資料
 
 9. 建立 Power BI 儀表板
 
-10. 在 Power BI Desktop 中執行資料分析
-
-11. 強制執行資料列層級安全性
+10. 強制執行資料列層級安全性
 
 ## <a name="exercise-1-load-data"></a>**練習 1：載入資料**
 
@@ -125,7 +124,7 @@ lab:
 
     *您現在要篩選查詢資料列，以只擷取職務為銷售人員的員工。*
 
-4. 若要尋找特定的資料行，請在 [常用] 功能區索引標籤上，從 [管理資料行] 群組中，按一下 [選擇資料行] 向下箭號，然後選取 [移至資料行]。
+4. 若要尋找特定的資料行，請在 [常用] 功能區索引標籤上，按一下 [管理資料行] 向下箭號，並按一下 [選擇資料行] 向下箭號，然後選取 [移至資料行]。
 
     ![圖片 88](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
@@ -151,7 +150,7 @@ lab:
 
     *您所建立每個轉換都會造成額外的步驟邏輯。您可編輯或刪除步驟。也可選取一個步驟，來預覽該查詢轉換階段的查詢結果。*
 
-10. 若要移除資料行，請在 [常用] 功能區索引標籤上，從 [管理資料行] 群組中，按一下**選擇資料行**圖示。
+10. 若要移除資料行，請在 [常用] 功能區索引標籤上，按一下 [管理資料行] 群組，然後按一下 [選擇資料行] 圖示。
 
     ![圖片 99](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image18.png)
 
@@ -211,7 +210,7 @@ lab:
 
 23. 使用前面的步驟，將 **EmailAddress** 資料行重新命名為 **UPN**。
 
-    *UPN 是使用者主體名稱 (User Principal Name) 的縮寫。在「Power BI Desktop 中的模型資料 (第 2 部分)」實驗室中設定資料列層級安全性時，將會使用此資料行中的值。*
+    *UPN 是使用者主體名稱的縮寫。*
 
 24. 在左下的狀態列中，確認該查詢具有五個資料行和 18 個資料列。
 
@@ -344,7 +343,6 @@ lab:
     ![圖 2](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image38.png)
 
   
-‎ 
 
 6. 以滑鼠右鍵按一下 **Business Type** 資料行標頭，然後選取 [取代值]。
 
@@ -386,11 +384,7 @@ lab:
 
 2. 將此查詢重新命名為 **Region**。
 
-3. 將篩選套用至 **SalesTerritoryAlternateKey** 資料行，以移除值 0 (零)。
-
-    ![圖片 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
-
-4. 移除所有資料行，但不包括下列各項：
+3. 移除所有資料行，但不包括下列各項：
 
     - SalesTerritoryKey
 
@@ -400,7 +394,7 @@ lab:
 
     - SalesTerritoryGroup
 
-5. 將下列三個資料行重新命名：
+4. 將下列三個資料行重新命名：
 
     - 將 **SalesTerritoryRegion** 重新命名為 **Region**
 
@@ -408,7 +402,7 @@ lab:
 
     - 將 **SalesTerritoryGroup** 重新命名為 **Group**
 
-6. 在狀態列中，確認該查詢具有四個資料行和 10 個資料列。
+5. 在狀態列中，確認該查詢具有四個資料行和 10 個資料列。
 
     ![圖片 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
@@ -460,28 +454,26 @@ lab:
 
 7. 在 [自訂資料行公式] 方塊中，(在等號後面) 輸入下列運算式：
 
-8. 為方便起見，您可從 **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 檔案中複製運算式。
-
-
-   **Power Query**
-   ```
+   `
    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-   ```
-
+   `
 
 *此運算式會測試 **TotalProductCost** 值是否遺失。如果遺失，請將 **OrderQuantity** 值乘以 **StandardCost** 值來求得此值；否則，系統會使用現有的 **TotalProductCost** 值。*
 
-9. 按一下 [確定]。
+為方便起見，您可從 **D:\PL300\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 檔案中複製運算式。
+
+8. 按一下 [確定]。
 
     ![圖片 5666](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image49.png)
 
-10. 移除下列兩筆資料行：
+
+9. 移除下列兩筆資料行：
 
     - TotalProductCost
 
     - StandardCost
 
-11. 重新命名下列三筆資料行：
+10. 重新命名下列三筆資料行：
 
     - **OrderQuantity** 改為 **Quantity**
 
@@ -489,13 +481,13 @@ lab:
 
     - **SalesAmount** 改為 **Sales**
 
-12. 若要修改資料行的資料類型，請在 [Quantity] 資料行標頭中，按一下資料行名稱左側的 [1.2] 圖示，然後選取 [整數]。
+11. 若要修改資料行的資料類型，請在 [Quantity] 資料行標頭中，按一下資料行名稱左側的 [1.2] 圖示，然後選取 [整數]。
 
     ![圖片 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
     *設定正確的資料類型很重要。當資料行包含數值時，如果預期會執行數學計算，則選擇正確的類型也很重要。*
 
-13. 將下列三個資料行資料類型修改為 [固定的小數位數]。
+12. 將下列三個資料行資料類型修改為 [固定的小數位數]。
 
     - Unit Price
 
@@ -507,7 +499,7 @@ lab:
 
     *固定小數位數的資料類型會以完整精確度來儲存值，因此需要較多的儲存空間供小數位數使用。財務值或費率 (例如匯率) 請務必使用固定的小數位數類型。*
 
-14. 在狀態列中，確認該查詢具有 10 個資料行和 999+ 個資料列。
+13. 在狀態列中，確認該查詢具有 10 個資料行和 999+ 個資料列。
 
     ![圖片 5669](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image52.png)
 
@@ -565,7 +557,7 @@ lab:
 
 13. 請注意，第一個資料列是適用於 **2017** 年和 **7** 月。
 
-14. 在 [Column1] 資料行的第一個格線儲存格中，開始輸入 **7/1/2017**，然後按 **Enter**。
+14. 在 [Column1] 資料行的第一個方格儲存格中，先輸入 **07/01/2017**，然後按下 **Enter** 鍵。
 
     *由於虛擬機器是使用美國地區設定，因此此日期實際上是 2017 年 7 月 1 日。*
 
@@ -643,7 +635,7 @@ lab:
 
     ![圖片 5690](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image70.png)
 
-2. 若要合併 **ColorFormats** 查詢，請在 [常用] 功能區索引標籤上，從 [合併] 群組中，按一下 [合併查詢]。
+2. 若要合併 **ColorFormats** 查詢，請在 [常用] 功能區索引標籤上，按一下 [合併] 向下箭頭，然後按一下 [合併查詢]。
 
     ![圖片 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
@@ -743,4 +735,4 @@ lab:
 
 5. 若您想要開始下一個實驗室，請將 Power BI Desktop 保持開啟狀態。
 
-    *您將在「Power BI Desktop 中的模型資料 (第 1 部分)」實驗室中，設定資料模型資料表與關聯性。*
+    *您將於《在 Power BI Desktop 中設計資料模型》實驗室中，設定資料模型的資料表和關聯性。*
