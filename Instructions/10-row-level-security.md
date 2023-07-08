@@ -1,40 +1,24 @@
 ---
 lab:
   title: 強制執行資料列層級安全性
-  module: 12 - Row-Level Security
+  module: Enforce Row-Level Security
 ---
 
 
 # **強制執行資料列層級安全性**
 
-**完成實驗室的估計時間為 45 分鐘**
+## **實驗室案例**
 
 在此實驗室中，您將強制執行資料列層級安全性，以確保銷售人員只能分析其指派區域的銷售資料 () 。
 
 在此實驗室中，您將了解如何：
 
 - 強制執行資料列層級安全性
+- 在動態和靜態方法之間選擇
 
-### **實驗室案例**
+**此實驗室大約需要 45 分鐘的時間。**
 
-此實驗室為一系列實驗室的其中之一，其設計用意是完整呈現資料準備到報表和儀表板發行的整個過程。 您可以依照任何順序完成實驗室。 然而，若您想要逐步完成多個實驗室，建議您依照下列順序加以完成：
-
-1. 在 Power BI Desktop 中準備資料
-1. 在 Power BI Desktop 中載入資料
-1. 在 Power BI 中設計資料模型
-1. 在 Power BI Desktop 中建立 DAX 計算
-1. 在 Power BI Desktop 中建立進階 DAX 計算
-1. 在 Power BI Desktop 中設計報表
-1. 增強Power BI Desktop中的報表
-1. 在 Power BI Desktop 中執行資料分析
-1. 建立 Power BI 儀表板
-1. **強制執行資料列層級安全性**
-
-## **練習 1：強制執行資料列層級安全性**
-
-在此練習中，您將強制執行資料列層級安全性，以確保銷售人員只能看到其指派區域中的銷售 () 。
-
-### **工作 1：開始作業**
+## **開始使用**
 
 在這項工作中，您將設定實驗室的環境。
 
@@ -60,7 +44,7 @@ lab:
 
 1. 如果系統提示您套用變更，請選取 [稍後套用]。
 
-### **工作 2：強制執行資料列層級安全性**
+## **強制執行資料列層級安全性**
 
 在這項工作中，您將強制執行資料列層級安全性，以確保銷售人員只能看到其指派區域中的銷售 () 。
 
@@ -68,7 +52,7 @@ lab:
 
    ![圖片 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
-1. 在 [欄位] 窗格中，選取 [Salesperson (Performance)] 資料表。
+1. 在 [ **資料** ] 窗格中，選取 **Salesperson (Performance) ** 資料表。
 
 
 1. 檢閱資料，請注意 Michael Blythe (EmployeeKey 281) 具有以下 UPN 值： **michael-blythe@adventureworks.com**
@@ -126,6 +110,10 @@ lab:
 1. 在 [管理角色] 視窗中，選取 [刪除]。 出現確認刪除的提示時，請選取 [ **是]、[刪除**]。
 
    ![圖 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+
+### **完成**
+
+在此工作中，您將完成實驗室。
 
 1. 選取 [**儲存**]，然後儲存Power BI Desktop檔案以結束實驗室。
 
