@@ -1,74 +1,74 @@
 ---
 demo:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+    title: 'Clean, transform, and load data in Power BI'
+    module: 'Clean, transform, and load data in Power BI'
 ---
-# 在 Power BI 中清理、轉換和載入資料
+# Clean, transform, and load data in Power BI
 
-## 套用查詢轉換
+## Apply query transformations
 
-1. 首先，將轉換套用至Product查詢。
+1. First, apply transformations to the Product query.
 
-1. 移除 RetailPrice、Photo 和 Sales 資料行。
+1. Remove the RetailPrice, Photo, and Sales columns.
 
-1. 將 Channels 資料行的資料類型變更為 [整數]。
+1. Change the data type of the Channels column to Whole Number.
 
-1. 重新命名下列資料行：
+1. Rename the following columns:
 
-    - ProductSKU 改為 SKU
+    - ProductSKU to SKU
 
-    - ProductName 改為 Product
+    - ProductName to Product
 
-    - ProductCategory 改為 Category
+    - ProductCategory to Category
 
-    - ItemGroup 改為 Item Group
+    - ItemGroup to Item Group
 
-    - KitType 改為 Kit Type
+    - KitType to Kit Type
 
-1. 其次，將轉換套用至 Sales 查詢。
+1. Second, apply transformations to the Sales query.
 
-1. 移除所有資料行，下列項目除外：
+1. Remove all columns, except:
 
     - OrderDate
 
     - ProductID
 
-    - 數量
+    - Quantity
 
     - UnitPrice
 
-1. 將 UnitPrice 資料行的資料類型變更為 [固定小數位數]。
+1. Change the data type of the UnitPrice column to Fixed Decimal Number.
 
-1. 將 UnitPrice 資料行重新命名為 Unit Price。
+1. Rename the UnitPrice column to Unit Price.
 
-1. 複選 Quantity 和 Unit Price 資料行，然後根據複選數新增資料行。
+1. Multi-select the Quantity and Unit Price columns, and then add a new column based on their multiplication.
 
-1. 將新資料行重新命名為 Sales。
+1. Rename the new column as Sales.
 
-## 整合查詢
+## Integrate queries
 
-1. 使用 Excel 連接器建立新查詢，並連線至 D:\PL300\Demo\Data\ProductCost.xlsx 檔案。
+1. Create a new query using the Excel connector, connecting to the D:\PL300\Demo\Data\ProductCost.xlsx file.
 
-1. 移除 Product 資料行。
+1. Remove the Product column.
 
-1. 將 ProductCost 資料行的資料類型變更為 [固定十進位數]。
+1. Change the data type of the ProductCost column to Fixed Decimal Number.
 
-1. 選取 Product 查詢，然後與 ProductCost 查詢合併，並與 SKU 資料行建立關聯。
+1. Select the Product query, and then merge with the ProductCost query, relating the SKU columns.
 
-1. 在 [隱私權等級] 視窗中，將 D:\ 的隱私權等級設定為 [組織]。
+1. In the Privacy Levels window, set the privacy level for the D:\ to Organizational.
 
-1. 展開 ProductCost 資料行，納入 ProductCost 資料行 (來自 ProductCost 查詢)。
+1. Expand the ProductCost column to include the ProductCost column (from the ProductCost query).
 
-1. 將新資料行重新命名為 Cost。
+1. Rename the new column as Cost.
 
-## 停用查詢並將其載入資料模型
+## Disable and load queries to the data model
 
-1. 在 [查詢] 窗格中，停用 ProductCost 查詢。
+1. In the Queries pane, disable the ProductCost query.
 
-1. 在 [首頁] 功能區索引標籤上，按一下 [關閉] & [套用] 圖示。
+1. On the Home ribbon tab, click the Close & Apply icon.
 
-1. 在 Power BI Desktop 中，指出 [資料] 窗格中的兩個數據表。
+1. In Power BI Desktop, point out the two tables in the Data pane.
 
-1. 儲存 Power BI Desktop 檔案。
+1. Save the Power BI Desktop file.
 
-1. 讓 Power BI Desktop 檔案保持開啟，供下一個示範使用。
+1. Leave the Power BI Desktop file open for the next demo.
