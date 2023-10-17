@@ -1,45 +1,50 @@
-# Get data in Power BI
+---
+demo:
+  "\_\_ title": Get data in Power BI
+  "\_\_ module": Get data in Power BI
+---
+# 在 Power BI 中取得資料
 
-## Start the development of a Power BI report
+## 開始開發 Power BI 報表
 
-1. Open Power BI Desktop, and then dismiss the getting started page.
+1. 開啟 Power BI Desktop，然後關閉使用者入門頁面。
 
-1. Save the file to the D:\PL300\Demo folder as Sales Analysis.
+1. 將檔案儲存至 D:\PL300\Demo 資料夾，命名為 Sales Analysis。
 
-## Connect to a SQL Server database
+## 連線至 SQL Server 資料庫
 
-1. “Get data” from SQL Server.
+1. 從 SQL Server「取得資料」。
 
-1. Connect to the database server name found in the MySettings.txt file, using Windows authentication.
+1. 使用 Windows 驗證，連線至 MySettings.txt 檔案中顯示的資料庫伺服器名稱。
 
-1. Expand the TailspinToys2020-US database.
+1. 展開 TailspinToys2020-US 資料庫。
 
-## Create queries based on database tables
+## 根據資料庫資料表建立查詢
 
-1. Select the Product table to preview the data.
+1. 選取Product資料表以預覽資料
 
-1. Check the Product table to create query.
+1. 勾選產品資料表以建立查詢。
 
-1. Repeat the Sales table.
+1. 對 Sales 資料表重複相同操作。
 
-1. Click Transform Data.
+1. 按一下 [轉換資料]。
 
-## Preview data
+## 預覽資料
 
-1. Describe the Power Query Editor window layout, including the Queries pane, the Query Settings pane, the ribbon, the preview grid, and the status bar.
+1. 說明 Power Query 編輯器視窗配置，包括 [查詢] 窗格、[查詢設定] 窗格、功能區、預覽方格和狀態列。
 
-1. Point out the quality bar beneath the column headers and hover the cursor over it to reveal statistics about the column values.
+1. 指出資料行標題下方的品質列，並將游標停留在這裡，顯示資料行值的統計資料。
 
-1. On the View ribbon tab, turn on Column Quality.
+1. 在 [檢視] 功能區索引標籤上，開啟 [資料行品質]。
 
-1. Turn on Column Distribution and point out columns like ProductID (unique values) and ProductCategory (several duplicate values).
+1. 開啟 [資料行散發]，並指出 ProductID (唯一值) 與 ProductCategory (數個重複值) 等資料行。
 
-1. Turn on Column Profile, and then select the ProductCategory column.
+1. 開啟 [資料行設定檔]，然後選取 ProductCategory 資料行。
 
-1. Point out the column statistics and distribution.
+1. 指出資料行統計資料和分佈情形。
 
-1. Turn back off the three options.
+1. 重新關閉這三個選項。
 
-1. Save the Power BI Desktop file, but do not apply changes.
+1. 儲存 Power BI Desktop 檔案，但不套用變更。
 
-1. Leave the Power BI Desktop file open for the next demo.
+1. 讓 Power BI Desktop 檔案保持開啟，供下一個示範使用。

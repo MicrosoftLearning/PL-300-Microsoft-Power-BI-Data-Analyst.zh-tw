@@ -1,47 +1,52 @@
-# Create reports
+---
+demo:
+  "\_\_ title": Create reports in Power BI
+  "\_\_ module": Create reports in Power BI
+---
+# 建立報表
 
-## Create a single-page report
+## 建立單頁報表
 
-1. Remove the matrix visual that was used to test and validate the model calculations.
+1. 移除用來測試及驗證模型計算結果的矩陣視覺效果。
 
-1. Rename the report page as Sales Summary.
+1. 將報表頁面重新命名為 Sales Summary。
 
-## Add a slicer
+## 新增交叉分析篩選器
 
-1. Add a slicer for the Date table Year column and position it at the top-left of the report page.
+1. 為 Date 資料表 Year 資料行新增交叉分析篩選器，並放在報表頁面的左上方。
 
-1. Use the formatting options to configure the slicer for single selection.
+1. 使用格式設定選項來設定單一選取項目的交叉分析篩選器。
 
-## Add various visuals
+## 新增各種視覺效果
 
-1. Add a line and stacked column chart to the page, and configure it as follows:
+1. 將折線圖和堆疊直條圖新增至頁面，並依照以下項目設定：
 
-    - Shared axis: Date | Month
+    - 共用軸：Date | Month
 
-    - Columns values: Sales | Sales
+    - 資料行值：Sales | Sales
 
-    - Line values: Sales | Profit Margin
+    - 折線值：Sales | Profit Margin
 
-1. Use the slicer to filter the page by CY2019, and then CY2020.
+1. 使用交叉分析篩選器依 CY2019 篩選頁面，然後依 CY2020 篩選。
 
-1. In the line and stacked column chart, point out that there is no sales column for December 2020.
+1. 在折線圖和堆疊直條圖中，指出 2020 年 12 月沒有 Sales 資料行。
 
-1. Configure the shared axis to “show items with no data”.
+1. 將共用軸設定為 [顯示沒有資料的項目]。
 
-1. Point out that December 2020 is added to the axis, but there is no column of data.
+1. 指出 2020 年 12 月已新增至軸，但沒有資料行。
 
-1. Explain that sales data for December 2020 has not happened yet. *You will run a script in a later demo to load December 2020 sales.*
+1. 說明 2020 年 12 月的銷售資料尚未處理。 *您將在之後的示範中執行指令碼，載入 2020 年 12 月的銷售資料。*
 
-1. Add a funnel chart, and configure it as follows:
+1. 新增漏斗圖，並依照以下項目設定：
 
-    - Group: Product | Category
+    - 群組：Product | Category
 
-    - Values: Sales | Profit Margin
+    - 值：Sales | Profit Margin
 
-1. Use the formatting options to select a contrasting data color.
+1. 使用格式設定選項來選取對比的資料色彩。
 
-1. Add a Q&A visual, and enter the following question: Total sales by product demographic
+1. 新增 Q&視覺效果，然後輸入下列問題：依產品人口統計的總銷售額
 
-1. Save the Power BI Desktop file.
+1. 儲存 Power BI Desktop 檔案。
 
-1. Leave the Power BI Desktop file open for a later demo.
+1. 讓 Power BI Desktop 檔案保持開啟，供之後的示範使用。
