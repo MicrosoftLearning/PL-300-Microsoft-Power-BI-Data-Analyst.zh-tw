@@ -1,56 +1,56 @@
 ---
 demo:
-    title: 'Manage files and datasets in Power BI'
-    module: 'Deploy and manage Power BI service items'
+  "\_\_ title": Manage files and datasets in Power BI
+  "\_\_ module": Deploy and manage Power BI service items
 ---
-# Manage files and datasets in Power BI
+# 在 Power BI 中管理檔案和資料集
 
-## Prepare for gateway data refresh
+## 準備閘道資料重新整理
 
-> **Note** the following steps are not needed when using the data gateway in personal mode. You can proceed directly to the next objective (setup the gateway).
+> **請注意** ，在個人模式中使用資料閘道時，不需要執行下列步驟。 您可以直接進入下一個目標 (設定閘道)。
 
-1. In Power BI Desktop, open the Power Query Editor window, and select the **ProductCost** query.
+1. 在 Power BI Desktop 中，開啟 Power Query 編輯器視窗，然後選取 **ProductCost** 查詢。
 
-1. Edit the Source step, and then modify the file path to use the file share, as follows:
+1. 編輯 [來源] 步驟，然後修改檔案路徑以使用檔案共用，如下所示：
 
     `\\DATA-AI\Data\ProductCost.xlsx`
 
-1. Close and apply the Power Query Editor window.
+1. 關閉並套用 Power Query 編輯器視窗。
 
-1. Save the Power BI Desktop file.
+1. 儲存 Power BI Desktop 檔案。
 
-1. Publish the Power BI Desktop file to the workspace, overwriting the dataset and report in the service.
+1. 將 Power BI Desktop 檔案發佈至工作區，覆寫服務中的資料集和報表。
 
-## Setup the gateway (personal mode)
+## 設定閘道 (個人模式)
 
-1. In the Power BI service for the instructor, reload (F5) the dataset settings page.
+1. 在講師的 Power BI 服務中，重新載入 (F5) 資料集設定頁面。
 
-1. Expand the Gateway Connection section and point out that no gateway is installed.
+1. 展開 [閘道連線] 區段，並指出未安裝任何閘道。
 
-1. Use the download dropdown list (located at the top-right), and select Data Gateway.
+1. 使用下載下拉式清單 (位於右上方)，然後選取 [資料閘道]。
 
-1. In the new web page, download the personal mode gateway.
+1. 在新網頁中下載個人模式閘道。
 
-1. Once downloaded, open the downloaded file.
+1. 下載完畢後，開啟下載的檔案。
 
-1. Complete the gateway setup by using the credentials of the instructor account.
+1. 使用講師帳戶的登入資訊來完成閘道設定。
 
-1. Once setup, return to and reload the dataset settings page.
+1. 完成設定後，返回並重新載入資料集設定頁面。
 
-1. Assign the personal gateway, and the edit the credentials for the two data sources.
+1. 指派個人閘道，並編輯兩個資料來源的認證。
 
-1. For both data sources, set the authentication method to **WindowsWithoutImpersonation**, and set the privacy level to **Organizational**.
+1. 針對這兩個資料來源，將驗證方法設定為 **WindowsWithoutImpersonation**，並將隱私權等級設定為 [組織]****。
 
-1. Optionally, expand the **Scheduled Refresh** section, and show how to configure a recurring schedule.
+1. 您可以選擇性展開 [排程重新整理]**** 區段，並示範如何設定週期性排程。
 
-## Refresh the dataset
+## 重新整理資料集
 
-1. Before refreshing the dataset, open the **Sales Monitoring** dashboard.
+1. 重新整理資料集之前，請先開啟 [銷售額監視]**** 儀表板。
 
-1. Edit the details of the Sales, Profit Margin tile to display the last refresh time.
+1. 編輯 [銷售額、獲利率] 圖格的詳細資訊，顯示上次重新整理時間。
 
-1. Right-click the `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` file, and then run with PowerShell. *This script will load December 2020 sales data into the database.*
+1. 以滑鼠右鍵按一下檔案 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` ，然後使用 PowerShell 執行。 *此腳本會將 2020 年 12 月的銷售資料載入資料庫中。*
 
-1. In the Power BI service for the instructor, from the Navigation pane, refresh the **Sales Analysis** dataset.
+1. 在講師的 Power BI 服務中，從 [瀏覽]**** 窗格重新整理銷售分析資料集。
 
-1. When the refresh completes, point out how the dashboard tile **December 2020** column appears, and that the refresh time is **NOW**.
+1. 當重新整理完成時，請指出儀表板磚 **2020 年 12 月** 資料行的顯示方式，以及重新整理時間 **現在**。

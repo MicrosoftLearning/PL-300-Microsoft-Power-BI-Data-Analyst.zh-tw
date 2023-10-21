@@ -1,44 +1,44 @@
 ---
 demo:
-    title: 'Perform data analysis in Power BI'
-    module: 'Perform data analysis in Power BI'
+  "\_\_ title": Perform data analysis in Power BI
+  "\_\_ module": Perform data analysis in Power BI
 ---
-# Perform data analysis
+# 執行資料分析
 
-## Add a group
+## 新增群組
 
-1. Add another new page to the report named **Category Analysis**.
+1. 將另一個新頁面新增至名為**類別分析**的報表。
 
-1. Copy, paste, and then sync the **Year slicer** from the **Profit Analysis** page to the new page.
+1. 複製、貼上，然後將 **[年度交叉分析篩選器** ] 從 [ **收益分析** ] 頁面同步至新頁面。
 
-1. Add a new group based on the **Product** table **Category** column.
+1. 根據 **Product** 資料表 **Category** 資料行新增群組。
 
-1. Create a group based on the Trainer value.
+1. 根據 Trainer 值建立群組。
 
-1. Select the **Include Other Group** checkbox.
+1. 選取 [ **包含其他群組]** 核取方塊。
 
-1. Add a matrix visual, and position and size it so it fills the page.
+1. 新增矩陣視覺效果，然後調整位置和大小以填滿頁面。
 
-1. Configure the matrix visual as follows:
+1. 設定矩陣視覺效果，如下所示：
 
-    - Rows: Product | Category (groups) and Product | Product
+    - 資料列：Product | Category (groups) 和 Product | Product
 
-    - Values: Quantity, Sales, Profit, and Profit Margin from the Sales table
+    - 值：[銷售] 資料表的 [數量]、[銷售]、[收益] 和 [毛利率]
 
-1. Expand both categories.
+1. 展開這兩個類別。
 
-## Apply conditional formatting
+## 套用條件式格式設定
 
-1. In the matrix visual, apply background color conditional formatting to the **Profit Margin** field.
+1. 在矩陣視覺效果中，將背景色彩條件式格式化套用至 **Profit Margin** 欄位。
 
-1. Select red for the minimum color, and green for the maximum color.
+1. 最小值色彩選取紅色，最大值色彩選取綠色。
 
-1. Point out the range of colors used to convey low-to-high profit margin values.
+1. 指出用來表示由低到獲利率值的色彩範圍。
 
-1. Save the Power BI Desktop file.
+1. 儲存 Power BI Desktop 檔案。
 
-1. Publish the report to the newer workspace, overwriting when prompted.
+1. 將報表發佈至新的工作區，並在出現提示時覆寫。
 
-1. In the Power BI service, open the **Sales Analysis** report, and interact with each of the report pages.
+1. 在 Power BI 服務中，開啟**銷售分析**報表，並與每個報表頁面互動。
 
-1. Leave the Power BI Desktop file open.
+1. 讓 Power BI Desktop 檔案保持開啟。

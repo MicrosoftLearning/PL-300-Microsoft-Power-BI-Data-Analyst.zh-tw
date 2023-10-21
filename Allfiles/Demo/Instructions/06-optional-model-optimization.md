@@ -1,81 +1,81 @@
 ---
 demo:
-    title: '(Optional) Optimize model performance in Power BI'
-    module: 'Optimize model performance in Power BI'
+  "\_\_ title": (Optional) Optimize model performance in Power BI
+  "\_\_ module": Optimize model performance in Power BI
 ---
 
-# (Optional) Optimize model performance
+#  (選擇性) 優化模型效能
 
-## Review a DirectQuery model design
+## 檢閱 DirectQuery 模型設計
 
-> **Note**: This demo uses a different Power BI Desktop file.
+> **注意**：此示範會使用不同的Power BI Desktop檔案。
 
-1. Open the D:\PL300\Demo\Resources\AW Sales Analysis.pbix file.
+1. 開啟 D:\PL300\Demo\Resources\AW Sales Analysis.pbix 檔案。
 
-1. If prompted to connect to the data source, click Connect.
+1. 如果系統提示您連線至資料來源，請按一下 [連線]。
 
-1. At the bottom-right corner, point out that the data model comprises DirectQuery tables.
+1. 在右下角指出資料模型包含 DirectQuery 資料表。
 
-1. Save the Power BI Desktop file to the D:\PL300\Demo\MySolution folder.
+1. 將 Power BI Desktop 檔案儲存至 D:\PL300\Demo\MySolution 資料夾。
 
-1. In Model view, introduce the model design, which includes two related tables.
+1. 在 [模型] 檢視中，介紹包括兩個相關資料表的模型設計。
 
-1. In Report view, interact with the report by selecting different items in the Fiscal Year slicer.
+1. 在 [報表] 檢視中，選取 Fiscal Year 交叉分析篩選器中的不同項目來與報表互動。
 
-1. Drill through on any month column to reveal order details.
+1. 在任何月份的資料行上鑽研，以顯示訂單詳細資料。
 
-1. Return to the Sales Summary page.
+1. 返回 [銷售摘要] 頁面。
 
-## Review query performance
+## 檢閱查詢效能
 
-1. On the View ribbon tab, show the Performance Analyzer pane.
+1. 在 [檢視] 功能區索引標籤上，顯示 [效能分析器] 窗格。
 
-1. Refresh the visuals, and then expand the slicer and Sales by Month visual.
+1. 重新整理視覺效果，然後依月份視覺效果展開交叉分析篩選器和 Sales。
 
-1. Point out that they used DirectQuery mode (data was requested from the data source).
+1. 指出他們使用了 DirectQuery 模式， (資料來源) 要求資料。
 
-## Configure Dual storage tables
+## 設定雙重儲存資料表
 
-1. In Model view, select the Date table, and then select the storage mode to Dual.
+1. 在 [模型] 檢視中 ，選取 Date 資料表，然後選取儲存模式為 [雙重]。
 
-1. When the data has imported, switch to Report view, and then in the Performance Analyzer pane, refresh the visuals.
+1. 資料匯入後，切換至 [報表] 檢視，然後在 [效能分析器] 窗格中重新整理視覺效果。
 
-1. Point out that the Date table is now queried from the model cache.
+1. 指出現在會從模型快取查詢 Date 資料表。
 
-## Create aggregations
+## 建立彙總
 
-1. Open the Power Query Editor window, and in the Queries pane, duplicate the Reseller Sales query.
+1. 開啟 Power Query 編輯器視窗，然後在 [查詢] 窗格中複製 Reseller Sales 查詢。
 
-1. Rename the new query Reseller Sales Agg.
+1. 將新的查詢重新命名為 Reseller Sales Agg。
 
-1. Apply a group by transformation, as follows:
+1. 依轉換套用群組，如下所示：
 
-    - Group by OrderDate.
+    - 依 OrderDate 分組。
 
-    - New column: Sales, which is the sum of the SalesAmount column.
+    - 新增資料行：Sales，這是 SalesAmount 資料行的加總。
 
-1. Close and apply the queries.
+1. 關閉並套用查詢。
 
-1. In Model view, set the storage mode for the Reseller Sales Agg table to Import.
+1. 在 [模型] 檢視中，將 Reseller Sales Agg 資料表的儲存模式設定為 [匯入]。
 
-1. Create a relationship from the Date table Date column to the Reseller Sales Agg table OrderDate column—ensure that the column cardinality is set to one-to-many, with the Date table on the one-side.
+1. 建立從 Date 資料表 Date 資料行對應到 Reseller Sales Agg 資料表 OrderDate 資料行的關聯性 — 請確定資料行基數已設定為一對多，且 Date 資料表是一的那方。
 
-1. Manage aggregations on the Reseller Sales Agg table:
+1. 管理 Reseller Sales Agg 資料表上的彙總：
 
-    - OrderDate: Group by the Reseller Sales table OrderDate column.
+    - OrderDate：依 Reseller Sales 資料表 OrderDate 資料行分組。
 
-    - Sales: Sum the Reseller Sales table SalesAmount column.
+    - Sales：加總 Reseller Sales 資料表 SalesAmount 資料行。
 
-1. Point out that the aggregation table is now hidden.
+1. 指出彙總資料表現在已隱藏。
 
-1. Switch to Report view, and in the Performance Analyzer pane, and then refresh the visuals.
+1. 切換至 [報表] 檢視，然後在 [效能分析器] 窗格中重新整理視覺效果。
 
-1. Point out that the Sales by Month table is now queried from the model cache.
+1. 指出現在會從模型快取查詢 Sales by Month 資料表。
 
-1. Drill through from any month, and point out that the details in the table are requested as DirectQuery from the data source.
+1. 從任何月份鑽研，並指出資料表中的詳細資料是作為 DirectQuery 從資料來源要求所得來。
 
-1. Save the Power BI Desktop file.
+1. 儲存 Power BI Desktop 檔案。
 
-1. Close Power BI Desktop.
+1. 關閉 Power BI Desktop。
 
-> **Note**: You will not use this Power BI Desktop solution again.
+> **注意**：您不會再次使用此Power BI Desktop解決方案。
