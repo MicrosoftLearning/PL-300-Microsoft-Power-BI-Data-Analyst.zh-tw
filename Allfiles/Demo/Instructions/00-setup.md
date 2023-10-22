@@ -1,36 +1,30 @@
----
-demo:
-  "\_\_ title": Setup demo environment
-  "\_\_ module": Setup demo environment
----
+# Demo Setup
 
-# 示範設定
+## VM Setup
 
-## VM 設定
+1. Sign in to the virtual machine environment using the Student account.
 
-1. 使用Student帳戶登入虛擬機器環境。
+1. Open Microsoft Edge, then navigate to <https://powerbi.com> and sign in using the instructor account.
+    > **Tip**: If prompted to change the password, be sure to record it in the D:\PL300\Demo\Setup\MySettings.txt file.
 
-1. 開啟 Microsoft Edge，然後使用講師帳戶流覽至 <https://powerbi.com> 並登入。
-    > **提示**：如果系統提示您變更密碼，請務必將密碼記錄在 D:\PL300\Demo\Setup\MySettings.txt 檔案中。
+1. In the Power BI service, accept the Power BI Pro trial.
 
-1. Power BI 服務接受 Power BI Pro 試用版。
+## First demo setup
 
-## 第一個示範設定
+1. Create a workspace and use the D:\PL300\Demo\Resources\Icon-Star.jpg image as its icon.
 
-1. 建立一個工作區，並使用 D:\PL300\Demo\Resources\Icon-Star.jpg 影像作為圖示。
+1. Open the D:\PL300\Demo\Setup\Sales Analysis.pbix file in Power BI Desktop.
 
-1. 在 Power BI Desktop 中開啟 D:\PL300\Demo\Setup\Sales Analysis.pbix 檔案。
+1. In Power BI Desktop, sign in by using the instructor account.
 
-1. 在 Power BI Desktop 中使用講師帳戶登入。
+1. Publish the report to the workspace you created earlier.
 
-1. 將報表發佈至您稍早建立的工作區。
+1. In the Power BI service, open the Sales Analysis report, and then pin the column/line chart visual to create a new dashboard named Sales Monitoring.
 
-1. 在 Power BI 服務中，開啟銷售分析報表，然後釘選直條圖/折線圖視覺效果，建立名為銷售額監視的新儀表板。
+1. Pin the funnel chart to the dashboard, also.
 
-1. 同時將漏斗圖釘選到儀表板。
+1. Open the dashboard and leave it ready for the first demo.
 
-1. 開啟儀表板並保持開啟狀態，準備好進行第一個示範。
+1. Close Power BI Desktop.
 
-1. 關閉 Power BI Desktop。
-
-> **注意**：您可以在 PL-300 Power BI 資料分析師[GitHub 存放庫中](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)找到示範資產。
+> **Note**: Demo assets can be found in the PL-300 Power BI Data Analyst [GitHub Repository](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo).
