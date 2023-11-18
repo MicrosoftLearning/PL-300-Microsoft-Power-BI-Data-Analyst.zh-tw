@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  title: 在 Power BI 中清理、轉換和載入資料
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # 在 Power BI 中清理、轉換和載入資料
 
 ## 套用查詢轉換

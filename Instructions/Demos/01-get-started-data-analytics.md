@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get started with Microsoft data analytics
-  "\_\_ module": Get started with Microsoft data analytics
+demo:
+  title: 開始使用 Microsoft 資料分析
+  module: Get started with Microsoft data analytics
 ---
+
 # 開始使用 Microsoft 資料分析
 
 ## 探索儀表板
