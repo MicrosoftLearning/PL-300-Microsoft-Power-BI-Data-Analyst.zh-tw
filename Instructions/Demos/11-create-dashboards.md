@@ -3,7 +3,7 @@ lab:
   "\_\_ title": Create dashboards in the Power BI service
   "\_\_ module": Deploy and manage Power BI service items
 ---
-# 在 Power BI 服務中建立儀表板
+# 在Power BI 服務中建立儀表板
 
 ## 建立儀表板
 
@@ -15,7 +15,7 @@ lab:
 
 1. 發佈之後，返回 Power BI 服務。
 
-1. 開啟**銷售分析**報表，然後確定 Year 交叉分析篩選器已設定為 **CY2020**。
+1. 開啟 [ ** 銷售分析] 報表，然後確定 Year 交叉分析 ** 篩選器已設定為 ** CY2020 ** 。
 
 ## 釘選報表視覺效果
 
@@ -25,7 +25,7 @@ lab:
 
 1. 開啟 [銷售額監視]**** 儀表板。
 
-1. 編輯 **Profit Margin** 圖格的詳細資料，並變更子標題文字以 (包含 **CY2020**) 年份。
+1. 編輯 Profit Margin ** 圖格的詳細 ** 資料，並變更副標題文字以包含年份 （ ** CY2020 ** ）。
 
 ## 新增問與答圖格
 

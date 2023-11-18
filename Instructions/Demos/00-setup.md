@@ -10,8 +10,8 @@ lab:
 
 1. 使用Student帳戶登入虛擬機器環境。
 
-1. 開啟 Microsoft Edge，然後流覽至 <https://powerbi.com> 並使用講師帳戶登入。
-    > **提示**：如果系統提示您變更密碼，請務必將密碼記錄在 D:\PL300\Demo\Setup\MySettings.txt 檔案中。
+1. 開啟 Microsoft Edge，然後使用講師帳戶流覽並 <https://powerbi.com> 登入。
+    > **提示 ** ：如果系統提示您變更密碼，請務必將其記錄在 D：\PL300\Demo\Setup\My設定.txt 檔案中。
 
 1. Power BI 服務接受 Power BI Pro 試用版。
 
@@ -33,4 +33,4 @@ lab:
 
 1. 關閉 Power BI Desktop。
 
-> **注意**：您可以在 PL-300 Power BI 資料分析師[GitHub 存放庫中](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)找到示範資產。
+> **注意 ** ：您可以在 PL-300 Power BI 資料分析師 [ GitHub 存放庫中 ](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) 找到示範資產。

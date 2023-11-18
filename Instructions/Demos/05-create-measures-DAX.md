@@ -5,7 +5,7 @@ lab:
 ---
 # 在 Power BI 中使用 DAX 建立量值
 
-> **提示**：您可以從 D:\PL300\Demo\Resources\Snippets-Demo-05.txt 檔案複製所有計算。
+> **提示 ** ：所有計算都可以從 D：\PL300\Demo\Resources\Snippets-Demo-05.txt 檔案複製。
 
 ## 建立計算資料表
 
