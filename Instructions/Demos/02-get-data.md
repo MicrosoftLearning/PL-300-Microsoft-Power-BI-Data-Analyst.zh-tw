@@ -39,7 +39,7 @@ lab:
 
 1. 開啟 [資料行散發]，並指出 ProductID (唯一值) 與 ProductCategory (數個重複值) 等資料行。
 
-1. 開啟 [資料行設定檔]，然後選取 ProductCategory 資料行。
+1. 開啟 [資料行設定檔]，然後選取 [ProductCategory] 資料行。
 
 1. 指出資料行統計資料和分佈情形。
 

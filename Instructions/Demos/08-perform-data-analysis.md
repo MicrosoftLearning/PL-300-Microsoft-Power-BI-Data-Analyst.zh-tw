@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Perform data analysis in Power BI
-  "\_\_ module": Perform data analysis in Power BI
+demo:
+  title: 在 Power BI 中執行資料分析
+  module: Perform data analysis in Power BI
 ---
 # 執行資料分析
 
@@ -9,19 +9,19 @@ lab:
 
 1. 將另一個新頁面新增至名為**類別分析**的報表。
 
-1. 從 **[收益分析**] 頁面複製、貼上，然後同步處理 **[年**] 交叉分析篩選器到新頁面。
+1. 從 [收益分析]**** 頁面複製、貼上，然後將 [年]**** 交叉分析篩選器同步到新頁面。
 
 1. 根據 **Product** 資料表 **Category** 資料行新增群組。
 
 1. 根據 Trainer 值建立群組。
 
-1. 選取 [ **包含其他群組]** 核取方塊。
+1. 選取 [ ** 包含其他群組 ** ] 核取方塊。
 
 1. 新增矩陣視覺效果，然後調整位置和大小以填滿頁面。
 
 1. 設定矩陣視覺效果，如下所示：
 
-    - 資料列：Product | Category (groups) 和 Product | Product
+    - 資料列：產品 |類別（群組）和產品 |產品
 
     - 值：[銷售] 資料表的 [數量]、[銷售]、[收益] 和 [毛利率]
 

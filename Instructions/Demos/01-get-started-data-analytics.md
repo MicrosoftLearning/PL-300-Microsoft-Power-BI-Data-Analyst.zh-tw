@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": Get started with Microsoft data analytics
-  "\_\_ module": Get started with Microsoft data analytics
+demo:
+  title: 開始使用 Microsoft 資料分析
+  module: Get started with Microsoft data analytics
 ---
+
 # 開始使用 Microsoft 資料分析
 
 ## 探索儀表板
@@ -27,4 +28,4 @@ lab:
 
 1. 返回 Power BI 服務首頁，並摺疊工作區。
 
-> **注意**：您不會再次使用此預先開發的解決方案。
+> **注意 ** ：您不會再使用此預先開發的解決方案。

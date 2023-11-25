@@ -1,8 +1,9 @@
 ---
-lab:
-  "\_\_ title": 'Clean, transform, and load data in Power BI'
-  "\_\_ module": 'Clean, transform, and load data in Power BI'
+demo:
+  title: 在 Power BI 中清理、轉換和載入資料
+  module: 'Clean, transform, and load data in Power BI'
 ---
+
 # 在 Power BI 中清理、轉換和載入資料
 
 ## 套用查詢轉換
@@ -33,7 +34,7 @@ lab:
 
     - ProductID
 
-    - 數量
+    - Quantity
 
     - UnitPrice
 
@@ -55,19 +56,19 @@ lab:
 
 1. 選取 Product 查詢，然後與 ProductCost 查詢合併，並與 SKU 資料行建立關聯。
 
-1. 在 [隱私權等級] 視窗中，將 D:\ 的隱私權等級設定為 [組織]。
+1. 在 [隱私權等級] 視窗中，將 D：\ 的隱私權等級設定為 [組織]。
 
 1. 展開 ProductCost 資料行，納入 ProductCost 資料行 (來自 ProductCost 查詢)。
 
 1. 將新資料行重新命名為 Cost。
 
-## 停用查詢並將查詢載入至資料模型
+## 停用查詢並將其載入資料模型
 
 1. 在 [查詢] 窗格中，停用 ProductCost 查詢。
 
-1. 在 [首頁] 功能區索引標籤上，按一下 [關閉] & [套用] 圖示。
+1. 在 [首頁] 功能區索引標籤上，按一下 [關閉與套用] 圖示。
 
-1. 在 [Power BI Desktop] 中，指出 [資料] 窗格中的兩個數據表。
+1. 在 Power BI Desktop 中，指出 [資料] 窗格中的兩個數據表。
 
 1. 儲存 Power BI Desktop 檔案。
 

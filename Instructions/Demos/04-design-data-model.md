@@ -1,7 +1,7 @@
 ---
-lab:
-  "\_\_ title": Design a data model in Power BI
-  "\_\_ module": Design a data model in Power BI
+demo:
+  title: 在 Power BI 中設計資料模型
+  module: Design a data model in Power BI
 ---
 # 在 Power BI 中設計資料模型
 
@@ -43,7 +43,7 @@ lab:
 
 1. 指出 Unit Price 值是價格的加總，這並不正確。
 
-1. 在 [資料] 窗格中，選取 [單位價格] 欄位，並將其摘要設定為使用 [平均]。
+1. 在 [資料] 窗格中，選取 [單位價格] 欄位，並將其摘要設定為使用 [平均值]。
 
 1. 從矩陣視覺效果中移除 Sum of Unit Price 資料行，然後再次新增 Unit Price 欄位。
 

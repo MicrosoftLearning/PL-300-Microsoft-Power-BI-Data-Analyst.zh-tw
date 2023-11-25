@@ -1,13 +1,13 @@
 ---
-lab:
-  "\_\_ title": Manage files and datasets in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  title: 管理 Power BI 中的檔案和資料集
+  module: Deploy and manage Power BI service items
 ---
-# 在 Power BI 中管理檔案和資料集
+# 管理 Power BI 中的檔案和資料集
 
 ## 準備閘道資料重新整理
 
-> **請注意** ，在個人模式中使用資料閘道時，不需要執行下列步驟。 您可以直接進入下一個目標 (設定閘道)。
+> **請注意 ** ，在個人模式中使用資料閘道時，不需要下列步驟。 您可以直接進入下一個目標 (設定閘道)。
 
 1. 在 Power BI Desktop 中，開啟 Power Query 編輯器視窗，然後選取 **ProductCost** 查詢。
 
@@ -25,7 +25,7 @@ lab:
 
 1. 在講師的 Power BI 服務中，重新載入 (F5) 資料集設定頁面。
 
-1. 展開 [閘道連線] 區段，並指出未安裝任何閘道。
+1. 展開 [閘道連線ion] 區段，並指出未安裝任何閘道。
 
 1. 使用下載下拉式清單 (位於右上方)，然後選取 [資料閘道]。
 
@@ -47,10 +47,10 @@ lab:
 
 1. 重新整理資料集之前，請先開啟 [銷售額監視]**** 儀表板。
 
-1. 編輯 [銷售額、獲利率] 圖格的詳細資訊，顯示上次重新整理時間。
+1. 編輯 Sales、Profit Margin 圖格的詳細資料，以顯示上次重新整理時間。
 
-1. 以滑鼠右鍵按一下檔案 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` ，然後使用 PowerShell 執行。 *此腳本會將 2020 年 12 月的銷售資料載入資料庫中。*
+1. 以滑鼠右鍵按一下 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 檔案，然後使用 PowerShell 執行。 *此腳本會將 2020 年 12 月的銷售資料載入資料庫中。*
 
-1. 在講師的 Power BI 服務中，從 [瀏覽]**** 窗格重新整理銷售分析資料集。
+1. 在講師的Power BI 服務中，從 [流覽] 窗格重新整理 ** [銷售分析 ** ] 資料集。
 
-1. 當重新整理完成時，請指出儀表板磚 **2020 年 12 月** 資料行的顯示方式，以及重新整理時間 **現在**。
+1. 重新整理完成時，指出儀表板磚 ** 2020 ** 年 12 月資料行的顯示方式，以及重新整理時間現在是 ** 現在 ** 。

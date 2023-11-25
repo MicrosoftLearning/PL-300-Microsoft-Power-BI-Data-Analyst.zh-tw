@@ -4,11 +4,11 @@ lab:
   "\_\_ module": Optimize model performance in Power BI
 ---
 
-#  (選擇性) 優化模型效能
+# （選擇性）優化模型效能
 
 ## 檢閱 DirectQuery 模型設計
 
-> **注意**：此示範會使用不同的Power BI Desktop檔案。
+> **注意 ** ：此示範會使用不同的 Power BI Desktop 檔案。
 
 1. 開啟 D:\PL300\Demo\Resources\AW Sales Analysis.pbix 檔案。
 
@@ -30,9 +30,9 @@ lab:
 
 1. 在 [檢視] 功能區索引標籤上，顯示 [效能分析器] 窗格。
 
-1. 重新整理視覺效果，然後依月份視覺效果展開交叉分析篩選器和 Sales。
+1. 重新整理視覺效果，然後展開交叉分析篩選器和依月份銷售視覺效果。
 
-1. 指出他們使用了 DirectQuery 模式， (資料來源) 要求資料。
+1. 指出他們使用了 DirectQuery 模式（從資料來源要求資料）。
 
 ## 設定雙重儲存資料表
 
@@ -78,4 +78,4 @@ lab:
 
 1. 關閉 Power BI Desktop。
 
-> **注意**：您不會再次使用此Power BI Desktop解決方案。
+> **注意 ** ：您不會再使用此 Power BI Desktop 解決方案。
