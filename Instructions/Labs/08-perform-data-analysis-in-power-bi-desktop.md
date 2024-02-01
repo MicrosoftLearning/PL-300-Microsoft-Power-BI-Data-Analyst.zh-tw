@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: 使用 AI 視覺效果執行進階分析
   module: Perform Data Analysis in Power BI
 ---
@@ -46,7 +47,7 @@ lab:
 
 1. 選取 **[上傳>流覽**]。
 
-1. 流覽至 **D：\PL300\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** 資料夾。
+1. 流覽至 **D：\Allfiles\Labs\08-perform-data-analysis-in-power-bi-desktop\Starter** 資料夾。
 
 1. 選取 **Sales Analysis.pbix** 檔案，然後選取 [開啟]****。
 
@@ -70,7 +71,7 @@ lab:
 
 1. 在 [數據中**樞**] 視窗中，選取 **[我的工作區 **] 中的 **[銷售分析**] 語意模型，然後 **連線** 或按兩下以載入語意模型。
 
-1. 流覽至 [**檔案] > [儲存**]，並將檔名儲存為 **[D：\PL300\MySolution **] 資料夾中的銷售探索****。
+1. 流覽至 [**檔案] > [儲存**]，並將檔名儲存為 **[D：\Allfiles\MySolution **] 資料夾中的銷售探索****。
 
 *您現在將會建立兩個報表頁面，並在每個頁面上使用不同的視覺效果來分析及探索資料。*
 
