@@ -1,5 +1,6 @@
 ---
 lab:
+  course: PL-300
   title: 建立 Power BI 儀表板
   module: Create Dashboards
 ---
@@ -46,7 +47,7 @@ lab:
 
 1. 選取 **[上傳>流覽**]。
 
-1. 流覽至 **D：\PL300\Labs\09-create-power-bi-dashboard\Starter** 資料夾。
+1. 流覽至 **D：\Allfiles\Labs\09-create-power-bi-dashboard\Starter** 資料夾。
 
 1. 選取 **Sales Analysis.pbix** 檔案，然後選取 [開啟]****。
 
@@ -56,7 +57,7 @@ lab:
 
 在這項工作中，您將建立 **銷售監視** 儀錶板。 您將從報表釘選一個視覺效果、根據影像資料 URI 新增一個圖格，並使用問與答建立一個圖格。
 
-1. 在 Power BI 服務 中，開啟 **[銷售分析]** 報表。
+1. 在 Power BI 服務 中，開啟 **[銷售分析**] 報表。
 
 1. 在 [概觀]**** 頁面中，將 [年]**** 交叉分析篩選器] 設定為 **FY2020**。
 
@@ -116,7 +117,7 @@ lab:
 
 1. 在 [ **新增磚** ] 窗格中（位於右側），選取 [ **影像** ] 圖格，然後 **選取 [下一步**]。
 
-1. 在 [**新增影像磚**] 窗格的 **[URL**] 方塊中，輸入 D：\PL300\Resources\AdventureWorksLogo_DataURL.txt** 檔案中找到**的完整 URL，然後套**用**。
+1. 在 [**新增影像磚**] 窗格的 **[URL**] 方塊中，輸入 D：\Allfiles\Resources\AdventureWorksLogo_DataURL.txt** 檔案中找到**的完整 URL，然後**套用**。
     
     *您可以使用影像的 URL 來內嵌影像，也可以使用內嵌內容的數據 URL。*
 
@@ -160,7 +161,7 @@ lab:
 
 在此工作中，您將執行 PowerShell 指令碼，以更新 **AdventureWorksDW2020** 資料庫中的資料。
 
-1. 在 [檔案總管] 中的 **D:\PL300\Setup** 資料夾內，以滑鼠右鍵按一下 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 [用 PowerShell 執行]****。
+1. 在 檔案總管 的 **D：\Allfiles\Setup** 資料夾中，以滑鼠右鍵按兩下 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 **[使用 PowerShell** 執行]。
 
     ![圖片 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
@@ -194,7 +195,7 @@ lab:
 
 在這項工作中，您將檢閱儀錶板，以注意到已更新的銷售。
 
-1. 在 Microsoft Edge 瀏覽器視窗中，開啟 [Power BI 服務]，然後檢閱 **[我的工作區 **] 中的 **[銷售監視]** 儀錶板。
+1. 在 Microsoft Edge 瀏覽器視窗中，開啟 Power BI 服務，然後檢閱 **[我的工作區 **] 中的 **[銷售監視]** 儀錶板。
 
 2. 在 [ **銷售] 的 [利潤獲利率** ] 圖格中，與副標題一致，請注意數據已 **重新整理：NOW**。
 
