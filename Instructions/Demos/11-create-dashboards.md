@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: 在 Power BI 服務 中建立儀錶板
   module: Deploy and manage Power BI service items
 ---
@@ -9,7 +10,7 @@ demo:
 
 1. 首先，在 Power BI 服務 中，建立新的工作區。
 
-1. 選取 `D:\PL300\Demo\Resources\Icon-Airplane.jpg` 工作區圖示的影像。
+1. 選取 `D:\Allfiles\Demo\Resources\Icon-Airplane.jpg` 工作區圖示的影像。
 
 1. 在 Power BI Desktop 中，將**銷售分析**報表發佈至新的工作區。
 
