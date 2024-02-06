@@ -1,5 +1,6 @@
 ---
 lab:
+  course: 'PL-300, DP-605'
   title: 在 Power BI Desktop 中設計報表
   module: Create Reports in Power BI Desktop
 ---
@@ -24,9 +25,9 @@ lab:
 
 1. 從 Power BI Desktop 流覽至 [**開啟檔案** > **] 報表瀏覽報表。** > ****
 
-1. 在 **D：\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** 資料夾中開啟 Sales Analysis** 檔案**。
+1. 在 **D：\Allfiles\Labs\06-design-report-in-power-bi-desktop\Starter** 資料夾中開啟 Sales Analysis** 檔案**。
 
-1. 移至 [**** > **** 另存新檔] 以建立檔案的複本，並將復本儲存在 **D：\PL300\MySolution** 資料夾中。
+1. 移至 [**** > **另存新**檔] 以建立檔案的複本，並將復本儲存在 **D：\Allfiles\MySolution** 資料夾中。
 
 ## **設計頁面 1**
 
@@ -42,7 +43,7 @@ lab:
 
     ![圖片 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
 
-1. 在 [開啟]**** 視窗中，瀏覽至 **D:\PL300\Resources** 資料夾。
+1. 在 [ **開啟]** 視窗中，流覽至 **D：\Allfiles\Resources** 資料夾。
 
 1. 選取 **AdventureWorksLogo.jpg** 檔案，然後選取 [開啟]****。
 
@@ -58,7 +59,7 @@ lab:
     
     *實驗室會使用速記表示法來參考欄位。看起來會像這樣：**日期\|年**。在此範例中，**Date** 是數據表名稱，Year **** 是功能變數名稱。*
 
-1. 若要將交叉分析篩選器從清單轉換成下拉式清單，請流覽至 **[視覺效果] > [格式化視覺效果] > Visual > Slicer 設定 > Style**，然後從下拉功能表中選取 **[下**拉式清單]。
+1. 若要將交叉分析篩選器從清單轉換成下拉式清單，請流覽至 **[視覺效果] > [將視覺效果格式化> Visual > 交叉分析篩選器 設定 > 樣式**]，然後從下拉功能表中選取 **[下**拉式清單]。
 
     ![交叉分析篩選器樣式](Linked_image_Files/06_slicer_style.png)
 

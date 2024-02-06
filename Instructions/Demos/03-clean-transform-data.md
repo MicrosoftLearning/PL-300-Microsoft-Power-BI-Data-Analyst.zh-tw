@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 在 Power BI 中清理、轉換和載入資料
   module: 'Clean, transform, and load data in Power BI'
 ---
@@ -48,7 +49,7 @@ demo:
 
 ## 整合查詢
 
-1. 使用 Excel 連接器建立新查詢，並連線至 D:\PL300\Demo\Data\ProductCost.xlsx 檔案。
+1. 使用 Excel 連接器建立新的查詢，並連線到 D：\Allfiles\Demo\Data\ProductCost.xlsx 檔案。
 
 1. 移除 Product 資料行。
 
@@ -62,13 +63,13 @@ demo:
 
 1. 將新資料行重新命名為 Cost。
 
-## 停用查詢並將其載入資料模型
+## 停用查詢並將其載入數據模型
 
 1. 在 [查詢] 窗格中，停用 ProductCost 查詢。
 
-1. 在 [首頁] 功能區索引標籤上，按一下 [關閉與套用] 圖示。
+1. 在 [首頁] 功能區索引標籤上，按兩下 [關閉與套用] 圖示。
 
-1. 在 Power BI Desktop 中，指出 [資料] 窗格中的兩個數據表。
+1. 在 Power BI Desktop 中，指出 [數據] 窗格中的兩個數據表。
 
 1. 儲存 Power BI Desktop 檔案。
 

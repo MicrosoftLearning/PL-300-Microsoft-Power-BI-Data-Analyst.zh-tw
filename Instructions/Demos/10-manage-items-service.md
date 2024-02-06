@@ -1,9 +1,9 @@
 ---
-lab:
-  "\_\_ title": Manage files and semantic models in Power BI
-  "\_\_ module": Deploy and manage Power BI service items
+demo:
+  course: PL-300
+  title: 在 Power BI 中管理檔案和語意模型
+  module: Deploy and manage Power BI service items
 ---
-
 # 在 Power BI 中管理檔案和語意模型
 
 ## 準備閘道資料重新整理
@@ -50,7 +50,7 @@ lab:
 
 1. 編輯 Sales、Profit Margin 圖格的詳細數據，以顯示上次重新整理時間。
 
-1. 以滑鼠右鍵按兩下 `D:\PL300\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 檔案，然後使用PowerShell執行。 *此腳本會將 2020 年 12 月的銷售數據載入資料庫中。*
+1. 以滑鼠右鍵按兩下 `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` 檔案，然後使用PowerShell執行。 *此腳本會將 2020 年 12 月的銷售數據載入資料庫中。*
 
 1. 在講師的 Power BI 服務 中，從 [流覽] 窗格重新整理 **[銷售分析**] 語意模型。
 

@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: （選擇性）在 Power BI 中優化模型效能
   module: Optimize model performance in Power BI
 ---
@@ -10,13 +11,13 @@ demo:
 
 > **注意**：此示範會使用不同的Power BI Desktop 檔案。
 
-1. 開啟 D:\PL300\Demo\Resources\AW Sales Analysis.pbix 檔案。
+1. 開啟 D：\Allfiles\Demo\Resources\AW Sales Analysis.pbix 檔案。
 
 1. 如果系統提示您連線至資料來源，請按一下 [連線]。
 
 1. 在右下角指出資料模型包含 DirectQuery 資料表。
 
-1. 將 Power BI Desktop 檔案儲存至 D:\PL300\Demo\MySolution 資料夾。
+1. 將 Power BI Desktop 檔案儲存至 D：\Allfiles\Demo\MySolution 資料夾。
 
 1. 在 [模型] 檢視中，介紹包括兩個相關資料表的模型設計。
 
