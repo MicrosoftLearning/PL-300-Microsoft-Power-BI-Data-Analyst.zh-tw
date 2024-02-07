@@ -1,11 +1,12 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 在 Power BI 中使用 DAX 建立量值
   module: Create measures using DAX in Power BI
 ---
 # 在 Power BI 中使用 DAX 建立量值
 
-> **提示**：所有計算都可以從 D：\PL300\Demo\Resources\Snippets-Demo-05.txt 檔案複製。
+> **提示**：您可以從 D：\Allfiles\Demo\Resources\Snippets-Demo-05.txt 檔案複製所有計算。
 
 ## 建立計算資料表
 

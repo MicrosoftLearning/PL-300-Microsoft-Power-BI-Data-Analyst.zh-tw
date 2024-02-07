@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 設定您自己的環境
   module: Set up your own environment
 ---
@@ -12,15 +13,15 @@ demo:
 1. 使用Student帳戶登入虛擬機器環境。
 
 1. 開啟 Microsoft Edge，然後使用講師帳戶流覽並 <https://powerbi.com> 登入。
-    > **提示 ** ：如果系統提示您變更密碼，請務必將其記錄在 D：\PL300\Demo\Setup\My設定.txt 檔案中。
+    > **提示**：如果系統提示您變更密碼，請務必將它記錄在 D：\Allfiles\Demo\Setup\My 設定.txt 檔案中。
 
 1. Power BI 服務接受 Power BI Pro 試用版。
 
 ## 第一個示範設定
 
-1. 建立一個工作區，並使用 D:\PL300\Demo\Resources\Icon-Star.jpg 影像作為圖示。
+1. 建立工作區，並使用 D：\Allfiles\Demo\Resources\Icon-Star.jpg影像作為其圖示。
 
-1. 在 Power BI Desktop 中開啟 D:\PL300\Demo\Setup\Sales Analysis.pbix 檔案。
+1. 在 Power BI Desktop 中開啟 D：\Allfiles\Demo\Setup\Sales Analysis.pbix 檔案。
 
 1. 在 Power BI Desktop 中使用講師帳戶登入。
 
@@ -34,4 +35,4 @@ demo:
 
 1. 關閉 Power BI Desktop。
 
-> **注意 ** ：您可以在 PL-300 Power BI 資料分析師 [ GitHub 存放庫中 ](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo) 找到示範資產。
+> **注意**：您可以在 PL-300 Power BI 資料分析師 [GitHub 存放庫中](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)找到示範資產。

@@ -1,5 +1,6 @@
 ---
 demo:
+  course: PL-300
   title: 在 Power BI 中強制執行數據列層級安全性
   module: Deploy and manage Power BI service items
 ---
@@ -8,7 +9,7 @@ demo:
 
 ## 將安全性資料表新增至模型
 
-1. 在 Power BI Desktop 中，開啟 Power Query 編輯器 視窗。
+1. 在 Power BI Desktop 中，開啟 [Power Query 編輯器] 視窗。
 
 1. 根據 `D:\Demo\Data\**ManagerCategory**.xlsx` 檔案新增查詢。
 
@@ -18,7 +19,7 @@ demo:
 
 1. 以分號分隔符號分割 **Category** 資料行，並分割成多個資料列 (進階選項)。
 
-1. 在 [**電子郵件**] 欄中，將值**<ty-johnston@tailspintoys.com>** 取代為收件者帳戶（來自 My 設定.txt 檔案）。
+1. 在 [**電子郵件] 欄中**，將值**<ty-johnston@tailspintoys.com>** 取代為收件者帳戶（來自 [我的 設定.txt 檔案]。
 
 1. 指出此使用者可以看到三個產品類別： **集體投球、訓練器和戰鳥**。
 

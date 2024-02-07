@@ -273,14 +273,14 @@ lab:
 
 1. 在 [自訂資料行]**** 視窗的 [新資料行名稱]**** 方塊中，將文字取代為 **Cost**。
 
-1. 在 [自訂資料行公式]**** 方塊中，(在等號後面) 輸入下列運算式：
-    - *您可以從 D：\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 檔案複製表達式**。*
-    - *此表達式會測試 TotalProductCost** 值是否**遺失。如果遺漏，它會藉由將 OrderQuantity** 值乘**以 **StandardCost** 值來產生值，否則會使用現有的 **TotalProductCost** 值。*
+1. 在 [ **自定義數據行公式] 方塊** 中，輸入下列表達式 （等於符號之後），然後儲存新的數據行：
 
+        `
+    如果 [TotalProductCost] = null，則 [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
 
-    `
-    if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]
-    `
+    *您可以從 D：\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 檔案複製表達式**。*
+
+    *此表達式會測試 TotalProductCost** 值是否**遺失。如果遺漏，它會藉由將 OrderQuantity** 值乘**以 **StandardCost** 值來產生值，否則會使用現有的 **TotalProductCost** 值。*
 
 1. 移除下列兩筆資料行：
 

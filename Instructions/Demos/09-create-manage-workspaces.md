@@ -1,5 +1,6 @@
 ---
 demo:
+  course: 'PL-300, DP-605'
   title: 在 Power BI 中建立及管理工作區
   module: Deploy and manage Power BI service items
 ---
@@ -14,7 +15,7 @@ demo:
 
 ## 開啟共用儀表板
 
-1. 切換至**講師** Power BI 服務 視窗。
+1. 切換至講師 **** Power BI 服務 視窗。
 
 1. 開啟 [銷售額監視]**** 儀表板。
 
