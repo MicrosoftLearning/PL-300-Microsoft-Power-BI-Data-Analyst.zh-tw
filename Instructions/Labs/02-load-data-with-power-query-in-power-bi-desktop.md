@@ -275,8 +275,7 @@ lab:
 
 1. 在 [ **自定義數據行公式] 方塊** 中，輸入下列表達式 （等於符號之後），然後儲存新的數據行：
 
-        `
-    如果 [TotalProductCost] = null，則 [OrderQuantity] * [StandardCost] else [TotalProductCost]  `
+   ` if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost] `
 
     *您可以從 D：\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 檔案複製表達式**。*
 
