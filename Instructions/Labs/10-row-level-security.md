@@ -29,11 +29,11 @@ lab:
 
     ![Power BI Desktop 圖示](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *提示：根據預設，[用戶入門] 對話框會在 Power BI Desktop 前面開啟。**** 登入，然後關閉快顯。*
-
-1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[檔案] > [開啟報表] > [瀏覽報表**]。
+1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[開啟>瀏覽此裝置**。
 
 1. 在 [ **開啟]** 視窗中，流覽至 **D：\Allfiles\Labs\10-row-level-security\Starter** 資料夾，然後開啟 **[銷售分析** ] 檔案。
+
+   *注意：此時，如果您尚未登入，Power BI 會要求您登入。您可以登入或選取 [ **取消** ]，然後繼續實驗室。*
 
 1. 關閉任何可能開啟的資訊視窗。
 
@@ -49,7 +49,7 @@ lab:
 
 在這項工作中，您將強制執行數據列層級安全性，以確保銷售人員只能查看其指派區域中的銷售量。
 
-1. 切換至 [資料] 檢視。
+1. 切換至 [數據表] 檢視。
 
    ![圖片 5701](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image20.png)
 
@@ -60,27 +60,35 @@ lab:
     
     *您可能還記得 Michael Blythe 已指派給三個銷售區域：美國東北部、美國中部和美國東南部。*
 
-1. 在 [ **模型]** 功能區索引卷標的 **[安全組** ] 內，選取 [ **管理角色**]。
+1. 在 [ **首頁** ] 功能區索引標籤的 **[安全組** ] 內，選取 [ **管理角色**]。
 
     ![圖片 5700](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image21.png)
 
-1. 在 [管理角色]**** 視窗中，選取 [建立]****。
+1. 在 [**管理安全性角色] 視窗中的 **[角色****] 區段中，選取 [**新增**]。
 
 1. 在方塊中，將選取的文字取代為角色的名稱： **Salespeople**，然後按 **Enter**。
 
    ![圖片 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-1. 若要指派篩選，請針對 **Salesperson （Performance）** 數據表選取省略號 （...） 字元，然後選取 [ **新增篩選 \| [UPN]**。
+1. 若要指派篩選，請選取 **Salesperson （Performance）** 數據表，然後選取 [篩選數據 **] 區段中的 **[**切換至 DAX 編輯器**]。
 
-   ![圖片 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
+   ![螢幕快照 2024-04-18 144345](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/1308d47f-2cca-4f88-9237-b02b66b4cf1e)
 
-1. 在 [**數據表篩選 DAX 表達式**] 方塊中，將 “Value”** 取代**為 **USERPRINCIPALNAME（），** 然後**** 儲存，以修改表達式。
+1. 在 [DAX 編輯器] 方塊中，輸入下列表示式：
+
+    **DAX**
+
+    ```
+    [UPN] = USERPRINCIPALNAME()
+    ```
     
     *USERPRINCIPALNAME（） 是數據分析表達式 （DAX） 函式，會傳回已驗證用戶的名稱。這表示 **Salesperson （Performance）** 數據表會依查詢模型之使用者的用戶主體名稱 （UPN） 進行篩選。*
 
    ![圖片 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
 
-1. 若要測試安全性角色，請在 [模型]**** 功能區索引標籤上，從 [安全性]**** 群組中選取 [檢視身分]****。
+1. 選取 [ **儲存** 並 **關閉**]。
+
+1. 若要測試安全性角色，請在 [**首頁] 功能區索引卷標的 [安全組 **] 內**，選取 [**檢視身分****]。
 
    ![圖片 5708](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image27.png)
 
@@ -104,13 +112,13 @@ lab:
 
    ![圖片 5712](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image32.png)
 
-1. 若要刪除 Salespeople 角色，請在 [**模型]** 功能區索引標籤的**** [安全組**] 內，選取 **[管理角色**]。**
+1. 若要刪除 Salespeople** 角色，請在 [首頁 **] 功能區索引標籤的 ****[安全組**] 內，選取 [**管理角色**]。**
 
    ![圖片 16](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image33.png)
 
-1. 在 [管理角色]**** 視窗中，選取 [刪除]****。 當系統提示您確認刪除時，請選取 [是]、[ **刪除**]。
+1. 在 [**管理安全性角色]** 視窗中，選取 Salespeople** 角色上的**省略號 （...），然後選取 [**刪除**]。 當系統提示您確認刪除時，請選取 [是]、[ **刪除**]。
 
-   ![圖 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
+   ![螢幕快照 2024-04-18 145556](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/deeb4eac-b639-433d-a9d4-29c8e127008e)
 
 ### **完成時間**
 
@@ -118,4 +126,4 @@ lab:
 
 1. 選取 [ **儲存**]，然後儲存 Power BI Desktop 檔案以結束實驗室。
 
-*注意：當 Power BI Desktop 檔案發佈至 Power BI 服務 時，您必須完成發行後工作，以將安全性主體對應至 **Salespeople** 角色。在此實驗室中，您不會這麼做。*
+*注意：當 Power BI Desktop 檔案發行至 Power BI 服務 時，您必須完成發行後工作，才能將安全性主體對應至 **Salespeople** 角色。在此實驗室中，您不會這麼做。*

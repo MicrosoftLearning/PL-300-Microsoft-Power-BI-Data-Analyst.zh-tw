@@ -26,13 +26,13 @@ lab:
 
 1. 開啟 Power BI Desktop。
 
-    *提示：根據預設，[用戶入門] 對話框會在 Power BI Desktop 前面開啟。您可以選擇登入，然後關閉快顯。*
-
     ![Power BI Desktop 圖示](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[檔案] > [開啟報表] > [瀏覽報表**]。
+1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[開啟>瀏覽此裝置**。
 
 1. 在 [ **開啟]** 視窗中，流覽至 **D：\Allfiles\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** 資料夾，然後開啟 **[銷售分析** ] 檔案。
+
+   *注意：此時，如果您尚未登入，Power BI 會要求您登入。您可以登入或選取 [ **取消** ]，然後繼續實驗室。*
 
 1. 關閉任何可能開啟的資訊視窗。
 
@@ -450,7 +450,7 @@ lab:
 
 1. 請驗證您有八項查詢，並正確命名如下：
 
-    - 銷售人員
+    - 銷售員
     - SalespersonRegion
     - Products
     - 轉售商
