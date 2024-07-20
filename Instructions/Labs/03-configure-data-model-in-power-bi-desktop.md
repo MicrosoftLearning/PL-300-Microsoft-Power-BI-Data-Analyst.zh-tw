@@ -28,11 +28,11 @@ lab:
 
     ![Power BI Desktop 圖示](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *提示：根據預設，[用戶入門] 對話框會在 Power BI Desktop 前面開啟。您可以選擇登入，然後關閉快顯。*
-
-1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[檔案] > [開啟報表] > [瀏覽報表**]。
+1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[開啟>瀏覽此裝置**。
 
 1. 流覽至 **D：\Allfiles\Labs\03-configure-data-model-in-power-bi-desktop\Starter** 資料夾，然後選取 **[銷售分析** ] 檔案。
+
+   *注意：此時，如果您尚未登入，Power BI 會要求您登入。您可以登入或選取 [ **取消** ]，然後繼續實驗室。*
 
 1. 關閉任何可能開啟的資訊視窗。
 
@@ -72,11 +72,11 @@ lab:
 
      ![圖片 331](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image14.png)
 
-1. 在 **[管理關聯性**] 視窗中，請注意尚未定義任何關聯性。
+1. 在 **[管理關聯性]** 視窗中，請注意尚未定義任何關聯性。
 
 1. 若要建立關聯性，請選取 [新增]****。
 
-1. 在 [建立關聯性]**** 視窗的第一個下拉式清單中，選取 [Product]**** 資料表。
+1. 在 [ **新增關聯性]** 視窗的第一個下拉式清單中，選取 **[產品** ] 數據表。
 
      ![圖片 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
 
@@ -247,7 +247,7 @@ lab:
 
 在這項工作中，您將使用單一大量更新來更新多個數據行。 您將使用此方法來隱藏資料行，以及格式化數據行值。
 
-1. 在 [ **數據]** 窗格中，選取 **[Product \| ProductKey** ] 數據行。
+1. 從 [**模型檢視數據]** > **** 窗格中，選取 **[Product \| ProductKey**] 數據行。
 
 1. 按下 **Ctrl** 鍵時，選取下列 13 個資料行 (跨多個資料表)：
 
@@ -306,7 +306,7 @@ lab:
 
  您現在將會關閉此自動行為。 在 **Power BI Desktop** 實驗室中建立 DAX 計算中，您將使用 DAX 來建立日期數據表，並將其設定為定義 Adventure Works 的行事曆。
 
-1. 若要關閉自動/日期時間，請流覽至 **[檔案] > [選項] 和 [設定 > 選項] > [目前檔案**] 群組，然後選取 [**數據載入**]。
+1. 若要關閉自動/日期時間，請流覽至 **[檔案] > [選項和設定] > [選項] > [目前檔案** ] 群組，然後選取 [ **數據載入**]。
     1. 在 [時間智慧]**** 區段中，取消選取 [自動日期/時間]****。
 
      ![圖片 362](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image43.png)
@@ -378,8 +378,6 @@ lab:
 ## **建立多對多關聯性**
 
 在這項工作中，您將建立 Salesperson** 數據表與 **Sales** 數據表之間的**多對多關聯性。
-
- *實驗室會使用速記表示法來參考欄位。看起來會像這樣：**Salesperson Salesperson \|** 。在此範例中，**Salesperson** 是數據表名稱，**而 Salesperson** 是功能變數名稱。*
 
 1. 在 Power BI Desktop 的 [報表檢視 **] 的 [數據** ] 窗格中，檢查下列兩個 **字段來建立數據表** 視覺效果。
 

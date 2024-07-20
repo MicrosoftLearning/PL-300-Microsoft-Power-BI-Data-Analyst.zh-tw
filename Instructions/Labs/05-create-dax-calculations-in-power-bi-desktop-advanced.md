@@ -27,11 +27,11 @@ lab:
 
     ![Power BI Desktop 圖示](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *提示：根據預設，[用戶入門] 對話框會在 Power BI Desktop 前面開啟。您可以選擇登入，然後關閉快顯。*
-
-1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[檔案] > [開啟報表] > [瀏覽報表**]。
+1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[開啟>瀏覽此裝置**。
 
 1. 在 [ **開啟]** 視窗中，流覽至 **D：\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter**  資料夾，然後開啟 **[銷售分析** ] 檔案。
+
+   *注意：此時，如果您尚未登入，Power BI 會要求您登入。您可以登入或選取 [ **取消** ]，然後繼續實驗室。*
 
 1. 關閉任何可能開啟的資訊視窗。
 
@@ -42,6 +42,8 @@ lab:
     *若要關閉警告訊息，請在警告訊息右側選取 **[X**]。*
 
 1. 若要建立檔案的複本，請移至 [檔案] > [ **另存新** 檔]，然後儲存至 **D：\Allfiles\MySolution** 資料夾。
+
+1. 如果系統提示您套用變更，請選取 [稍後套用]****。
 
 ## **建立矩陣視覺效果**
 
@@ -81,7 +83,7 @@ lab:
 
     ![圖片 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
 
-    *在 Adventure Works 中，銷售區域會組織成群組、國家/地區和區域。除了 美國 以外的所有國家/地區，只有一個區域，以國家/地區命名。由於 美國 如此龐大的銷售領域，它分為五個銷售區域。*
+    *在 Adventure Works 中，銷售區域會組織成群組、國家/地區和區域。除了 美國 以外的所有國家/地區，只有一個區域，以國家/地區命名。由於 美國 是如此龐大的銷售領域，它分為五個銷售區域。*
 
     *您將在此練習中建立數個量值，然後將量值新增至矩陣視覺效果以進行測試。*
 
@@ -171,7 +173,7 @@ lab:
 
 1. 請注意，只有 美國 的區域會產生不是 100% 的值。
     
-    *您可能還記得只有 美國 有多個區域。所有其他國家/地區都組成單一區域，這解釋了為何全部為100%。*
+    *您可能會記得，只有 美國 有多個區域。所有其他國家/地區都組成單一區域，這解釋了為何全部為100%。*
 
     ![圖片 54](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image18.png)
 

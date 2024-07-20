@@ -4,7 +4,7 @@ demo:
   title: 在 Power BI 中執行數據分析
   module: Perform data analysis in Power BI
 ---
-# 執行數據分析
+# 執行資料分析
 
 ## 新增群組
 

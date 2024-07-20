@@ -5,7 +5,7 @@ demo:
   module: Deploy and manage Power BI service items
 ---
 
-# 建立和管理工作區
+# 建立及管理工作區
 
 ## 共用儀表板
 

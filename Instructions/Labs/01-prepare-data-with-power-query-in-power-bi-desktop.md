@@ -9,10 +9,10 @@ lab:
 
 ## **實驗室案例**
 
-此實驗室旨在介紹Power BI Desktop 應用程式，以及如何連線到數據，以及如何使用數據預覽技術來瞭解源數據的特性和品質。 學習目標是：
+此實驗室旨在介紹 Power BI Desktop 應用程式、如何連線到資料、以及如何使用資料預覽技術來瞭解來源資料的特性和品質。 學習目標是：
 
 - 開啟 Power BI Desktop
-- 連線 至不同的數據源
+- 線上到不同的數據來源
 - 使用 Power Query 預覽源數據
 - 在 Power Query 中使用數據分析功能
 
@@ -31,15 +31,15 @@ lab:
 
     ![Power BI Desktop 圖示](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-    *提示：根據預設，[用戶入門] 對話框會在 Power BI Desktop 前面開啟。您可以選擇登入，然後關閉快顯。*
-
-1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[檔案] > [開啟報表] > [瀏覽報表**]。
+1. 若要開啟入門 Power BI Desktop 檔案，請選取 **[開啟] > [瀏覽此裝置**]。
 
 1. 在 [ **開啟]** 視窗中，流覽至 **D：\Allfiles\Labs\01-prepare-data-with-power-query-in-power-bi-desktop\Starter** 資料夾。
 
 1. 選取 **Sales Analysis** 檔案。
 
-1. 使用 [另存新**檔] 將檔案**的復本儲存至 **D：\Allfiles\MySolution** 資料夾。
+    *注意：此時，如果您尚未登入，Power BI 會要求您登入。您可以登入或選取 [ **取消** ]，然後繼續實驗室。*
+
+1. 使用 **[檔案] > [另存新** 檔] 儲存盤案復本至 **D：\Allfiles\MySolution** 資料夾。
 
 ## **從 SQL Server 取得數據**
 
@@ -53,7 +53,7 @@ lab:
 
     *注意：在此實驗室中，您將使用 **localhost** 線上到 SQL Server 資料庫，因為閘道數據源無法解析 **localhost**。建立您自己的解決方案時，這不是建議的做法。*
 
-1. 如果系統提示您輸入認證，請在 [**SQL Server 資料庫]** 視窗中，選取 [**使用我目前的認證**]，然後 **連線**。
+1. 如果系統提示您輸入認證，請在 [**SQL Server 資料庫]** 視窗中，選取 [使用我目前的認證 **]，然後選取 **[**連線**]。
 
 1. 在 [ **導覽器]** 窗格中，展開 **AdventureWorksDW2020** 資料庫。
 
@@ -76,7 +76,7 @@ lab:
 
 1. 選取 **[轉換數據**]，以完成這項工作，這會開啟 Power Query 編輯器。
 
-您現在已將數據匯入 Power BI，並已針對下一個工作開啟 Power Query 編輯器。
+您現在已連線到數據，並已開啟 Power Query 編輯器 以供下一個工作使用。
 
 ## **預覽 Power Query 編輯器 中的數據**
 
