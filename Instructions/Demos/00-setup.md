@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: 設定您自己的環境
   module: Set up your own environment
 ---

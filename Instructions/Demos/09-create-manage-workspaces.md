@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: 在 Power BI 中建立及管理工作區
   module: Deploy and manage Power BI service items
 ---

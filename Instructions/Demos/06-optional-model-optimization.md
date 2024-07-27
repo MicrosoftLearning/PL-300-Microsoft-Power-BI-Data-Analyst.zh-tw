@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: （選擇性）在 Power BI 中優化模型效能
   module: Optimize model performance in Power BI
 ---

@@ -1,6 +1,5 @@
 ---
 demo:
-  course: PL-300
   title: 在 Power BI 中強制執行數據列層級安全性
   module: Deploy and manage Power BI service items
 ---
