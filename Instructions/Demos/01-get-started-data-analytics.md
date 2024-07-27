@@ -1,6 +1,5 @@
 ---
 demo:
-  course: 'PL-300, DP-605'
   title: 開始使用 Microsoft 資料分析
   module: Get started with Microsoft data analytics
 ---
