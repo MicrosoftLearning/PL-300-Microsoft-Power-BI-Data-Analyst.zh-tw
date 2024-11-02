@@ -67,7 +67,7 @@ lab:
 
      ![建立新的關聯性。](Linked_image_Files/03-new-relationship.png)
 
-1. 選取 [**確定**]，請注意 **** 管理關聯性 視窗中已列出新的關聯性，然後選取 [**關閉**]。
+1. 選取 [**確定**]，請注意 **管理關聯性** 視窗中列出新的關聯性，然後選取 [**關閉**]。
 
      ![圖片 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
