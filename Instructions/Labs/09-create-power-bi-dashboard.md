@@ -149,7 +149,7 @@ lab:
 
 在此工作中，您將執行 PowerShell 指令碼，以更新 **AdventureWorksDW2020** 資料庫中的資料。
 
-1. 在 檔案總管 中，於 C：\Users\Student\Downloads\09-create-dashboard 資料夾內 **，以滑鼠右鍵按兩下 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 **[使用 PowerShell** 執行]。**
+1. 在 檔案總管 中，**在 C：\Users\Student\Downloads\09-create-dashboard** 資料夾中，以滑鼠右鍵單擊 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 **[使用 PowerShell** 執行]。
 
     ![圖片 28](Linked_image_Files/09-create-power-bi-dashboard_image46.png)
 
