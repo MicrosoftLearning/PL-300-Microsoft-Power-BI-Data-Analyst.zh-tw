@@ -1,10 +1,10 @@
 ---
 demo:
-  title: 在 Power BI 中清除、轉換及載入資料
+  title: 在 Power BI 中清理、轉換和載入資料
   module: 'Clean, transform, and load data in Power BI'
 ---
 
-# 在 Power BI 中清除、轉換及載入資料
+# 在 Power BI 中清理、轉換和載入資料
 
 ## 套用查詢轉換
 

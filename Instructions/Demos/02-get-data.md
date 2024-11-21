@@ -1,10 +1,10 @@
 ---
 demo:
-  title: 取得 Power BI 中的資料
+  title: 在 Power BI 中取得資料
   module: Get data in Power BI
 ---
 
-# 取得 Power BI 中的資料
+# 在 Power BI 中取得資料
 
 ## 開始開發 Power BI 報表
 
