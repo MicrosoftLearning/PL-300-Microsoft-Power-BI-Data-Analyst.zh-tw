@@ -67,7 +67,7 @@ lab:
     - DimSalesTerritory
     - FactResellerSales
 
-1. 選取 **[轉換數據**] 以完成此工作，這會開啟 Power Query 編輯器 - 讓下一個工作保持開啟狀態。
+1. 選取 **[轉換數據**] 以完成此工作，這會開啟 Power Query 編輯器 - 讓此工作保持開啟狀態以供下一個工作使用。
 
 您現在已從 SQL Server 資料庫連線到六個數據表。
 
