@@ -31,8 +31,6 @@ lab:
 
 > ***注意**：您可以選取 **[取消**] 來關閉登入。 關閉任何其他信息視窗。 如果系統提示您套用變更，請選取 **[稍後**套用]。
 
-在 Power BI Desktop 中，移至 [ **檔案] > [選項] 和 [設定] > [選項] > [預覽] 功能**。 選取 **[視覺計算]** ，然後選取 [ **確定**]。 在 Power BI Desktop 重新啟動之後，即會啟用視覺計算。
-
 ## 建立條形圖視覺效果
 
 在這項工作中，您將建立條形圖，其中顯示銷售金額、產品總成本，以及依會計年度的利潤，並將比較計量當做工具提示。
@@ -128,7 +126,7 @@ lab:
 1. 在視覺效果計算編輯視窗中，輸入並儲存下列計算：
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales])
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales])
    ```
 
 > 請注意矩陣如何顯示每個類別與第一個類別的銷售金額差異。
@@ -136,7 +134,7 @@ lab:
 1. 將 Axis 參數的 ROWS 值新增至 FIRST，選取 [**值 **] 欄位 [與第一個****] 區域中的 [比較]，然後更新計算：
 
    ```DAX
-    Versus first = [Sales] - FIRST([Sales], ROWS)
+    Versus first = [Sum of Sales] - FIRST([Sum of Sales], ROWS)
    ```
 
 > 請注意，ROWS 如何變更為 Axis 參數的預設值。
