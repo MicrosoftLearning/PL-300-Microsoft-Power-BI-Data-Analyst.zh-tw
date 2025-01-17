@@ -37,13 +37,13 @@ lab:
 
 1. 若要開啟 [Power Query 編輯器]**** 視窗，請在 [首頁]**** 功能區索引標籤上，從 [查詢]**** 群組中選取**轉換資料**圖示。
 
-     ![轉換首頁上的數據功能區](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![轉換首頁上的數據功能區](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
 1. 在 [Power Query 編輯器]**** 視窗的 [查詢]**** 窗格中，選取 [DimEmployee]**** 查詢。
 
-     ![圖片 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
+    ![圖片 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
-> **注意：** 如果您收到警告訊息，要求您指定如何連線，請選取 **[編輯**認證]、使用目前的認證進行連線，然後選取 [ **確定** ] 以使用未加密的連線。
+    > **注意：** 如果您收到警告訊息，要求您指定如何連線，請選取 **[編輯**認證]、使用目前的認證進行連線，然後選取 [ **確定** ] 以使用未加密的連線。
  
 1. 若要重新命名查詢，請在 [查詢設定]**** 窗格 (位於右側) 的 [名稱]**** 方塊中，將文字取代為 **Salesperson**，然後按 **Enter**。 然後確認名稱已在 [查詢 **] 窗格中更新**。
 
@@ -53,11 +53,11 @@ lab:
 
     > *移至 [資料行] 是許多數據行的實用功能。否則，您可以水平捲動尋找數據行。*
 
-     ![管理數據行>選擇資料行>移至數據行](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
+    ![管理數據行>選擇資料行>移至數據行](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image13.png)
 
 1. 在 [**移至數據行**] 視窗中，若要依數據行名稱排序列表，請選取 **[AZ** 排序] 按鈕，然後選取 [名稱 **] 和 **[** SalesPersonFlag**]。 按一下 [確定]****。
 
-     ![移至數據列排序選項](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
+    ![移至數據列排序選項](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
 1. **找出 SalesPersonFlag** 數據行，然後篩選數據行，只選取 Salespeople （也就是 **TRUE**），然後按兩下 [**確定**]。
 
@@ -65,7 +65,7 @@ lab:
 
     > *您建立的每個轉換都會產生另一個步驟邏輯。可以編輯或刪除步驟。您也可以選取步驟，在查詢轉換的該階段預覽查詢結果。*
 
-     ![套用的步驟](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
+    ![套用的步驟](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image17.png)
 
 1. 若要移除數據行，請在 [ **首頁** ] 功能區索引標籤上，選取 **[管理數據** 行] 群組，選取 [ **選擇數據行** ] 圖示。
 
@@ -82,11 +82,11 @@ lab:
 
 1. 在 [套用的步驟]**** 清單中，請注意新增的另一個查詢步驟。
 
-     ![已移除其他數據行步驟](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
+    ![已移除其他數據行步驟](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image21.png)
 
 1. 若要建立單一名稱資料行，請先選取 [FirstName]**** 資料行標頭。 按下 **Ctrl** 鍵的同時，選取 [LastName]**** 資料行。
 
-     ![多重選取兩個數據行以建立單一數據行](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
+    ![多重選取兩個數據行以建立單一數據行](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image22.png)
 
 1. 以滑鼠右鍵按一下其中一個選取的資料行標頭，然後在操作功能表中選取 [合併資料行]****。
 
@@ -149,7 +149,7 @@ lab:
 1. 選取 **[EnglishProductSubcategoryName** ] 和 **[DimProductCategory**]，然後取消核取 [ **使用原始數據行名稱做為前置詞** ] 複選框，然後選取 [ **確定**]。
 
     > *藉由選取這兩個數據行，將會套用轉換以聯結至 **DimProductSubcategory** 數據表，然後包含這些數據行。DimProductCategory 數據 **行** 實際上是數據源中另一個相關數據表。*
-    >
+
     > *查詢數據行名稱必須一律是唯一的。如果選取左方，此複選框會在每個數據行前面加上展開的數據行名稱（在此案例**中為 DimProductSubcategory**）。由於已知選取的數據行名稱不會與 Product** 查詢中的數據**行名稱相撞，因此會取消選取選項。*
 
 1. 請注意，轉換會導致新增兩個資料行，而且已移除 [DimProductSubcategory]**** 資料行。
@@ -193,7 +193,7 @@ lab:
     - 在 [要尋找的值]**** 方塊中，輸入 **Ware House**
     - 在 [取代為]**** 方塊中，輸入 ****
 
-     ![取代值對話框](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
+    ![取代值對話框](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image40.png)
 
 1. 將下列四個資料行重新命名：
 
@@ -255,7 +255,7 @@ lab:
 
 1. 若要建立自訂資料行，請在 [新增資料行]**** 功能區索引標籤上，從 [一般]**** 群組中選取 [自訂資料行]****。
 
-     ![圖片 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
+    ![圖片 5664](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image47.png)
 
 1. 在 [自訂資料行]**** 視窗的 [新資料行名稱]**** 方塊中，將文字取代為 **Cost**。
 
@@ -282,7 +282,7 @@ lab:
 
     > *設定正確的數據類型很重要。當數據行包含數值時，如果您預期要執行數學計算，也請務必選擇正確的類型。*
 
-     ![圖片 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
+    ![圖片 5667](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image50.png)
 
 1. 將下列三個資料行資料類型修改為 [固定的小數位數]****。
 
@@ -300,7 +300,7 @@ lab:
 
 1. **選取 ResellerSalesTargets** 查詢，然後重新命名為 **[目標**]。
 
-> **注意：** 如果您收到警告訊息，要求您指定如何連線，請選取 **[編輯**認證]，並使用匿名存取。
+    > **注意：** 如果您收到警告訊息，要求您指定如何連線，請選取 **[編輯**認證]，並使用匿名存取。
 
 1. 若要取消 12 個月資料行 (**M01**-**M12**) 樞紐，請先複選 [Year]**** 和 [EmployeeID]**** 資料行標頭。
 
@@ -341,7 +341,7 @@ lab:
 
 1. 另請注意查詢方格上方顯示的公式。
 
-     ![圖片 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
+    ![圖片 5679](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image60.png)
 
 1. 若要重新命名新的數據行，請按兩下 **[** 合併的數據行] 標頭，並將數據行重新命名為 **TargetMonth**。
 
@@ -359,7 +359,7 @@ lab:
 
     > *您可能會回想一下，目標值已儲存為數千個。*
 
-     ![圖片 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
+    ![圖片 5682](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image63.png)
 
 1. 在 [**乘法**] 視窗中的 [值 **] 方塊中**，輸入 **1000**，然後選取 [**確定**]。
 
@@ -373,7 +373,7 @@ lab:
 
 1. 在 [首頁]**** 功能區索引標籤上，從 [轉換]**** 群組中選取 [使用第一個資料列作為標頭]****。
 
-     ![圖片 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
+    ![圖片 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
 **在狀態列中，確認查詢有 3 個數據行和 10 個數據列。**
 
@@ -387,15 +387,15 @@ lab:
 
     > *合併查詢允許整合資料，在此案例中是來自不同資料來源 (SQL Server 和 CSV 檔案) 的資料。*
 
-     ![圖片 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
+    ![圖片 5654](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image71.png)
 
 1. 在 [合併]**** 視窗的 [Product]**** 查詢格線中，選取 [Color]**** 資料行標頭。
 
-     ![圖片 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
+    ![圖片 5655](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image72.png)
 
 1. 在 [Product]**** 查詢格線下的下拉式清單中，選取 [ColorFormats]**** 查詢。
 
-     ![圖 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
+    ![圖 21](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image73.png)
 
 1. 在 [ColorFormats]**** 查詢格線中，選取 [Color]**** 資料行標頭。
 
@@ -403,7 +403,7 @@ lab:
 
     > *您可以為數據源設定隱私權層級，以判斷是否可以在來源之間共享數據。視需要將每個數據源設定為 **組織** ，即可共享數據。私人數據源永遠無法與其他數據源共用。這並不表示無法共用私人數據;這表示Power Query引擎無法在來源之間共享數據。*
 
-     ![圖片 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
+    ![圖片 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
 1. 在 [ **合併** ] 視窗中，使用預設 **的 [聯結種類** - 維護左外部] 的選取範圍，然後選取 [ **確定**]。
 
@@ -422,33 +422,33 @@ lab:
 
 1. 在 [查詢設定]**** 窗格中，選取 [所有屬性]**** 連結。
 
-     ![圖片 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
+    ![圖片 322](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image80.png)
 
 1. 在 [查詢屬性]**** 視窗中，取消選取 [啟用載入至報告]**** 核取方塊。
 
     > *停用載入表示不會將它當做數據表載入數據模型。這樣做是因為查詢已與 **Product 查詢合併，而 Product** 查詢會啟用以載入數據模型。*
 
-     ![圖片 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
+    ![圖片 323](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image81.png)
 
 ### 檢閱最終產品
 
-在 Power Query 編輯器 中，確認您有 **8 個查詢**，正確命名如下：
+1. 在 Power Query 編輯器 中，確認您有 **8 個查詢**，正確命名如下：
 
-- 銷售員
-- SalespersonRegion
-- Products
-- 轉售商
-- 區域
-- Sales
-- 目標
-- ColorFormats (不會載入至資料模型)
+    - 銷售員
+    - SalespersonRegion
+    - Products
+    - 轉售商
+    - 區域
+    - Sales
+    - 目標
+    - ColorFormats (不會載入至資料模型)
 
-選取 [**關閉&amp;套用**] 以將數據載入模型，然後關閉 Power Query 編輯器 視窗。
+1. 選取 [**關閉&amp;套用**] 以將數據載入模型，然後關閉 Power Query 編輯器 視窗。
 
-![圖片 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
+    ![圖片 326](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image83.png)
 
-您現在可以在Power BI Desktop 中看到畫布，右側有 [篩選]、[視覺效果] 和 [數據] 窗格。 在 [數據] 窗格中，請注意 **載入至數據模型的 7 個數據表** 。
+1. 您現在可以在Power BI Desktop 中看到畫布，右側有 [篩選]、[視覺效果] 和 [數據] 窗格。 在 [數據] 窗格中，請注意 **載入至數據模型的 7 個數據表** 。
 
-![圖 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
+    ![圖 3](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image84.png)
 
 ## 實驗室完成
