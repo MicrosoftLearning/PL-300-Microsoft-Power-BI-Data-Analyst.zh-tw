@@ -51,7 +51,7 @@ Cost = 'Sales'[Quantity] * RELATED('Product'[Cost])
 
 ## 建立快速量值
 
-1. 將快速量值新增至 [銷售] 資料表，從 [收益] 資料行減去 [成本] 資料行。
+1. 將快速量值新增至 Sales 數據表，從 Sales 數據行減去成本數據行。
 
 1. 將量值重新命名為 Profit。
 
