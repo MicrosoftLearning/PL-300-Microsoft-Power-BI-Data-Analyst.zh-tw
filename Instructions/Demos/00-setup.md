@@ -34,4 +34,4 @@ demo:
 
 1. 關閉 Power BI Desktop。
 
-> **注意**：您可以在 PL-300 Power BI 資料分析師 [GitHub 存放庫](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)中找到示範資產。
+> **注意**：您可以在 PL-300 Power BI 資料分析師 [GitHub 存放庫中](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/tree/Main/Allfiles/Demo)找到示範資產。
