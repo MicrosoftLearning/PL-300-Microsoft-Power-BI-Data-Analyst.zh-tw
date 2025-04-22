@@ -1,11 +1,3 @@
-#README
-
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
 # PL-300：Microsoft Power BI 資料分析師
 
 此存放庫包含 Microsoft 課程 [PL-300 的實作實驗室練習：Microsoft Power BI 資料分析師](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)。 這些實驗室旨在配合學習教材，讓學習者能夠使用其中描述的技術來練習。

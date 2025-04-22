@@ -8,7 +8,7 @@ demo:
 
 ## 將安全性資料表新增至模型
 
-1. 在 Power BI Desktop 中，開啟 [Power Query 編輯器] 視窗。
+1. 在 Power BI Desktop 中，開啟 Power Query 編輯器 視窗。
 
 1. 根據 `D:\Demo\Data\**ManagerCategory**.xlsx` 檔案新增查詢。
 
@@ -62,7 +62,7 @@ demo:
 
 ## 設定語意模型安全性
 
-1. 在講師的 Power BI 服務 中，從 [流覽] 窗格開啟銷售分析**語意模型的安全性頁面**。
+1. 在講師的 Power BI 服務 中，從 [流覽] 窗格開啟 [銷售分析 **] 語意模型的安全性頁面**。
 
 1. 在 [成員]**** 區段中，輸入收件者帳戶 (代表 Ty Johnston)。
 
