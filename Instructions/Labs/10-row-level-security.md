@@ -101,6 +101,6 @@ lab:
 
    ![螢幕快照 2024-04-18 145556](https://github.com/afelix-95/PL-300-Microsoft-Power-BI-Data-Analyst/assets/148110824/deeb4eac-b639-433d-a9d4-29c8e127008e)
 
-*注意：當 Power BI Desktop 檔案發佈至 Power BI 服務 時，您必須完成發行後工作，以將安全性主體對應至 **Salespeople** 角色。在此實驗室中，您不會這麼做。*
+*注意：當 Power BI Desktop 檔案發行至 Power BI 服務 時，您必須完成發行後工作，才能將安全性主體對應至 **Salespeople** 角色。在此實驗室中，您不會這麼做。*
 
 ## 實驗室完成
