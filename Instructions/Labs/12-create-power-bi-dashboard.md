@@ -1,6 +1,6 @@
 ---
 lab:
-  title: 在 Power BI 中建立儀表板
+  title: （選擇性）在 Power BI 中建立儀錶板
   module: Create dashboards in Power BI
 ---
 
@@ -24,6 +24,8 @@ lab:
 `https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/12-create-power-bi-dashboard/12-create-dashboard.zip`
 
 將資料夾解壓縮到 **C：\Users\Student\Downloads\12-create-dashboard** 資料夾。
+
+> _**注意**：您至少需要 Power **BI 免費** 授權才能發佈報表。 開啟 Microsoft Edge 瀏覽器，然後在 登入 `https://app.powerbi.com`。 當系統要求您解決謎題，或啟動免費的 Fabric 試用版時，您可以略過此專案並關閉瀏覽器。
 
 ## **發佈報表**
 
@@ -151,7 +153,7 @@ lab:
 
 在此工作中，您將執行 PowerShell 指令碼，以更新 **AdventureWorksDW2020** 資料庫中的資料。
 
-1. 在 檔案總管 中，於 C：\Users\Student\Downloads\12-create-dashboard 資料夾內 **，以滑鼠右鍵單擊 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 **[使用 PowerShell** 執行]。**
+1. 在 檔案總管，**在 C：\Users\Student\Downloads\12-create-dashboard** 資料夾中，以滑鼠右鍵單擊 **UpdateDatabase-2-AddSales.ps1** 檔案，然後選取 **[使用 PowerShell** 執行]。
 
     ![圖片 28](Linked_image_Files/12-create-power-bi-dashboard_image46.png)
 
@@ -185,7 +187,7 @@ lab:
 
 在這項工作中，您將檢閱儀錶板，以注意到已更新的銷售。
 
-1. 在 Microsoft Edge 瀏覽器視窗中，開啟 Power BI 服務，然後檢閱 **[我的工作區 **] 中的 **[銷售監視]** 儀錶板。
+1. 在 [Microsoft Edge 瀏覽器] 視窗中，開啟 [Power BI 服務]，然後檢閱 **[我的工作區 **] 中的 **[銷售監視]** 儀錶板。
 
 2. 在 [ **銷售] 的 [利潤獲利率** ] 圖格中，與副標題一致，請注意數據已 **重新整理：NOW**。
 
