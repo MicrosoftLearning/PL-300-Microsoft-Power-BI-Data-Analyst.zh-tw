@@ -100,10 +100,6 @@ lab:
 
     ![圖 9](Linked_image_Files/09-enhance-power-bi-reports_image29.png)
 
-1. 在 [ **圖示 – 利潤邊界** ] 視窗的 **[套用至** ] 下拉式清單中，選取 **[值和總計**]。
-
-    ![圖片 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
-
 1. 在 [圖示 – Profit Margin]**** 視窗的 [圖示版面配置]**** 下拉式清單中，選取 [資料右邊]****。
 
     ![圖片 11](Linked_image_Files/09-enhance-power-bi-reports_image30.png)
@@ -129,6 +125,10 @@ lab:
     ![圖片 13](Linked_image_Files/09-enhance-power-bi-reports_image32.png)
 
     > _規則可以解譯如下：如果獲利率值小於 0，則顯示紅色菱形;否則，如果值大於或等於零，則顯示綠色圓形。_
+
+1. 在 [ **圖示 – 利潤邊界** ] 視窗的 **[套用至** ] 下拉式清單中，選取 **[值和總計**]。
+
+    ![圖片 10](Linked_image_Files/09-enhance-power-bi-reports_image30a.png)
 
 1. 選取 [確定]。
 
@@ -249,6 +249,8 @@ lab:
 
 在此練習中，您將將報表發佈至 Power BI 服務，並探索已發佈的報表行為。
 
+> _**注意**：您至少需要 Power **BI 免費** 授權才能發佈報表。 開啟 Microsoft Edge 瀏覽器，然後在 登入 `https://app.powerbi.com`。 當系統要求您解決謎題，或啟動免費的 Fabric 試用版時，您可以略過此專案並關閉瀏覽器。
+
 > _**注意**：即使您無法存取 Power BI 服務 直接執行工作，您仍可檢閱練習的其餘部分。_
 
 1. 選取 [概觀]__ 頁面。
@@ -277,7 +279,7 @@ lab:
 
 1. 在瀏覽器視窗中，在 [Power BI 服務] **的 [流覽**] 窗格中，選取 [我的工作區 **] （位於左側，可以折疊**它）。
 
-1. 若要探索報表，請選取 _07-Starter-Sales 分析_ 報表。
+1. 若要探索報表，請選取 _[09-Starter-Sales 分析_ ] 報表。
 
 1. 若要測試鑽研功能，請在 __ [概觀] 頁面的 _[依類別_數量總和] 視覺效果中，以滑鼠右鍵按兩下 _[服裝_] 列，然後選取 **[鑽研>產品詳細數據**]。
 
