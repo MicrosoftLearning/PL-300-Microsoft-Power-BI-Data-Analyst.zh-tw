@@ -10,7 +10,7 @@ demo:
 
 1. 開啟 Power BI Desktop，然後關閉使用者入門頁面。
 
-1. 將檔案儲存至 D：\Allfiles\Demo 資料夾做為銷售分析。
+1. 將檔案儲存至 D：\Allfiles\Demo 資料夾，作為 Sales Analysis。
 
 ## 連線至 SQL Server 資料庫
 
@@ -40,7 +40,7 @@ demo:
 
 1. 開啟 [資料行散發]，並指出 ProductID (唯一值) 與 ProductCategory (數個重複值) 等資料行。
 
-1. 開啟 [數據行配置檔]，然後選取 [ProductCategory] 數據行。
+1. 開啟 [資料行設定檔]，然後選取 [ProductCategory] 資料行。
 
 1. 指出資料行統計資料和分佈情形。
 
