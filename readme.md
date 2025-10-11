@@ -1,12 +1,12 @@
 # PL-300：Microsoft Power BI 資料分析師
 
-此存放庫包含適用於 Microsoft 課程 [PL-300 的實作實驗室練習：Microsoft Power BI 資料分析師](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)。 這些實驗室旨在配合學習教材，讓學習者能夠使用其中描述的技術來練習。
+此存放庫包含 Microsoft 課程 [PL-300：Microsoft Power BI 資料分析師](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)的實作實驗室練習。 這些實驗室旨在配合學習教材，讓學習者能夠使用其中描述的技術來練習。
 
 - **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的[適用於 MCT 的 GitHub 使用者指南](https://microsoftlearning.github.io/MCT-User-Guide/) (英文)
 - **需要手動建立實驗室指示嗎？** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中備有指示
 - **需要複習一下實驗室與課程簡報之間的配對嗎？** - 請參閱 [GitHub 頁面](https://microsoftlearning.github.io/PL-300-Microsoft-Power-BI-Data-Analyst/) \(英文\)
 
-## 我們要做什麼？
+## 我們在做什麼？
 
 - 為了支援此課程，我們需要經常更新課程內容，使其與此課程所使用的 Power BI 服務一起保持在最新狀態。  我們在 GitHub 上發佈實驗室指示和實驗室檔案，讓課程作者和 MCT 能夠彼此公開貢獻內容，使內容隨著 Power BI 平台中的變更保持在最新狀態。
 

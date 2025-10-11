@@ -5,7 +5,7 @@ demo:
 ---
 # 在 Power BI 中使用 DAX 建立量值
 
-> **提示**：您可以從 D：\Allfiles\Demo\Resources\Snippets-Demo-05.txt 檔案複製所有計算。
+> **提示**： 所有計算都可以從 D：\Allfiles\Demo\Resources\Snippets-Demo-05.txt 檔案複製。
 
 ## 建立計算資料表
 
@@ -51,7 +51,7 @@ Cost = 'Sales'[Quantity] * RELATED('Product'[Cost])
 
 ## 建立快速量值
 
-1. 將快速量值新增至 Sales 數據表，從 Sales 數據行減去成本數據行。
+1. 將快速量值新增至 Sales 資料表，從 Sales 資料行中減去 [成本] 資料行。
 
 1. 將量值重新命名為 Profit。
 
