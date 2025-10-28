@@ -10,31 +10,31 @@ demo:
 
 1. 在 Power BI Desktop 中，開啟 [Power Query 編輯器] 視窗。
 
-1. 根據檔案新增 `D:\Demo\Data\**ManagerCategory**.xlsx` 查詢。
+1. 根據檔案新增`D:\Demo\Data\**ManagerCategory**.xlsx` 查詢。
 
-1. 使用 **檔案中的 ManagerCategory** 表格。
+1. 使用**檔案中的 ManagerCategory** 表格。
 
-1. 移除 **Manager** 資料行。
+1. 移除**Manager** 資料行。
 
-1. 以分號分隔符號分割 **Category** 資料行，並分割成多個資料列 (進階選項)。
+1. 以分號分隔符號分割**Category** 資料行，並分割成多個資料列 (進階選項)。
 
 1. 在 電子郵件 欄**中，將值**<ty-johnston@tailspintoys.com>** 取代為收件者帳戶 （來自MySettings.txt檔案）。**
 
-1. 指出該用戶能夠看到三個產品類別： **集體推介、訓練師和戰鳥**。
+1. 指出該用戶能夠看到三個產品類別：**集體推介、訓練師和戰鳥**。
 
 1. 關閉並套用查詢。
 
-1. 在 [模型] 檢視中，在 [類別]** 資料行相關的 **[ManagerCategory] **** 和 [產品] 資料表之間建立關聯性。
+1. 在 [模型] 檢視中，在 [類別]** 資料行相關的**[ManagerCategory]**** 和 [產品] 資料表之間建立關聯性。
 
 1. 將交叉篩選方向設定為單一 （**ManagerCategory** 篩選產品）。
 
-1. 隱藏 **ManagerCategory** 資料表。
+1. 隱藏**ManagerCategory** 資料表。
 
 ## 新增角色
 
 1. 在報表檢視中，開啟 [管理角色]，然後建立名為 [管理員 **] 的角色**。
 
-1. 在角色中，篩選 **ManagerCategory** 資料表 [電子郵件地址] 資料行，如下所示：
+1. 在角色中，篩選**ManagerCategory** 資料表 [電子郵件地址] 資料行，如下所示：
 
   ```dax
    [Email] = USERPRINCIPALNAME()

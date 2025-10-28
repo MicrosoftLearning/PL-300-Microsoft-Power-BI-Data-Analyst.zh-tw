@@ -23,18 +23,18 @@ demo:
 
 1. 指派個人閘道，並編輯兩個資料來源的認證。
 
-1. 針對這兩個資料來源，將驗證方法設定為 **WindowsWithoutImpersonation**，並將隱私權等級設定為 [組織]****。
+1. 針對這兩個資料來源，將驗證方法設定為**WindowsWithoutImpersonation**，並將隱私權等級設定為 [組織]****。
 
 1. 您可以選擇性展開 [排程重新整理]**** 區段，並示範如何設定週期性排程。
 
 ## 重新整理語意模型
 
-1. 在重新整理語意模型之前，請開啟 **Sales Monitoring** 儀表板。
+1. 在重新整理語意模型之前，請開啟**Sales Monitoring** 儀表板。
 
 1. 編輯 [銷售額、利潤率] 磚的詳細資料，以顯示上次重新整理時間。
 
-1. 以滑鼠右鍵按一下檔案 `D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` ，然後使用 PowerShell 執行。 *此指令碼會將 2020 年 12 月的銷售資料載入資料庫。*
+1. 以滑鼠右鍵按一下檔案`D:\Allfiles\Demo\Resources\UpdateDatabase-LoadAdditionalSales.ps1` ，然後使用 PowerShell 執行。 *此指令碼會將 2020 年 12 月的銷售資料載入資料庫。*
 
 1. 在講師的 Power BI 服務中，從 [導覽] 窗格重新整理 **[銷售分析**] 語意模型。
 
-1. 重新整理完成時，請指出儀表板磚 **2020** 年 12 月資料行的顯示方式，以及重新整理時間為 **NOW**。
+1. 重新整理完成時，請指出儀表板磚**2020** 年 12 月資料行的顯示方式，以及重新整理時間為**NOW**。
