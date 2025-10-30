@@ -8,7 +8,7 @@ layout: home
 
 下方列出可連至各實驗室活動和示範的超連結。
 
-> **注意**：如果您遇到內容的任何錯誤，請 [在 GitHub 儲存庫](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose)中建立新問題。
+> **注意**：如果您遇到內容的任何錯誤，請[在 GitHub 儲存庫](https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/issues/new/choose)中建立新問題。
 
 ## 實驗室練習
 
