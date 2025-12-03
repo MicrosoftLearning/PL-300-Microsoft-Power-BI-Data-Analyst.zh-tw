@@ -1,3 +1,5 @@
+**⚠️ This GitHub repo will retire on 30th December 2025.** 
+
 # PL-300：Microsoft Power BI 資料分析師
 
 此存放庫包含 Microsoft 課程[PL-300：Microsoft Power BI 資料分析師](https://docs.microsoft.com/en-us/learn/certifications/courses/PL-300T00)的實作實驗室練習。 這些實驗室旨在配合學習教材，讓學習者能夠使用其中描述的技術來練習。
